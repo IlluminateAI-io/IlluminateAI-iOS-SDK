@@ -1,0 +1,600 @@
+{
+	"modification_date": 1752550225,
+	"production":true,
+	"Lcoef_manual": [0.0, 1.0, 0.0],
+	"Lcoef_auto": [0.0, 0.9333, 0.005679],
+	"Lcoef_hybrid": [0.0, 1.1335, 0.0],
+	"Hcoef_manual": [0.0, 1.0, 0.0],
+	"Hcoef_auto": [0.0, 1.0404, 0.0],
+	"Hcoef_hybrid": [0.0, 1.0404, 0.0],
+	"adjustments":  [[30,25],[50,50],[60,60],[80,80]],
+	"adjustments_android":  [[30,25],[50,50],[60,60],[80,80]],
+	"shade_values": {
+		"Hydrating Camo CC Cream": {
+			"desc":"{Hydrating Camo CC Cream Cream description}",
+			"familyID": "300235",
+			"colName": "CamoCC",
+			"matchingLines": [-8.700630621228942, 1.171830637294386, 0.0],
+			"shadeMatcher": [
+				{"i": 30, "name": "650C", "productID":"84798", "official":"Rich 650 C", 	"desc": "rich with cool undertones", 		"rgb": "45312b", "L": 32.90, "H":0.0511040197},
+				{"i": 29, "name": "660N", "productID":"84799", "official":"Rich 660 N", 	"desc": "rich with neutral undertones", 	"rgb": "4e2f1b", "L": 33.60, "H":0.0528522984},
+				{"i": 28, "name": "640W", "productID":"84797", "official":"Rich 640 W", 	"desc": "rich with warm undertones", 		"rgb": "573e38", "L": 34.20, "H":0.0408674874},
+				{"i": 27, "name": "610N", "productID":"84795", "official":"Rich 610 N", 	"desc": "rich with neutral undertones", 	"rgb": "644131", "L": 35.00, "H":0.0591517935},
+				{"i": 26, "name": "620W", "productID":"84796", "official":"Rich 620 W", 	"desc": "rich with warm undertones", 		"rgb": "5a3721", "L": 36.83, "H":0.0533056310},
+				{"i": 25, "name": "560C", "productID":"84794", "official":"Deep 560 C", 	"desc": "deep with cool undertones", 		"rgb": "7d4b35", "L": 38.23, "H":0.0483584912},
+				{"i": 24, "name": "540N", "productID":"84793", "official":"Deep 540 N", 	"desc": "deep with neutral undertones", 	"rgb": "805534", "L": 40.37, "H":0.0625055006},
+				{"i": 23, "name": "530W", "productID":"84792", "official":"Deep 530 W", 	"desc": "deep with warm undertones", 		"rgb": "7f4923", "L": 40.70, "H":0.0599071266},
+				{"i": 22, "name": "460W", "productID":"84789", "official":"Tan 460 W", 		"desc": "tan with warm undertones", 		"rgb": "735641", "L": 41.90, "H":0.0635773437},
+				{"i": 21, "name": "510C", "productID":"84791", "official":"Deep 510 C", 	"desc": "deep with cool undertones", 		"rgb": "764519", "L": 44.13, "H":0.0645411823},
+				{"i": 20, "name": "500W", "productID":"84790", "official":"Deep 500 W", 	"desc": "deep with warm undertones", 		"rgb": "8a5d39", "L": 44.20, "H":0.0661460667},
+				{"i": 19, "name": "450N", "productID":"84788", "official":"Tan 450 N", 		"desc": "tan with neutral undertones", 		"rgb": "7d503b", "L": 45.97, "H":0.0607523761},
+				{"i": 18, "name": "425N", "productID":"84787", "official":"Tan 425 N", 		"desc": "tan with neutral undertones", 		"rgb": "915c44", "L": 47.43, "H":0.0608240022},
+				{"i": 17, "name": "415C", "productID":"84786", "official":"Tan 415 C", 		"desc": "tan with cool undertones", 		"rgb": "966047", "L": 48.27, "H":0.0581025943},
+				{"i": 16, "name": "400W", "productID":"84785", "official":"Tan 400 W", 		"desc": "tan with warm undertones", 		"rgb": "996536", "L": 50.43, "H":0.0668585819},
+				{"i": 15, "name": "375N", "productID":"84784", "official":"Medium 375 N", 	"desc": "medium with neutral undertones", 	"rgb": "a86a46", "L": 51.80, "H":0.0598169232},
+				{"i": 14, "name": "370N", "productID":"84783", "official":"Medium 370 N", 	"desc": "medium with neutral undertones", 	"rgb": "a37555", "L": 52.63, "H":0.0597154180},
+				{"i": 13, "name": "355W", "productID":"84782", "official":"Medium 355 W", 	"desc": "medium with warm undertones", 		"rgb": "a97348", "L": 54.87, "H":0.0696669242},
+				{"i": 12, "name": "280N", "productID":"84779", "official":"Light 280 N", 	"desc": "light with neutral undertones", 	"rgb": "bf8955", "L": 58.33, "H":0.0652799495},
+				{"i": 11, "name": "310C", "productID":"84780", "official":"Medium 310 C", 	"desc": "medium with cool undertones", 		"rgb": "c5865f", "L": 58.43, "H":0.0639622621},
+				{"i": 10, "name": "330W", "productID":"84781", "official":"Medium 330 W", 	"desc": "medium with warm undertones", 		"rgb": "a67b5e", "L": 58.60, "H":0.0747119734},
+				{"i":  9, "name": "210N", "productID":"84776", "official":"Light 210 N", 	"desc": "light with neutral undertones", 	"rgb": "c89d71", "L": 62.60, "H":0.0626605669},
+				{"i":  7, "name": "240W", "productID":"84777", "official":"Light 240 W", 	"desc": "light with warm undertones", 		"rgb": "a68870", "L": 64.00, "H":0.0751260143},
+				{"i":  6, "name": "250W", "productID":"84778", "official":"Light 250 W", 	"desc": "light with warm undertones", 		"rgb": "c78d67", "L": 64.67, "H":0.0671150825},
+				{"i":  5, "name": "150C", "productID":"84774", "official":"Fair 150 C", 	"desc": "fair with cool undertones", 		"rgb": "d4a18c", "L": 67.63, "H":0.0564142588},
+				{"i":  4, "name": "120N", "productID":"84771", "official":"Fair 120 N", 	"desc": "fair with neutral undertones", 	"rgb": "d8ad7d", "L": 72.27, "H":0.0663033313},
+				{"i":  3, "name": "125C", "productID":"84772", "official":"Fair 125 C", 	"desc": "fair with cool undertones", 		"rgb": "d9ad96", "L": 74.20, "H":0.0603990761},
+				{"i":  2, "name": "140W", "productID":"84773", "official":"Fair 140 W", 	"desc": "fair with warm undertones", 		"rgb": "dab291", "L": 75.33, "H":0.0793968196},
+				{"i":  1, "name": "100W", "productID":"84770", "official":"Fair 100 W", 	"desc": "fair with warm undertones", 		"rgb": "e3caac", "L": 81.33, "H":0.0786357987}
+			],
+			"gridMatcher": [
+				{ "range.L": [76, 1000], "range.H": [0.07,10.0], "group": [
+					{ "H": 0.0786357987, "shade": 1, "friends": [2] } ]
+				},
+				{ "range.L": [69, 1000], "range.H": [0.00, 0.07], "group": [
+					{ "H": 0.0603990761, "shade": 3, "friends": [4] },
+					{ "H": 0.0663033313, "shade": 4, "friends": [] },
+					{ "H": 0.0793968196, "shade": 2, "friends": [1] } ]
+				},
+				{ "range.L": [63,69], "group": [
+					{ "H": 0.0564142588, "shade": 5, "friends": [] },
+					{ "H": 0.0626605669, "shade": 9, "friends": [6] },
+					{ "H": 0.0671150825, "shade": 6, "friends": [9] },
+					{ "H": 0.0751260143, "shade": 7, "friends": [6] } ]
+				},
+				{ "range.L": [59,63], "group": [
+					{ "H": 0.0639622621, "shade": 11, "friends": [12] },
+					{ "H": 0.0652799495, "shade": 12, "friends": [11] },
+					{ "H": 0.0696669242, "shade": 13, "friends": [10] },
+					{ "H": 0.0747119734, "shade": 10, "friends": [13] } ]
+				},
+				{ "range.L": [51,59], "group": [
+					{ "H": 0.0598169232, "shade": 15, "friends": [14] },
+					{ "H": 0.0597154180, "shade": 14, "friends": [15] },
+					{ "H": 0.0668585819, "shade": 16, "friends": [] } ]
+				},
+				{ "range.L": [49,51], "group": [
+					{ "H": 0.0581025943, "shade": 17, "friends": [19] },
+					{ "H": 0.0607523761, "shade": 19, "friends": [18] },
+					{ "H": 0.0608240022, "shade": 18, "friends": [19] } ]
+				},
+				{ "range.L": [47,49], "group": [
+					{ "H": 0.0645411823, "shade": 21, "friends": [10] },
+					{ "H": 0.0661460667, "shade": 20, "friends": [] } ]
+				},
+				{ "range.L": [44,47], "group": [
+					{ "H": 0.0599071266, "shade": 23, "friends": [24] },
+					{ "H": 0.0625055006, "shade": 24, "friends": [] },
+					{ "H": 0.0635773437, "shade": 22, "friends": [] } ]
+				},
+				{ "range.L": [38,44], "group": [
+					{ "H": 0.0483584912, "shade": 25, "friends": [] },
+					{ "H": 0.0533056310, "shade": 26, "friends": [] } ]
+				},
+				{ "range.L": [34,38], "group": [
+					{ "H": 0.0408674874, "shade": 28, "friends": [30] },
+					{ "H": 0.0511040197, "shade": 30, "friends": [28,27] },
+					{ "H": 0.0591517935, "shade": 27, "friends": [30] } ]
+				},
+				{ "range.L": [0,34], "group": [
+					{ "H": 0.0528522984, "shade": 29, "friends": [] }]
+				}
+			]
+		},
+		"Camo CC Cream" : {
+			"desc":"{Camo CC Cream Cream description}",
+			"familyID": "300176",
+			"colName": "CamoCC",
+			"matchingLines": [-8.700630621228942, 1.171830637294386, 0.0],
+			"shadeMatcher": [
+				{"i": 30, "name": "650C", "productID":"84929", "official":"Rich 650 C", 	"desc": "rich with cool undertones", 		"rgb": "45312b", "L": 32.90, "H":0.0511040197},
+				{"i": 29, "name": "660N", "productID":"82871", "official":"Rich 660 N", 	"desc": "rich with neutral undertones", 	"rgb": "4e2f1b", "L": 33.60, "H":0.0528522984},
+				{"i": 28, "name": "640W", "productID":"84928", "official":"Rich 640 W", 	"desc": "rich with warm undertones", 		"rgb": "573e38", "L": 34.20, "H":0.0408674874},
+				{"i": 27, "name": "610N", "productID":"84927", "official":"Rich 610 N", 	"desc": "rich with neutral undertones", 	"rgb": "644131", "L": 35.00, "H":0.0591517935},
+				{"i": 26, "name": "620W", "productID":"82870", "official":"Rich 620 W", 	"desc": "rich with warm undertones", 		"rgb": "5a3721", "L": 36.83, "H":0.0533056310},
+				{"i": 25, "name": "560C", "productID":"84926", "official":"Deep 560 C", 	"desc": "deep with cool undertones", 		"rgb": "7d4b35", "L": 38.23, "H":0.0483584912},
+				{"i": 24, "name": "540N", "productID":"84925", "official":"Deep 540 N", 	"desc": "deep with neutral undertones", 	"rgb": "805534", "L": 40.37, "H":0.0625055006},
+				{"i": 23, "name": "530W", "productID":"82869", "official":"Deep 530 W", 	"desc": "deep with warm undertones", 		"rgb": "7f4923", "L": 40.70, "H":0.0599071266},
+				{"i": 22, "name": "460W", "productID":"84923", "official":"Tan 460 W", 		"desc": "tan with warm undertones", 		"rgb": "735641", "L": 41.90, "H":0.0635773437},
+				{"i": 21, "name": "510C", "productID":"82868", "official":"Deep 510 C", 	"desc": "deep with cool undertones", 		"rgb": "764519", "L": 44.13, "H":0.0645411823},
+				{"i": 20, "name": "500W", "productID":"84924", "official":"Deep 500 W", 	"desc": "deep with warm undertones", 		"rgb": "8a5d39", "L": 44.20, "H":0.0661460667},
+				{"i": 19, "name": "450N", "productID":"84922", "official":"Tan 450 N", 		"desc": "tan with neutral undertones", 		"rgb": "7d503b", "L": 45.97, "H":0.0607523761},
+				{"i": 18, "name": "425N", "productID":"84921", "official":"Tan 425 N", 		"desc": "tan with neutral undertones", 		"rgb": "915c44", "L": 47.43, "H":0.0608240022},
+				{"i": 17, "name": "415C", "productID":"84920", "official":"Tan 415 C", 		"desc": "tan with cool undertones", 		"rgb": "966047", "L": 48.27, "H":0.0581025943},
+				{"i": 16, "name": "400W", "productID":"82867", "official":"Tan 400 W", 		"desc": "tan with warm undertones", 		"rgb": "996536", "L": 50.43, "H":0.0668585819},
+				{"i": 15, "name": "375N", "productID":"84919", "official":"Medium 375 N", 	"desc": "medium with neutral undertones", 	"rgb": "a86a46", "L": 51.80, "H":0.0598169232},
+				{"i": 14, "name": "370N", "productID":"82866", "official":"Medium 370 N", 	"desc": "medium with neutral undertones", 	"rgb": "a37555", "L": 52.63, "H":0.0597154180},
+				{"i": 13, "name": "355W", "productID":"84918", "official":"Medium 355 W", 	"desc": "medium with warm undertones", 		"rgb": "a97348", "L": 54.87, "H":0.0696669242},
+				{"i": 12, "name": "280N", "productID":"84917", "official":"Light 280 N", 	"desc": "light with neutral undertones", 	"rgb": "bf8955", "L": 58.33, "H":0.0652799495},
+				{"i": 11, "name": "310C", "productID":"84916", "official":"Medium 310 C", 	"desc": "medium with cool undertones", 		"rgb": "c5865f", "L": 58.43, "H":0.0639622621},
+				{"i": 10, "name": "330W", "productID":"84915", "official":"Medium 330 W", 	"desc": "medium with warm undertones", 		"rgb": "a67b5e", "L": 58.60, "H":0.0747119734},
+				{"i":  9, "name": "210N", "productID":"84914", "official":"Light 210 N", 	"desc": "light with neutral undertones", 	"rgb": "c89d71", "L": 62.60, "H":0.0626605669},
+				{"i":  7, "name": "240W", "productID":"82864", "official":"Light 240 W", 	"desc": "light with warm undertones", 		"rgb": "a68870", "L": 64.00, "H":0.0751260143},
+				{"i":  6, "name": "250W", "productID":"84913", "official":"Light 250 W", 	"desc": "light with warm undertones", 		"rgb": "c78d67", "L": 64.67, "H":0.0671150825},
+				{"i":  5, "name": "150C", "productID":"84912", "official":"Fair 150 C", 	"desc": "fair with cool undertones", 		"rgb": "d4a18c", "L": 67.63, "H":0.0564142588},
+				{"i":  4, "name": "120N", "productID":"84911", "official":"Fair 120 N", 	"desc": "fair with neutral undertones", 	"rgb": "d8ad7d", "L": 72.27, "H":0.0663033313},
+				{"i":  3, "name": "125C", "productID":"82863", "official":"Fair 125 C", 	"desc": "fair with cool undertones", 		"rgb": "d9ad96", "L": 74.20, "H":0.0603990761},
+				{"i":  2, "name": "140W", "productID":"84910", "official":"Fair 140 W", 	"desc": "fair with warm undertones", 		"rgb": "dab291", "L": 75.33, "H":0.0793968196},
+				{"i":  1, "name": "100W", "productID":"82862", "official":"Fair 100 W", 	"desc": "fair with warm undertones", 		"rgb": "e3caac", "L": 81.33, "H":0.0786357987}
+			],
+			"gridMatcher": [
+				{ "range.L": [76, 1000], "range.H": [0.07,10.0], "group": [
+					{ "H": 0.0786357987, "shade": 1, "friends": [2] } ]
+				},
+				{ "range.L": [69, 1000], "range.H": [0.00, 0.07], "group": [
+					{ "H": 0.0603990761, "shade": 3, "friends": [4] },
+					{ "H": 0.0663033313, "shade": 4, "friends": [] },
+					{ "H": 0.0793968196, "shade": 2, "friends": [1] } ]
+				},
+				{ "range.L": [63, 69], "group": [
+					{ "H": 0.0564142588, "shade": 5, "friends": [] },
+					{ "H": 0.0626605669, "shade": 9, "friends": [6] },
+					{ "H": 0.0671150825, "shade": 6, "friends": [9] },
+					{ "H": 0.0751260143, "shade": 7, "friends": [6] } ]
+				},
+				{ "range.L": [59, 63], "group": [
+					{ "H": 0.0639622621, "shade": 11, "friends": [12] },
+					{ "H": 0.0652799495, "shade": 12, "friends": [11] },
+					{ "H": 0.0696669242, "shade": 13, "friends": [10] },
+					{ "H": 0.0747119734, "shade": 10, "friends": [13] } ]
+				},
+				{ "range.L": [51, 59], "group": [
+					{ "H": 0.0598169232, "shade": 15, "friends": [14] },
+					{ "H": 0.0597154180, "shade": 14, "friends": [15] },
+					{ "H": 0.0668585819, "shade": 16, "friends": [] } ]
+				},
+				{ "range.L": [49, 51], "group": [
+					{ "H": 0.0581025943, "shade": 17, "friends": [19] },
+					{ "H": 0.0607523761, "shade": 19, "friends": [18] },
+					{ "H": 0.0608240022, "shade": 18, "friends": [19] } ]
+				},
+				{ "range.L": [47, 49], "group": [
+					{ "H": 0.0645411823, "shade": 21, "friends": [10] },
+					{ "H": 0.0661460667, "shade": 20, "friends": [] } ]
+				},
+				{ "range.L": [44, 47], "group": [
+					{ "H": 0.0599071266, "shade": 23, "friends": [24] },
+					{ "H": 0.0625055006, "shade": 24, "friends": [] },
+					{ "H": 0.0635773437, "shade": 22, "friends": [] } ]
+				},
+				{ "range.L": [38, 44], "group": [
+					{ "H": 0.0483584912, "shade": 25, "friends": [] },
+					{ "H": 0.0533056310, "shade": 26, "friends": [] } ]
+				},
+				{ "range.L": [34, 38], "group": [
+					{ "H": 0.0408674874, "shade": 28, "friends": [30] },
+					{ "H": 0.0511040197, "shade": 30, "friends": [28,27] },
+					{ "H": 0.0591517935, "shade": 27, "friends": [30] } ]
+				},
+				{ "range.L": [0, 34], "group": [
+					{ "H": 0.0528522984, "shade": 29, "friends": [] }]
+				}
+			]
+		},
+		"Soft Glam" : {
+			"default": 1,
+			"official":"Soft Glam Satin Foundation",
+			"desc":"Medium buildable coverage foundation with a satin finish",
+			"familyID": "300303",
+			"colName": "SoftGlam",
+			"matchingLines": [-3.185210968725304, 1.0998377228203717, 0.0],
+			"shadeMatcher": [
+				{"i": 1, "name": "10 Fair Cool", 		"productID":"84935", "desc": "fair with cool undertones", 	"rgb": "e2d3c4", "L": 80.20, 	"H":0.0623560702},
+				{"i": 2, "name": "11 Fair Neutral", 	"productID":"84936", "desc": "fair with neutral undertones", "rgb": "e8d5bb", "L": 76.40, 	"H":0.0700816499},
+				{"i": 3, "name": "12 Fair Warm", 		"productID":"84937", "desc": "fair with warm undertones", 	"rgb": "ebd7b5", "L": 79.37, 	"H":0.0730892136},
+				{"i": 4, "name": "13 Fair Neutral", 	"productID":"84938", "desc": "fair with neutral undertones", "rgb": "e0c9ac", "L": 74.40, 	"H":0.0645566899},
+				{"i": 5, "name": "14 Fair Cool", 		"productID":"84939", "desc": "fair with cool undertones", 	"rgb": "e9cdac", "L": 73.03, 	"H":0.0594181270},
+				{"i": 6, "name": "15 Fair Warm", 		"productID":"84940", "desc": "fair with warm undertones", 	"rgb": "e8d5b1", "L": 76.97, 	"H":0.0755846753},
+				{"i": 7, "name": "20 Light Cool", 		"productID":"84941", "desc": "light with cool undertones", 	"rgb": "dfc2a5", "L": 66.47, 	"H":0.0620646456},
+				{"i": 8, "name": "21 Light Neutral", 	"productID":"84942", "desc": "light with neutral undertones", "rgb": "d3b18c", "L": 65.90, 	"H":0.0653459875},
+				{"i": 9, "name": "22 Light Warm", 		"productID":"84943", "desc": "light with warm undertones", 	"rgb": "d6b492", "L": 66.53, 	"H":0.0743766046},
+				{"i":10, "name": "23 Light Cool", 		"productID":"84944", "desc": "light with cool undertones", 	"rgb": "d7b28f", "L": 63.93, 	"H":0.0618292614},
+				{"i":11, "name": "24 Light Warm", 		"productID":"84945", "desc": "light with warm undertones", 	"rgb": "d7b488", "L": 61.97, 	"H":0.0721685385},
+				{"i":12, "name": "25 Light Neutral",	"productID":"84946", "desc": "light with neutral undertones", "rgb": "d2b396", "L": 61.97, 	"H":0.0592324601},
+				{"i":13, "name": "30 Medium Warm", 		"productID":"84947", "desc": "medium with warm undertones",  "rgb": "c8a06f", "L": 57.93, 	"H":0.0751933931},
+				{"i":14, "name": "31 Medium Neutral", 	"productID":"84948", "desc": "medium with neutral undertones", "rgb": "c79a72", "L": 57.27, "H":0.0669510770},
+				{"i":15, "name": "32 Medium Neutral", 	"productID":"84949", "desc": "medium with neutral undertones", "rgb": "c09163", "L": 56.70, "H":0.0726154117},
+				{"i":16, "name": "33 Medium Warm", 		"productID":"84950", "desc": "medium with warm undertones", "rgb": "be9366", "L": 58.93, 	"H":0.0669373893},
+				{"i":17, "name": "34 Medium Cool", 		"productID":"84951", "desc": "medium with cool undertones", "rgb": "c6946e", "L": 59.73, 	"H":0.0645428172},
+				{"i":18, "name": "35 Medium Cool", 		"productID":"84952", "desc": "medium with cool undertones", "rgb": "cd956f", "L": 58.73, 	"H":0.0575223390},
+				{"i":19, "name": "40 Tan Warm", 		"productID":"84953", "desc": "tan with warm undertones", 	"rgb": "a17b52", "L": 54.30, 	"H":0.0737014765},
+				{"i":20, "name": "41 Tan Neutral", 		"productID":"84954", "desc": "tan with neutral undertones", "rgb": "a77c4e", "L": 52.83, 	"H":0.0709105257},
+				{"i":21, "name": "42 Tan Neutral", 		"productID":"84955", "desc": "tan with neutral undertones", "rgb": "a16f4e", "L": 51.77, 	"H":0.0626279246},
+				{"i":22, "name": "43 Tan Cool", 		"productID":"84956", "desc": "tan with cool undertones", "rgb": "a17751", "L": 53.13, 		"H":0.0639056301},
+				{"i":23, "name": "44 Tan Cool", 		"productID":"84957", "desc": "tan with cool undertones", "rgb": "be8f66", "L": 54.37, 		"H":0.0604151701},
+				{"i":24, "name": "45 Tan Warm", 		"productID":"84958", "desc": "tan with warm undertones", "rgb": "a5754b", "L": 52.23, 		"H":0.0651065613},
+				{"i":25, "name": "50 Deep Warm", 		"productID":"84959", "desc": "deep with warm undertones", "rgb": "8b5b3c", "L": 44.27, 		"H":0.0588709735},
+				{"i":26, "name": "51 Deep Cool", 		"productID":"84960", "desc": "deep with cool undertones", "rgb": "935c3c", "L": 44.87, 		"H":0.0568394598},
+				{"i":27, "name": "52 Deep Cool", 		"productID":"84961", "desc": "deep with cool undertones", "rgb": "76523d", "L": 40.07, 		"H":0.0570692852},
+				{"i":28, "name": "53 Deep Neutral", 	"productID":"84962", "desc": "deep with neutral undertones", "rgb": "7b5639", "L": 40.43, 	"H":0.0634982661},
+				{"i":29, "name": "54 Deep Neutral", 	"productID":"84963", "desc": "deep with neutral undertones", "rgb": "73523c", "L": 41.13, 	"H":0.0603376135},
+				{"i":30, "name": "55 Deep Warm", 		"productID":"84964", "desc": "deep with warm undertones", "rgb": "795134", "L": 40.27, 		"H":0.0615371940},
+				{"i":31, "name": "60 Rich Cool", 		"productID":"84965", "desc": "rich with cool undertones", "rgb": "583b28", "L": 32.47, 		"H":0.0466663980},
+				{"i":32, "name": "61 Rich Cool", 		"productID":"84966", "desc": "rich with cool undertones", "rgb": "54382b", "L": 31.90, 		"H":0.0465581636},
+				{"i":33, "name": "62 Rich Warm", 		"productID":"84967", "desc": "rich with warm undertones", "rgb": "5d4030", "L": 33.27, 		"H":0.0491322662},
+				{"i":34, "name": "63 Rich Warm", 		"productID":"84968", "desc": "rich with warm undertones", "rgb": "543a2b", "L": 31.77, 		"H":0.0487999500},
+				{"i":35, "name": "64 Rich Neutral", 	"productID":"84969", "desc": "rich with neutral undertones", "rgb": "4b3022", "L": 33.07, 	"H":0.0535648894},
+				{"i":36, "name": "65 Rich Neutral", 	"productID":"84970", "desc": "rich with neutral undertones", "rgb": "442f25", "L": 30.83, 	"H":0.0478732260}
+			],
+			"gridMatcher": [
+				{ "range.L": [77, 1000], "group": [
+					{ "H": 0.0623560702, "shade": 1, "friends": [2,3,5,4] },
+					{ "H": 0.0700816499, "shade": 2, "friends": [1,3,4,5] },
+					{ "H": 0.0730892136, "shade": 3, "friends": [1,2,6,4] } ]
+				},
+				{ "range.L": [71, 77], "group": [
+					{ "H": 0.0594181270, "shade": 5, "friends": [4,2,6] },
+					{ "H": 0.0645566899, "shade": 4, "friends": [2,5,6] },
+					{ "H": 0.0755846753, "shade": 6, "friends": [4,3,5] } ]
+				},
+				{ "range.L": [65, 71], "group": [
+					{ "H": 0.0620646456, "shade": 7, "friends": [8,10] },
+					{ "H": 0.0653459875, "shade": 8, "friends": [10,7,9,12] },
+					{ "H": 0.0743766046, "shade": 9, "friends": [8,10,11] } ]
+				},
+				{ "range.L": [61, 65], "group": [
+					{ "H": 0.0592324601, "shade": 12, "friends": [10,11] },
+					{ "H": 0.0618292614, "shade": 10, "friends": [8,12] },
+					{ "H": 0.0721685385, "shade": 11, "friends": [9,10,12] }  ]
+				},
+				{ "range.L": [58, 61], "group": [
+					{ "H": 0.0669373893, "shade": 16, "friends": [14,17,18] },
+					{ "H": 0.0645428172, "shade": 17, "friends": [14,16] },
+					{ "H": 0.0575223390, "shade": 18, "friends": [17,16] } ]
+				},
+				{ "range.L": [56, 58], "group": [
+					{ "H": 0.0669510770, "shade": 14, "friends": [15,17,16,13] },
+					{ "H": 0.0726154117, "shade": 15, "friends": [14,13,16] },
+					{ "H": 0.0751933931, "shade": 13, "friends": [15,14] } ]
+				},
+				{ "range.L": [54, 56], "group": [
+					{ "H": 0.0604151701, "shade": 23, "friends": [22] },
+					{ "H": 0.0639056301, "shade": 22, "friends": [21,24,23] },
+					{ "H": 0.0737014765, "shade": 19, "friends": [20,15] } ]
+				},
+				{ "range.L": [51, 54], "range.H": [0.0, 0.065], "group": [
+					{ "H": 0.0604151701, "shade": 23, "friends": [22] },
+					{ "H": 0.0639056301, "shade": 22, "friends": [21,24,23] },
+					{ "H": 0.0651065613, "shade": 24, "friends": [22,23] } ]
+				},
+				{ "range.L": [51, 54], "range.H": [0.065, 10.0], "group": [
+					{ "H": 0.0626279246, "shade": 21, "friends": [22,24,20] },
+					{ "H": 0.0709105257, "shade": 20, "friends": [19,24,22] },
+					{ "H": 0.0737014765, "shade": 19, "friends": [20,15] } ]
+				},
+				{ "range.L": [44, 51], "group": [
+					{ "H": 0.0568394598, "shade": 26, "friends": [25] },
+					{ "H": 0.0588709735, "shade": 25, "friends": [26] } ]
+				},
+				{ "range.L": [38, 44], "group": [
+					{ "H": 0.0570692852, "shade": 27, "friends": [29,30] },
+					{ "H": 0.0603376135, "shade": 29, "friends": [30,27,28] },
+					{ "H": 0.0615371940, "shade": 30, "friends": [29,28,27] },
+					{ "H": 0.0634982661, "shade": 28, "friends": [30,29] }]
+				},
+				{ "range.L": [35, 38], "group": [
+					{ "H": 0.0466663980, "shade": 31, "friends": [32,33] },
+					{ "H": 0.0465581636, "shade": 32, "friends": [31,33] },
+					{ "H": 0.0491322662, "shade": 33, "friends": [32,31] } ]
+				},
+				{ "range.L": [33, 35], "group": [
+					{ "H": 0.0535648894, "shade": 35, "friends": [34] },
+					{ "H": 0.0487999500, "shade": 34, "friends": [35] } ]
+				},
+				{ "range.L": [0, 33],  "group": [
+					{ "H": 0.0478732260, "shade": 36, "friends": [] } ]
+				}
+			]
+		},
+		"Camo Concealer" : {
+			"official":"16HR Camo Concealer",
+			"familyID": "300152",
+			"desc": "{16HR Camo Concealer description}",
+			"colName": "CamoConcealer",
+			"matchingLines": [15.792611921000239, 0.7554461535633696, 0.0],
+			"shadeMatcher": [
+				{"i": 24, "name": "Rich Ebony",		"productID":"85858", "desc":"rich with cool-neutral undertones",		"rgb": "51362b", "L":33.87, "H":0.0511288291},
+				{"i": 23, "name": "Rich Cocoa",		"productID":"85857", "desc":"rich with neutral undertones", 			"rgb": "5f3213", "L":40.37, "H":0.0572051059},
+				{"i": 22, "name": "Rich Chocolate",	"productID":"85856", "desc":"rich with warm undertones", 				"rgb": "6c4025", "L":44.83, "H":0.0646695938},
+				{"i": 21, "name": "Deep Cinamon",	"productID":"85855", "desc":"deep with rosy cool undertones", 			"rgb": "9d582d", "L":49.67, "H":0.0626377629},
+				{"i": 20, "name": "Deep Chestnut",	"productID":"85854", "desc":"deep with rich golden undertones", 		"rgb": "9e672e", "L":50.90, "H":0.0694943513},
+				{"i": 19, "name": "Deep Olive",		"productID":"85853", "desc":"deep with golden olive undertones", 		"rgb": "9e6937", "L":54.77, "H":0.0752992298},
+				{"i": 18, "name": "Tan Neutral",	"productID":"85864", "desc":"tan with neutral undertones", 				"rgb": "AE7E56", "L":55.23, "H":0.0588677811},
+				{"i": 17, "name": "Deep Caramel",	"productID":"85865", "desc":"deep with rosy cool undertone", 			"rgb": "AB784A", "L":57.17, "H":0.0727143526},
+				{"i": 16, "name": "Tan Walnut",		"productID":"85851", "desc":"tan with cool-neutral undertones", 		"rgb": "aa8067", "L":57.80, "H":0.0575783084},
+				{"i": 15, "name": "Tan Latte",		"productID":"85852", "desc":"tan with warm-neutral undertones", 		"rgb": "b1836b", "L":59.07, "H":0.0579927545},
+				{"i": 14, "name": "Tan Sand",		"productID":"85850", "desc":"tan with olive undertones", 				"rgb": "dea570", "L":61.07, "H":0.0638701496},
+				{"i": 13, "name": "Medium Golden",	"productID":"85863", "desc":"medium tan with golden beige undertone", 	"rgb": "C08265", "L":61.20, "H":0.0534897231},
+				{"i": 12, "name": "Medium Sand",	"productID":"85848", "desc":"medium with neutral undertones", 			"rgb": "c49567", "L":63.27, "H":0.0639506466},
+				{"i": 11, "name": "Medium Neutral",	"productID":"85861", "desc":"medium tan with warm undertones", 			"rgb": "BF9776", "L":63.50, "H":0.0635244084},
+				{"i": 10, "name": "Medium Beige",	"productID":"85849", "desc":"medium with golden beige undertones", 		"rgb": "c88e69", "L":63.80, "H":0.0661632538},
+				{"i":  9, "name": "Medium Warm",	"productID":"85862", "desc":"medium tan with golden undertone", 		"rgb": "CA9D75", "L":64.97, "H":0.0724813175},
+				{"i":  8, "name": "Light Beige",	"productID":"85846", "desc":"light with golden beige undertones", 		"rgb": "c29777", "L":66.90, "H":0.0729456325},
+				{"i":  7, "name": "Light Ivory",	"productID":"85860", "desc":"light with neutral warm undertone", 		"rgb": "eabd9c", "L":68.83, "H":0.0579927722},
+				{"i":  6, "name": "Medium Peach",	"productID":"85847", "desc":"medium with peach undertones", 			"rgb": "d9a47c", "L":70.40, "H":0.0698873641},
+				{"i":  5, "name": "Light Sand",		"productID":"85844", "desc":"light with neutral undertones", 			"rgb": "f1bf9c", "L":71.50, "H":0.0681701768},
+				{"i":  4, "name": "Fair Beige",		"productID":"85843", "desc":"fair with neutral undertones", 			"rgb": "e2b8a8", "L":73.20, "H":0.0615143684},
+				{"i":  3, "name": "Light Peach",	"productID":"85845", "desc":"light with rosy peach undertones", 		"rgb": "ccac95", "L":73.30, "H":0.0637371368},
+				{"i":  2, "name": "Fair Warm",		"productID":"85842", "desc":"fair with yellow undertones", 				"rgb": "ecc8a4", "L":75.90, "H":0.0640244847},
+				{"i":  1, "name": "Fair Rose",		"productID":"85841", "desc":"fair with pink undertones", 				"rgb": "d4baa9", "L":77.67, "H":0.0631070156}
+			],
+			"gridMatcher": [
+				{ "range.L": [73, 1000], "group": [
+					{ "H": 0.0631070156, "shade": 1, "friends": [] },
+					{ "H": 0.0615143684, "shade": 4, "friends": [] },
+					{ "H": 0.0640244847, "shade": 2, "friends": [] } ]
+				},
+				{ "range.L": [70,73], "group": [
+					{ "H": 0.0637371368, "shade": 3, "friends": [] },
+					{ "H": 0.0681701768, "shade": 5, "friends": [] } ]
+				},
+				{ "range.L": [65,70], "group": [
+					{ "H": 0.0579927722, "shade": 7, "friends": [] },
+					{ "H": 0.0698873641, "shade": 6, "friends": [] } ]
+				},
+				{ "range.L": [63,65], "group": [
+					{ "H": 0.0635244084, "shade": 11, "friends": [] },
+					{ "H": 0.0639506466, "shade": 12, "friends": [] },
+					{ "H": 0.0729456325, "shade": 8, "friends": [] } ]
+				},
+				{ "range.L": [60,63], "group": [
+					{ "H": 0.0534897231, "shade": 13, "friends": [] },
+					{ "H": 0.0661632538, "shade": 10, "friends": [] },
+					{ "H": 0.0724813175, "shade": 9, "friends": [] } ]
+				},
+				{ "range.L": [58,60], "group": [
+					{ "H": 0.0579927545, "shade": 15, "friends": [] },
+					{ "H": 0.0638701496, "shade": 14, "friends": [] } ]
+				},
+				{ "range.L": [54,58], "group": [
+					{ "H": 0.0575783084, "shade": 16, "friends": [] },
+					{ "H": 0.0588677811, "shade": 18, "friends": [] },
+					{ "H": 0.0727143526, "shade": 17, "friends": [] } ]
+				},
+				{ "range.L": [50,54], "group": [
+					{ "H": 0.0626377629, "shade": 21, "friends": [] },
+					{ "H": 0.0694943513, "shade": 20, "friends": [] },
+					{ "H": 0.0752992298, "shade": 19, "friends": [] } ]
+				},
+				{ "range.L": [46,50], "group": [
+					{ "H": 0.0646695938, "shade": 22, "friends": [] } ]
+				},
+				{ "range.L": [40,46], "group": [
+					{ "H": 0.0572051059, "shade": 23, "friends": [] } ]
+				},
+				{ "range.L": [0,40], "group": [
+					{ "H": 0.0511288291, "shade": 24, "friends": [] }]
+				}
+			]
+		},
+		"Hydrating Camo Concealer" : {
+			"familyID": "300166",
+			"desc": "{Hydrating Camo Concealer description}",
+			"colName": "HydratingConcealer",
+			"matchingLines": [6.701630430106862, 0.9432272774076509, 0.0],
+			"shadeMatcher": [
+				{"i": 24, "name": "Rich Ebony",		"productID":"84844", "desc":"rich with cool-neutral undertones", 		"rgb": "5A4531", "L": 35.27, "H":0.0564649663},
+				{"i": 23, "name": "Rich Cocoa",		"productID":"84842", "desc":"rich with neutral undertones", 			"rgb": "663418", "L": 39.47, "H":0.0579498772},
+				{"i": 22, "name": "Rich Chocolate",	"productID":"84841", "desc":"rich with warm undertones", 				"rgb": "674027", "L": 42.27, "H":0.0589979066},
+				{"i": 21, "name": "Deep Cinamon",	"productID":"84840", "desc":"deep with rosy cool undertones", 			"rgb": "9F582D", "L": 45.77, "H":0.0616336471},
+				{"i": 20, "name": "Deep Chestnut",	"productID":"84838", "desc":"deep with rich golden undertones", 		"rgb": "9D6538", "L": 45.90, "H":0.0644320662},
+				{"i": 19, "name": "Tan Walnut",		"productID":"84834", "desc":"tan with cool-neutral undertones", 		"rgb": "A87F64", "L": 49.77, "H":0.0620659612},
+				{"i": 18, "name": "Deep Olive",		"productID":"84837", "desc":"deep with golden olive undertones", 		"rgb": "A16E3C", "L": 50.60, "H":0.0703459528},
+				{"i": 17, "name": "Tan Latte",		"productID":"84835", "desc":"tan with warm-neutral undertones", 		"rgb": "AE886B", "L": 52.40, "H":0.0576903638},
+				{"i": 16, "name": "Tan Neutral",	"productID":"84836", "desc":"tan with neutral undertones", 				"rgb": "AE7E56", "L": 52.67, "H":0.0633577373},
+				{"i": 15, "name": "Deep Caramel",	"productID":"84839", "desc":"deep with rosy cool undertone", 			"rgb": "AB784A", "L": 54.53, "H":0.0704576317},
+				{"i": 14, "name": "Medium Beige",	"productID":"84829", "desc":"medium with golden beige undertones", 		"rgb": "C38963", "L": 56.83, "H":0.0655430231},
+				{"i": 13, "name": "Tan Sand",		"productID":"84833", "desc":"tan with olive undertones", 				"rgb": "D89D6A", "L": 58.40, "H":0.0693559650},
+				{"i": 12, "name": "Medium Golden",	"productID":"84832", "desc":"medium tan with golden beige undertone",	"rgb": "C08265", "L": 59.37, "H":0.0582551698},
+				{"i": 11, "name": "Medium Sand",	"productID":"84828", "desc":"medium with neutral undertones", 			"rgb": "BF9268", "L": 60.00, "H":0.0655688727},
+				{"i": 10, "name": "Medium Warm",	"productID":"84831", "desc":"medium tan with golden undertone", 		"rgb": "CA9D75", "L": 62.67, "H":0.0744615212},
+				{"i":  9, "name": "Medium Neutral",	"productID":"84830", "desc":"medium tan with warm undertones", 			"rgb": "BF9776", "L": 63.40, "H":0.0634299473},
+				{"i":  8, "name": "Light Beige",	"productID":"84826", "desc":"light with golden beige undertones", 		"rgb": "BE9270", "L": 65.07, "H":0.0775925749},
+				{"i":  7, "name": "Medium Peach",	"productID":"84827", "desc":"medium with peach undertones", 			"rgb": "D5A575", "L": 65.90, "H":0.0663784907},
+				{"i":  6, "name": "Light Peach",	"productID":"84825", "desc":"light with rosy peach undertones", 		"rgb": "C9AD90", "L": 66.77, "H":0.0597945514},
+				{"i":  5, "name": "Light Sand",		"productID":"84824", "desc":"light with neutral undertones", 			"rgb": "ECBD94", "L": 67.00, "H":0.0613715790},
+				{"i":  4, "name": "Fair Beige",		"productID":"84822", "desc":"fair with neutral undertones", 			"rgb": "E1B7A7", "L": 68.73, "H":0.0552287179},
+				{"i":  3, "name": "Light Ivory",	"productID":"84823", "desc":"light with neutral warm undertone", 		"rgb": "DFB8A7", "L": 69.60, "H":0.0617387137},
+				{"i":  2, "name": "Fair Warm",		"productID":"84821", "desc":"fair with yellow undertones", 				"rgb": "EDC8A3", "L": 71.77, "H":0.0646283218},
+				{"i":  1, "name": "Fair Rose",		"productID":"84820", "desc":"fair with pink undertones", 				"rgb": "D3BBA8", "L": 72.70, "H":0.0551362106}
+			],
+			"gridMatcher": [
+				{ "range.L": [72, 1000], "group": [
+					{ "H": 0.0551362106, "shade": 1, "friends": [] } ]
+				},
+				{ "range.L": [67,72], "group": [
+					{ "H": 0.0615143684, "shade": 4, "friends": [] },
+					{ "H": 0.0617387137, "shade": 3, "friends": [] },
+					{ "H": 0.0646283218, "shade": 2, "friends": [] } ]
+				},
+				{ "range.L": [65,67], "group": [
+					{ "H": 0.0597945514, "shade": 6, "friends": [] },
+					{ "H": 0.0613715790, "shade": 5, "friends": [] },
+					{ "H": 0.0663784907, "shade": 7, "friends": [] } ]
+				},
+				{ "range.L": [62,65], "group": [
+					{ "H": 0.0579927722, "shade": 9, "friends": [] },
+					{ "H": 0.0698873641, "shade": 8, "friends": [] } ]
+				},
+				{ "range.L": [60,62], "group": [
+					{ "H": 0.0582551698, "shade": 12, "friends": [] },
+					{ "H": 0.0655688727, "shade": 11, "friends": [] },
+					{ "H": 0.0744615212, "shade": 10, "friends": [] } ]
+				},
+				{ "range.L": [57,60], "group": [
+					{ "H": 0.0655430231, "shade": 14, "friends": [] },
+					{ "H": 0.0693559650, "shade": 13, "friends": [] } ]
+				},
+				{ "range.L": [54,57], "group": [
+					{ "H": 0.0576903638, "shade": 17, "friends": [] },
+					{ "H": 0.0633577373, "shade": 16, "friends": [] },
+					{ "H": 0.0704576317, "shade": 15, "friends": [] } ]
+				},
+				{ "range.L": [53,54], "group": [
+					{ "H": 0.0620659612, "shade": 19, "friends": [] },
+					{ "H": 0.0703459528, "shade": 18, "friends": [] } ]
+				},
+				{ "range.L": [51,54], "group": [
+					{ "H": 0.0616336471, "shade": 21, "friends": [] },
+					{ "H": 0.0644320662, "shade": 20, "friends": [] } ]
+				},
+				{ "range.L": [45,51], "group": [
+					{ "H": 0.0589979066, "shade": 22, "friends": [] } ]
+				},
+				{ "range.L": [40,45], "group": [
+					{ "H": 0.0579498772, "shade": 23, "friends": [] } ]
+				},
+				{ "range.L": [0,40], "group": [
+					{ "H": 0.0564649663, "shade": 24, "friends": [] }]
+				}
+			]
+		},
+		"Elf Halo Glow Skin Tint" : {
+			"official":"Halo Glow Skin Tint SPF 50",
+			"desc": "{Halo Glow Skin Tint SPF 50 description}",
+			"familyID": "300252",
+			"colName": "HaloGlowSkinTint",
+			"matchingLines": [-44.33639, 1.7672, 0.0],
+			"shadeMatcher": [
+				{"i":1,	"name":"1 Fair Neutral",	"productID":"84504UP","rgb":"d4c2b4","H":0.079057,	"L":75.73,	"desc":""},
+				{"i":2,	"name":"2 Fair Warm",		"productID":"84505UP","rgb":"e2d2c3","H":0.074716,	"L":78.23,	"desc":""},
+				{"i":3,	"name":"3 Fair Cool",		"productID":"84506UP","rgb":"dfcec6","H":0.056166,	"L":77.33,	"desc":""},
+				{"i":4,	"name":"4 Light Neutral",	"productID":"84507UP","rgb":"cfbaa7","H":0.076293,	"L":66.4,	"desc":""},
+				{"i":5,	"name":"5 Light Warm",		"productID":"84508UP","rgb":"c6b49e","H":0.084401,	"L":65.47,	"desc":""},
+				{"i":6,	"name":"6 Light Cool",		"productID":"84509UP","rgb":"d6c1ae","H":0.068499,	"L":64.7,	"desc":""},
+				{"i":7,	"name":"7 Medium Warm",		"productID":"84510UP","rgb":"d5b9a1","H":0.07342,	"L":60.13,	"desc":""},
+				{"i":8,	"name":"8 Medium Neutral",	"productID":"84511UP","rgb":"cdb29f","H":0.067514,	"L":55.9,	"desc":""},
+				{"i":9,	"name":"9 Medium Cool",		"productID":"84512UP","rgb":"c0a391","H":0.062246,	"L":57.4,	"desc":""},
+				{"i":10,"name":"10 Tan Neutral",	"productID":"84513UP","rgb":"c5a691","H":0.066614,	"L":48.13,	"desc":""},
+				{"i":11,"name":"11 Tan Warm",		"productID":"84514UP","rgb":"b89984","H":0.062504,	"L":49.17,	"desc":""},
+				{"i":12,"name":"12 Tan Cool",		"productID":"84515UP","rgb":"be9786","H":0.057205,	"L":43.33,	"desc":""},
+				{"i":13,"name":"13 Deep Neutral",	"productID":"84516UP","rgb":"98786c","H":0.049365,	"L":34.97,	"desc":""},
+				{"i":14,"name":"14 Deep Warm",		"productID":"84517UP","rgb":"87665c","H":0.06169,	"L":34.23,	"desc":""},
+				{"i":15,"name":"15 Deep Cool",		"productID":"84518UP","rgb":"856056","H":0.053749,	"L":32.8,	"desc":""},
+				{"i":16,"name":"16 Rich Cool",		"productID":"84519UP","rgb":"735754","H":0.050881,	"L":29.07,	"desc":""},
+				{"i":17,"name":"17 Rich Warm",		"productID":"84520UP","rgb":"705753","H":0.063536,	"L":30,		"desc":""},
+				{"i":18,"name":"18 Rich Neutral",	"productID":"84521UP","rgb":"5d504c","H":0.05762,	"L":26.73,	"desc":""}
+			],
+			"gridMatcher":[
+				{"range.L":[73,1000],"group": [
+					{"H":0.056166,"shade":3,"friends":[1,2]},
+					{"H":0.074716,"shade":2,"friends":[1,3]},
+					{"H":0.079057,"shade":1,"friends":[2]} ]
+				},
+				{"range.L":[60,73],"group":[
+					{"H":0.068499,"shade":6,"friends":[5,7]},
+					{"H":0.076293,"shade":4,"friends":[5,6]},
+					{"H":0.084401,"shade":5,"friends":[4,6]} ]
+				},
+				{"range.L":[57,60],"group":[{
+					"H":0.07342,"shade":7,"friends":[6,8]} ]
+				},
+				{"range.L":[52,57],"group":[
+					{"H":0.062246,"shade":9,"friends":[8,7]},
+					{"H":0.067514,"shade":8,"friends":[9,7]} ]
+				},
+				{"range.L":[46,52],"group":[
+					{"H":0.062504,"shade":11,"friends":[10,12]},
+					{"H":0.066614,"shade":10,"friends":[11,9]} ]
+				},
+				{"range.L":[39,46],"group":[
+					{"H":0.057205,"shade":12,"friends":[13,11]}
+				]},
+				{"range.L":[32,39],"group":[
+					{"H":0.049365,"shade":13,"friends":[14,12]},
+					{"H":0.06169,"shade":14,"friends":[13,15]} ]
+				},
+				{"range.L":[29,32],"group":[
+					{"H":0.053749,"shade":15,"friends":[13,14]}	]
+				},
+				{"range.L":[26,29],"group":[
+					{"H":0.050881,"shade":16,"friends":[17,15]},
+					{"H":0.063536,"shade":17,"friends":[16,18]}	]
+				},
+				{"range.L":[0,26],"group":[
+					{"H":0.05762,"shade":18,"friends":[17,16]}
+				]}
+			]
+		},
+		"Halo Glow" : {
+			"official":"Halo Glow Liquid Filter",
+			"desc": "{Halo Glow Liquid Filter description}",
+			"familyID": "300211",
+			"colName": "HaloGlow",
+			"matchingLines": [5.330961134988614, 1.0238366326541832, 0.0],
+			"shadeMatcher": [
+				{"i": 15, "name": "00 Fair Neutral",			"productID":"83562", "official":"0 Fair", 			"desc":"Neutral",		"rgb": "e4c3a4", "L": 76.57, "H":0.0897362935},
+				{"i": 14, "name": "0 Fair Neutral Warm",		"productID":"83565", "official":"0 Fair", 			"desc":"Neutral Warm",	"rgb": "dab69f", "L": 76.60, "H":0.0647756202},
+				{"i": 13, "name": "0.5 Fair Cool", 				"productID":"83566", "official":"0.5 Fair", 		"desc":"Cool",			"rgb": "d3ae98", "L": 73.90, "H":0.0630584470},
+				{"i": 12, "name": "1 Fair Neutral Peach",		"productID":"82113", "official":"1 Fair", 			"desc":"Neutral Peach",	"rgb": "eac6ac", "L": 73.73, "H":0.0602333379},
+				{"i": 11, "name": "2 Fair/Light Neutral Warm", 	"productID":"82114", "official":"2 Fair/Light", 	"desc":"Neutral Warm",	"rgb": "ddc1a6", "L": 70.83, "H":0.0672088056},
+				{"i": 10, "name": "3 Light/Medium Cool", 		"productID":"82115", "official":"3 Light/Medium", 	"desc":"Cool",			"rgb": "d7ad91", "L": 66.70, "H":0.0551725851},
+				{"i":  9, "name": "3.5 Medium Neutral Olive", 	"productID":"83567", "official":"3.5 Medium", 		"desc":"Neutral Olive",	"rgb": "be9983", "L": 66.17, "H":0.0636848768},
+				{"i":  8, "name": "4 Medium Neutral", 			"productID":"82116", "official":"4 Medium", 		"desc":"Neutral",		"rgb": "bf926e", "L": 64.17, "H":0.0656606140},
+				{"i":  7, "name": "5 Medium/Tan Warm",			"productID":"82117", "official":"5 Medium/Tan", 	"desc":"Warm",			"rgb": "bf9667", "L": 59.70, "H":0.0662903330},
+				{"i":  6, "name": "5.5 Medium/Tan Neutral Warm","productID":"83563", "official":"5 Medium/Tan", 	"desc":"Neutral Warm",	"rgb": "af7843", "L": 56.10, "H":0.0832859463},
+				{"i":  5, "name": "6 Tan/Deep Warm", 			"productID":"82118", "official":"6 Tan/Deep", 		"desc":"Warm",			"rgb": "96613f", "L": 52.40, "H":0.0661964709},
+				{"i":  4, "name": "6.5 Deep Warm", 				"productID":"83564", "official":"6 Deep", 			"desc":"Warm",			"rgb": "9d5c28", "L": 49.60, "H":0.0840845362},
+				{"i":  3, "name": "7 Deep/Rich Cool", 			"productID":"82119", "official":"7 Deep/Rich", 		"desc":"Cool",			"rgb": "855439", "L": 46.13, "H":0.0626748420},
+				{"i":  2, "name": "8 Rich Cool", 				"productID":"82120", "official":"8 Rich", 			"desc":"Cool",			"rgb": "6b3f2a", "L": 43.70, "H":0.0578444700},
+				{"i":  1, "name": "8.5 Rich Neutral Warm", 		"productID":"83568", "official":"8.5 Rich",	 		"desc":"Neutral Warm",	"rgb": "74594f", "L": 40.33, "H":0.0465626177}
+			],
+			"gridMatcher":[
+				{"range.L":[75,1000],"group": [
+					{"H":0.0647756202,"shade":14,"friends":[13,15]},
+					{"H":0.0897362935,"shade":15,"friends":[14]} ]
+				},
+				{"range.L":[71,75],"group":[
+					{"H":0.0602333379,"shade":12,"friends":[13]},
+					{"H":0.0630584470,"shade":13,"friends":[14,12]} ]
+				},
+				{"range.L":[68,71],"group":[{
+					"H":0.0672088056,"shade":11,"friends":[13]} ]
+				},
+				{"range.L":[62,68],"group":[
+					{"H":0.0551725851,"shade":10,"friends":[9]},
+					{"H":0.0656606140,"shade":8,"friends":[9]},
+					{"H":0.0636848768,"shade":9,"friends":[8]} ]
+				},
+				{"range.L":[58,62],"group":[
+					{"H":0.0662903330,"shade":7,"friends":[8]} ]
+				},
+				{"range.L":[55,58],"group":[
+					{"H":0.0832859463,"shade":6,"friends":[]}
+				]},
+				{"range.L":[51,55],"group":[
+					{"H":0.0661964709,"shade":5,"friends":[4]},
+					{"H":0.0840845362,"shade":4,"friends":[5]} ]
+				},
+				{"range.L":[47,51],"group":[
+					{"H":0.0626748420,"shade":3,"friends":[]}	]
+				},
+				{"range.L":[42,47],"group":[
+					{"H":0.0578444700,"shade":2,"friends":[16,18]}	]
+				},
+				{"range.L":[0,42],"group":[
+					{"H":0.0465626177,"shade":1,"friends":[]}
+				]}
+			]
+		}
+	}
+}
