@@ -1,0 +1,1530 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RingoAI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+import AVKit
+import Accelerate
+import AudioUnit
+import BackgroundTasks
+import CallKit
+import CommonCrypto
+import CoreGraphics
+import CoreImage
+import CoreLocation
+import CoreMedia
+import CoreServices
+import CoreVideo
+import CryptoKit
+import Dispatch
+import Foundation
+import Intents
+import MediaAccessibility
+import MobileCoreServices
+import Network
+@_exported import RingoAI
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+import Accelerate.vImage
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class LayoutView : UIKit.UIView {
+  @objc public enum Axis : Swift.Int {
+    case vertical
+    case horizontal
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public enum Distribution : Swift.Int {
+    case iterate
+    case justify
+    case resizeSubs
+    case resizeParent
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var axis: RingoAI.LayoutView.Axis {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var subaxis: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var subscale: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var distribution: RingoAI.LayoutView.Distribution {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var margins: UIKit.UIEdgeInsets {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var gap: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didAddSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willRemoveSubview(_ subview: UIKit.UIView)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class DevResultsVC : UIKit.UIViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension RingoAI.DevResultsVC : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tv: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tv: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension RingoAI.DevResultsVC : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tv: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class LayoutButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency public func base()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class Checkbox : RingoAI.LayoutButton {
+  @_Concurrency.MainActor @preconcurrency override public func base()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func sizeThatFits(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class RadioButton : RingoAI.LayoutButton {
+  @_Concurrency.MainActor @preconcurrency override public func base()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Undertone {
+  @objc deinit
+}
+extension UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func localizeView()
+}
+extension UIKit.UILabel {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  #endif
+}
+extension UIKit.UITextView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  #endif
+}
+extension UIKit.UITextField {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  #endif
+}
+extension UIKit.UIButton {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func localize(bundle: Foundation.Bundle? = nil)
+  #endif
+}
+extension UIKit.UIColor {
+  @objc public static func appColor() -> UIKit.UIColor
+  @objc public static func appWhiteColor() -> UIKit.UIColor
+  @objc public static func appBlackColor() -> UIKit.UIColor
+  @objc public static func appBackgroundColor() -> UIKit.UIColor
+  @objc public static func appDisabledColor() -> UIKit.UIColor
+  @objc public static func appVideoBGColor() -> UIKit.UIColor
+  @objc public static func appWarningColor() -> UIKit.UIColor
+  convenience public init(hex: Swift.String, alpha: CoreFoundation.CGFloat = 1.0)
+  convenience public init(hex: Swift.UInt32, alpha: CoreFoundation.CGFloat = 1)
+  @objc dynamic public var image: UIKit.UIImage {
+    @objc get
+  }
+}
+extension UIKit.UIViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func createBottomButtonBar(backText: Swift.String, backAction: ObjectiveC.Selector? = nil, rightText: Swift.String? = nil, rightAction: ObjectiveC.Selector? = nil, rightLongAction: ObjectiveC.Selector? = nil, rightMultiTapAction: ObjectiveC.Selector? = nil) -> UIKit.UIView
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func createBottomNavBar(backText: Swift.String, backAction: ObjectiveC.Selector? = nil, rightText: Swift.String? = nil, rightImage: Swift.String? = nil, rightAction: ObjectiveC.Selector? = nil, rightLongAction: ObjectiveC.Selector? = nil, rightMultiTapAction: ObjectiveC.Selector? = nil) -> UIKit.UIView
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public static func fromXIB() -> Self?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public static func controller(edges: Swift.Bool = false) -> Self?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public static func fwcontroller() -> Self?
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func simpleBackNav()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func fakeBackNav(onView: UIKit.UIView? = nil, color: UIKit.UIColor = .white)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func updateFakeBack(onView: UIKit.UIView? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func installSwipeBackNav()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func swipeBackNav()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func areWeTop() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func areWeInNav() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func backNav()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func fakeCloseButton(onView: UIKit.UIView? = nil)
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func doClose()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func processingUp()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func processingUp(text: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func processingUpLabel() -> UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func updateProcessingLabel(notification: Foundation.Notification)
+  @_Concurrency.MainActor @preconcurrency public func processingDown()
+  @_Concurrency.MainActor @preconcurrency public func processesingDownAfter(_ wait: Foundation.TimeInterval)
+  @_Concurrency.MainActor @preconcurrency public func show(error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency public func show(warning: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func safeshow(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show(_ title: Swift.String, message: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show_buttons(_ title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: @escaping (UIKit.UIAlertAction) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func dismiss(completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func currentEditFrame() -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency public func installEndEditTouch(onView: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func endEditTouch(_ gr: UIKit.UITapGestureRecognizer)
+  @_Concurrency.MainActor @preconcurrency public func attachKeyboard()
+  @_Concurrency.MainActor @preconcurrency public func detachKeyboard()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func keyboard(note: Foundation.Notification)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func resizingKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, fRect: CoreFoundation.CGRect, lRect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func didResizeKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, rect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  #endif
+}
+public func isBetween<T>(a: T, mid: T, b: T) -> Swift.Bool where T : Swift.Comparable
+public func pin<T>(a: T, mid: T, b: T) -> T where T : Swift.Comparable
+public func lerp<T>(a: T, b: T, range: T) -> T where T : Swift.SignedNumeric
+public func portion(a: Swift.Double, b: Swift.Double, value: Swift.Double) -> Swift.Double
+public func portion(a: Swift.Float, b: Swift.Float, value: Swift.Float) -> Swift.Float
+public func off_center(a: Swift.Double, b: Swift.Double, value: Swift.Double) -> Swift.Double
+extension Swift.Comparable {
+  public func isBetween(a: Self, b: Self) -> Swift.Bool
+}
+@objc public class WebService : ObjectiveC.NSObject {
+  public static var apiRoot: Swift.String?
+  public var parameters: [Swift.String : Any]?
+  public var form: [Swift.String : Any]?
+  public var data: Foundation.Data?
+  public var headers: [Swift.String : Swift.String]
+  public var api: Swift.String?
+  public var token: Swift.String?
+  public var apiSpecial: Swift.String?
+  public var id: Swift.String?
+  public var object: Swift.String?
+  public var objectId: Swift.String?
+  public var start: Swift.Int
+  public var limit: Swift.Int
+  public var since: Swift.Double
+  public var elapsed: Foundation.TimeInterval {
+    get
+  }
+  public var transferred: Swift.Int {
+    get
+  }
+  public var timeout: Foundation.TimeInterval {
+    get
+    set
+  }
+  public var expectingJSON: Swift.Bool {
+    get
+    set
+  }
+  public static func GET() -> RingoAI.WebService
+  public static func HEAD() -> RingoAI.WebService
+  public static func PATCH() -> RingoAI.WebService
+  public static func POST() -> RingoAI.WebService
+  public static func PUT() -> RingoAI.WebService
+  public static func CONNECT() -> RingoAI.WebService
+  public static func DELETE() -> RingoAI.WebService
+  public static func OPTIONS() -> RingoAI.WebService
+  public static func TRACE() -> RingoAI.WebService
+  public init(_ method: RingoAI.HTTPMethod)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func start(callback: @escaping (RingoAI.JSON?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func start(download: Foundation.URL, contentType: Swift.String, callback: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  public func cancel()
+  @objc deinit
+}
+@objc public enum BGMode : Swift.Int {
+  case clear
+  case translucent
+  case opaque
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AppBrightnessMode : Swift.Int {
+  case automatic
+  case manual
+  case hybrid
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(string: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BWExposures : Swift.Int {
+  case twoBW
+  case threeBW
+  case autoBW
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum GeoMath : Swift.Int, Swift.Comparable {
+  public static func < (lhs: RingoAI.GeoMath, rhs: RingoAI.GeoMath) -> Swift.Bool
+  case nonGeo
+  case geo
+  case ml
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class Settings : ObjectiveC.NSObject {
+  public static var capture_width: Swift.Double
+  public static var capture_height: Swift.Double
+  public static var capture_fov: Swift.Double
+  public static func applyTaskSettings(_ task: RingoAI.JSON)
+  @objc public static var location: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var useGPS: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var gpsMethod: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var uxLminmax: [Swift.Double] {
+    @objc get
+  }
+  @objc public static var uxHminmax: [Swift.Double] {
+    @objc get
+  }
+  @objc public static var valN: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var valLcut: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var valLrange: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var blownOutThreshold: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var ROI_hist_thresholds: [Swift.Int] {
+    @objc get
+    @objc set
+  }
+  @objc public static var ROI_hist_portions: [Swift.Double] {
+    @objc get
+    @objc set
+  }
+  @objc public static var lastBBStackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var lastWWStackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var lastBB2StackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var lastWW2StackExposureRatio: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMax: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMin2: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackExposureRatioMax2: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var pupilMinValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var pupilMaxValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var utDiffLimit: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var appBrightness: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackBrightness: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var caveValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var antiCaveValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var max_pupil_depth_diff: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var RingoAI_Bad_TD_Limit: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var hideConsoleLog: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var requireRAW: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var requireFrontCamera: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackBriOne: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var whiteStackDrift: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var whiteStackDriftValue: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var appBrightnessMode: RingoAI.AppBrightnessMode {
+    @objc get
+    @objc set
+  }
+  @objc public static var distanceCorrection: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var name: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var devName: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var email: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var caveTiming: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var roiColorConstantVersion: Swift.Int {
+    @objc get
+    @objc set
+  }
+  public static var bwExposures: RingoAI.BWExposures {
+    get
+    set
+  }
+  @objc public static var rollingLandmarkCount: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var brandIndex: Swift.Int {
+    @objc get
+  }
+  @objc public static var condition: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var devCondition: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var landmarkTime: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxHistory: Swift.Int {
+    @objc get
+    @objc set
+  }
+  public static func hwFoV() -> (Swift.Double, Swift.Double)
+  public static func swFoV(phone: Swift.String) -> Swift.Double
+  public static func setSwFoV(phone: Swift.String, value: Swift.Double)
+  @objc public static var hardwareFoVscalar: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var hardwareFoV: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var f012: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var forceStackBri: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var forceAppBri: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var WatchBriOne: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var WatchBriTwo: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  public static var geoMath: RingoAI.GeoMath {
+    get
+    set
+  }
+  @objc public static var movementTalk: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var showOldResults: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var postNotifications: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var temperature: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackLightAlpha: Swift.Float {
+    @objc get
+    @objc set
+  }
+  @objc public static var minEXPISO: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxEXPISO: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var hud: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var saveThumbnail: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var engineLights: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var capture_mosaic: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var nan_filter: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var ogPOST: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var pauseAWS: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var hideSessions: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var saveTempFiles: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var manualCapture: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var customerId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var launchId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var foregroundId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var handsetId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var sessionId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var clientId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var currentISO: Swift.Float {
+    @objc get
+    @objc set
+  }
+  public static var currentExposureDuration: CoreMedia.CMTime {
+    get
+    set
+  }
+  public static var exposureMode: AVFoundation.AVCaptureDevice.ExposureMode {
+    get
+    set
+  }
+  @objc public static var stackTimeBefore: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var timeAfterConfig: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var saveWithISOEXP: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var fileFormat: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var webTesting: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var pollingTime: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var overlayDepthData: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackCMY: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var showSessionID: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var nonRAWwithWarning: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var magic: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var rootURI: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var getURI: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var postURI: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var previewFill: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var binaryDepthDataFormat: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var textDepthDataFormat: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var depthFiltering: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var usePreviewLandmarks17: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var visLandmarks: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var showFHChin: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var is3DCaptureEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var enableMultiRefImageCapture: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var angleCalcWithFiles: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var minPitch: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxPitch: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var minRoll: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxRoll: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var minYaw: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxYaw: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var caveAlertDelay: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var minCaveD: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var maxCaveD: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackCaptureMinDistance: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var stackCaptureMaxDistance: Swift.Double {
+    @objc get
+    @objc set
+  }
+  public static var autoFocusMode: AVFoundation.AVCaptureDevice.FocusMode {
+    get
+    set
+  }
+  @objc public static var phoneTiltMax: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var phoneTiltTime: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyTopFarMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyBottomFarMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyLeftFarMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyRightFarMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyTopNearMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyBottomNearMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyLeftNearMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyRightNearMargin: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyFarDistance: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var xyNearDistance: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc public static var showXYTargetCenter: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  public static var autoFocusRangeRestriction: AVFoundation.AVCaptureDevice.AutoFocusRangeRestriction {
+    get
+    set
+  }
+  public static func getDoubleValue(_ key: Swift.String, def: Swift.Double = 0.0) -> Swift.Double
+  public static func setDoubleValue(_ key: Swift.String, _ value: Swift.Double)
+  public static func hasDoubleValue(_ key: Swift.String) -> Swift.Bool
+  public static func getBoolValue(_ key: Swift.String, def: Swift.Bool = false) -> Swift.Bool
+  public static func setBoolValue(_ key: Swift.String, _ value: Swift.Bool)
+  public static func getPermBoolValue(_ key: Swift.String, def: Swift.Bool = false) -> Swift.Bool
+  public static func setPermBoolValue(_ key: Swift.String, _ value: Swift.Bool)
+  public static func getPermUInt64Value(_ key: Swift.String, def: Swift.UInt64 = 0) -> Swift.UInt64
+  public static func setPermUInt64Value(_ key: Swift.String, _ value: Swift.UInt64)
+  @objc public static func setUserID(_ userID: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public let kGPS_Admin: Swift.String
+public let kGPS_Satellite: Swift.String
+@_inheritsConvenienceInitializers @objc public class Goodies : ObjectiveC.NSObject {
+  public static var videoFormat: Swift.String
+  @objc public static func ccode() -> Swift.String
+  @objc public static func clearGPS()
+  @objc public static func resetGPSmethod()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func setLocation(_ locationName: Swift.String?)
+  #endif
+  @objc public static func updateGPS(_ loc: _LocationEssentials.CLLocation)
+  public static func ccFilter(_ cc: Swift.String) -> Swift.String
+  @objc public static func defCC() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func os_table() -> [Swift.String]?
+  #endif
+  @objc public static func current_os(_ value: Swift.Int)
+  @objc public static func APPidentifier() -> Swift.String
+  @objc public static func SDKversion(addname: Swift.Bool = false) -> Swift.String
+  @objc public static func SDKSupportVersion(addname: Swift.Bool = false) -> Swift.String
+  @objc public static func MFGSupportVersion(addname: Swift.Bool = false) -> Swift.String
+  @objc public static func APPversion(addname: Swift.Bool = false) -> Swift.String
+  @objc public static func OSversion() -> Swift.String
+  @objc public static func supportedProducts() -> [Swift.String]
+  @objc public static func supportedFamilyIDs() -> [Swift.String]
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.Date {
+  public init(epochMS: Swift.UInt64)
+  public var epochMS: Swift.UInt64 {
+    get
+  }
+  public var local: Swift.String {
+    get
+  }
+}
+extension Foundation.NSDate {
+  public var local: Swift.String {
+    get
+  }
+}
+public func debounce(delay: Foundation.TimeInterval = 1) -> Swift.Bool
+public func dprint_clear(sessionID: Swift.String)
+public func dprint_existing(_ url: Foundation.URL, _ sessionID: Swift.String) -> Foundation.URL
+public func dprint_url(sessionID: Swift.String) -> Foundation.URL
+#if compiler(>=5.3) && $NonescapableTypes
+public func dprint(_ str: Swift.String, log: Foundation.URL? = nil, file: Swift.Bool = true)
+#endif
+extension Swift.Double {
+  public var minutes: Swift.Double {
+    get
+  }
+  public var hours: Swift.Double {
+    get
+  }
+  public var degrees: Swift.Double {
+    get
+  }
+  public var radians: Swift.Double {
+    get
+  }
+  public mutating func clamp(min: Swift.Double, max: Swift.Double)
+  public func between(min: Swift.Double, max: Swift.Double) -> Swift.Bool
+}
+extension Swift.Float {
+  public var degrees: Swift.Float {
+    get
+  }
+  public var radians: Swift.Float {
+    get
+  }
+  public mutating func clamp(min: Swift.Float, max: Swift.Float)
+}
+extension CoreFoundation.CGFloat {
+  public mutating func clamp(min: CoreFoundation.CGFloat, max: CoreFoundation.CGFloat)
+}
+extension Foundation.NSURL {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func creation() -> Foundation.Date?
+  #endif
+}
+public func buildDate() -> Foundation.Date
+@objc @_inheritsConvenienceInitializers public class Bridge : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public class func JSONData(_ name: Swift.String, newest: Swift.Bool) -> RingoAI.JSON?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class hudLabel : UIKit.UILabel {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func drawText(in rect: CoreFoundation.CGRect)
+  @objc deinit
+}
+public struct LabFloat {
+}
+public struct RGBFloat : Swift.Hashable {
+  public var red: Swift.Float
+  public var green: Swift.Float
+  public var blue: Swift.Float
+  public var description: Swift.String {
+    get
+  }
+  public var percent: Swift.String {
+    get
+  }
+  public var json: Swift.String {
+    get
+  }
+  public var uicolor: UIKit.UIColor {
+    get
+  }
+  public var raw_uicolor: UIKit.UIColor {
+    get
+  }
+  public var redByte: Swift.UInt8 {
+    get
+  }
+  public var greenByte: Swift.UInt8 {
+    get
+  }
+  public var blueByte: Swift.UInt8 {
+    get
+  }
+  public var companded: RingoAI.RGBFloat {
+    get
+  }
+  public init()
+  public init(r: Swift.Float, g: Swift.Float, b: Swift.Float)
+  public init(r: Swift.Double, g: Swift.Double, b: Swift.Double)
+  public init(rByte: Swift.UInt8, gByte: Swift.UInt8, bByte: Swift.UInt8)
+  public init(rgb: [Swift.Double])
+  public init(rgb: [Swift.Int])
+  public init(lab: RingoAI.LabFloat)
+  public init(lab: [Swift.Double])
+  public init(json: [Swift.Float])
+  public static func == (a: RingoAI.RGBFloat, b: RingoAI.RGBFloat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Foundation.NSNotification.Name {
+  public static let kChangingBrand: Foundation.NSNotification.Name
+}
+@_hasMissingDesignatedInitializers @objc open class Location : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class ShadeMatcher : ObjectiveC.NSObject {
+  @objc public static var current: RingoAI.ShadeMatcher {
+    @objc get
+  }
+  public static func verifyAppBrand()
+  public static func reload()
+  @objc open var locationNames: [Swift.String] {
+    @objc get
+  }
+  @objc open var defaultProduct: Swift.String {
+    @objc get
+  }
+  @objc open var productLines: [Swift.String]
+  @objc open var deepProductLines: [RingoAI.RingoProduct]
+  @objc open var familyIDTable: [Swift.String : Swift.String]
+  @objc public func name() -> Swift.String
+  @objc public func uxname() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  open func productImage(familyId: Swift.String, shadeId: Swift.String) -> UIKit.UIImage?
+  #endif
+  @objc public func validate_decision()
+  @objc public func filterMatch(_ result: RingoAI.RingoMatch) -> RingoAI.RingoMatch
+  public func getMatchingLines(_ pli: Swift.Int) -> [Swift.Double]
+  @objc public func productAndSKUinStore(product: Swift.String, SKU: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func metaForProduct(_ product: Swift.String) -> [Swift.String : Any]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func metaForFamilyID(_ familyID: Swift.String) -> [Swift.String : Any]?
+  #endif
+  @objc public func familyIDavailable(_ familyID: Swift.String) -> Swift.Bool
+  @objc public func translate_shade(product: Swift.String, shade: Swift.String) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func familyIDfromProduct(_ product: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func productFromFamilyID(_ familyID: Swift.String) -> Swift.String?
+  #endif
+  @objc public func familySKUs(_ family: Swift.String) -> [Swift.String : RingoAI.JSON]
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func shade(_ familyID: Swift.String, shadeID: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open func ccFromLocation(_ name: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open func nearestLocation(_ gps: _LocationEssentials.CLLocation, cc: Swift.String) -> Swift.String?
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc open class GridMatcher : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc open class GridGroup : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency public func style_rounded_white(fit: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func style_rounded_black(fit: Swift.Bool = false)
+}
+@_inheritsConvenienceInitializers @objc public class FileManagerHelper : ObjectiveC.NSObject {
+  @objc public static func sessionsDirectory() -> Foundation.URL
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TaskSettings {
+  public var taskID: Swift.Int
+  public var exposureMode: AVFoundation.AVCaptureDevice.ExposureMode
+  public var autoFocusMode: AVFoundation.AVCaptureDevice.FocusMode
+  public var autoFocusRestriction: AVFoundation.AVCaptureDevice.AutoFocusRangeRestriction
+  public var depthFilter: Swift.Bool
+  public var depthDataBinary: Swift.Bool
+  public var runningStack: Swift.Bool
+  public var settingsCheck: Swift.Bool
+  public var stackTiming: Swift.Double
+  public var timeAfterConfig: Swift.Double
+  public var pollingTime: Swift.Double
+  public var nonRawFormat: Swift.String
+  public var captureExposures: [RingoAI.CaptureExposure]
+  public var stackExposures: [Swift.String : RingoAI.CaptureExposure]
+  public var adjustVideoDevice: Swift.Bool
+  public var temperature: Swift.Float
+  public var myskinauto: Swift.Bool
+  public var capturePixelBuffer: Swift.Bool
+  public var json: RingoAI.JSON?
+  public var tag: Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class JSONSettings : ObjectiveC.NSObject {
+  public var currentTaskID: Swift.Int {
+    get
+    set
+  }
+  public var newDataBlock: ((RingoAI.TaskSettings) -> Swift.Void)?
+  @objc override dynamic public init()
+  public func manualCapture()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ColorCalculator : ObjectiveC.NSObject {
+  @objc public static func configure()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public let onlyUseProductsKey: Swift.String
+public let customerIdKey: Swift.String
+public let launchIdKey: Swift.String
+public let foregroundIdKey: Swift.String
+public let clientIdKey: Swift.String
+public let userIDKey: Swift.String
+public let productIDKey: Swift.String
+public let familyIDKey: Swift.String
+public let emailKey: Swift.String
+public let defaultProductKey: Swift.String
+public let defaultFamilyKey: Swift.String
+public let questionnaireKey: Swift.String
+public let chosenProductsKey: Swift.String
+public let timestampKey: Swift.String
+public let handsetIdKey: Swift.String
+public let categoryKey: Swift.String
+public let thermalKey: Swift.String
+public let devSettingskey: Swift.String
+public let detailsKey: Swift.String
+public let severityKey: Swift.String
+public let sessionIdKey: Swift.String
+public let meta_oneKey: Swift.String
+public let meta_twoKey: Swift.String
+public let poly_angleKey: Swift.String
+public let versionKey: Swift.String
+public let otherMathKey: Swift.String
+public let roiResultKey: Swift.String
+public let pydResultKey: Swift.String
+public let pupilDistanceKey: Swift.String
+public let dpryKey: Swift.String
+public let xyzKey: Swift.String
+public let expKey: Swift.String
+public let isoKey: Swift.String
+public let lastBrightnessKey: Swift.String
+public let brightnessKey: Swift.String
+public let lowPowerKey: Swift.String
+public let ambientKey: Swift.String
+public let deltaKey: Swift.String
+public let noseKey: Swift.String
+public let noseBoxKey: Swift.String
+public let stackExposureRatiosKey: Swift.String
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class SavvyView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func safeAreaInsetsDidChange()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func addSubview(_ view: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func insertSubview(_ view: UIKit.UIView, at index: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func insertSubview(_ view: UIKit.UIView, aboveSubview siblingSubview: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func insertSubview(_ view: UIKit.UIView, belowSubview siblingSubview: UIKit.UIView)
+  @objc deinit
+}
+extension Foundation.NSNotification.Name {
+  public static let kRingoAICameraUp: Foundation.NSNotification.Name
+  public static let kRingoAICameraDown: Foundation.NSNotification.Name
+}
+extension Foundation.NSNotification.Name {
+  public static let fcSubmitTask: Foundation.Notification.Name
+  public static let fcTaskComplete: Foundation.Notification.Name
+  public static let fcManualCapture: Foundation.Notification.Name
+  public static let fcCaptureInterruptus: Foundation.Notification.Name
+}
+public struct CaptureExposure {
+}
+public var originalBrightness: CoreFoundation.CGFloat
+public func thermals(_ i: Swift.Int) -> Swift.String
+public typealias FaceCaptureCallback = ([Swift.String : Any]?) -> Swift.Void
+extension RingoAI.FaceCapture : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ClarinsShadeMatcher : RingoAI.ShadeMatcher {
+  @objc override public func name() -> Swift.String
+  @objc override public func uxname() -> Swift.String
+  @objc public func shade_json_name() -> Swift.String
+  @objc deinit
+}
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var participates: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var latentSize: CoreFoundation.CGSize {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func lockLatent()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func lockLatentSubs()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func revertLatentSubs()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ChanelShadeMatcher : RingoAI.ShadeMatcher {
+  @objc override public func name() -> Swift.String
+  @objc override public func uxname() -> Swift.String
+  @objc public func shade_json_name() -> Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AssetsManager : ObjectiveC.NSObject {
+  @objc public static var shared: RingoAI.AssetsManager
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func image(product: Swift.String, shade: Swift.String) -> UIKit.UIImage?
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class ElfShadeMatcher : RingoAI.ShadeMatcher {
+  @objc override public func name() -> Swift.String
+  @objc override public func uxname() -> Swift.String
+  @objc public func shade_json_name() -> Swift.String
+  @objc deinit
+}
+public enum HTTPMethod : Swift.String {
+  case httpGET
+  case httpHEAD
+  case httpPATCH
+  case httpPOST
+  case httpPUT
+  case httpCONNECT
+  case httpDELETE
+  case httpOPTIONS
+  case httpTRACE
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public typealias JSON = [Swift.String : Any]
+public typealias HTTPParameters = [Swift.String : Any]
+extension Foundation.NSString {
+  @objc dynamic public func nslocalize() -> Swift.String
+  @objc dynamic public func localizefw() -> Swift.String
+}
+extension Swift.String {
+  public static var localizeTable: [Swift.String : Swift.String]
+  public subscript(value: Swift.Int) -> Swift.Character {
+    get
+  }
+  public func formatting(_ keyValues: [Swift.String : Swift.String]) -> Swift.String
+  public var quoted: Swift.String {
+    get
+  }
+  public var deviced: Swift.String {
+    get
+  }
+  public var sentence: Swift.String {
+    get
+  }
+  public var localize: Swift.String {
+    get
+  }
+  public var localizeAF: Swift.String {
+    get
+  }
+  public var localizefw: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func localize(bundle: Foundation.Bundle?) -> Swift.String
+  #endif
+  public var attributed: Foundation.NSMutableAttributedString {
+    get
+  }
+  public var jsonEscape: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var percentEscape: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var utf8Data: Foundation.Data? {
+    get
+  }
+  #endif
+  public var sha1: Swift.String {
+    get
+  }
+  public func substringWithRange<T>(_ range: Swift.Range<T>) -> Swift.String where T : Swift.Comparable
+  public func substring(loc: Swift.Int, len: Swift.Int) -> Swift.String
+  public func componentsSeparatedByString(_ sep: Swift.String) -> [Swift.String]
+  public func appendingFileExtension(_ ext: Swift.String) -> Swift.String
+  public var deletingFileExtension: Swift.String {
+    get
+  }
+  public func appendingPathComponent(_ comp: Swift.String) -> Swift.String
+  public var floatValue: Swift.Float {
+    get
+  }
+  public var integerValue: Swift.Int {
+    get
+  }
+  public var doubleValue: Swift.Double {
+    get
+  }
+  public var lastPathComponent: Swift.String {
+    get
+  }
+  public var deletingLastPathComponent: Swift.String {
+    get
+  }
+  public var fileExtension: Swift.String {
+    get
+  }
+  public static func secureRandom() -> Swift.String
+  public func isValidEmail() -> Swift.Bool
+  public func enumeration(_ array: [Swift.String]) -> Swift.Int
+}
+extension Swift.String {
+  public subscript(value: Foundation.NSRange) -> Swift.Substring {
+    get
+  }
+}
+extension Swift.String {
+  public subscript(value: Swift.CountableClosedRange<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.CountableRange<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeUpTo<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeThrough<Swift.Int>) -> Swift.Substring {
+    get
+  }
+  public subscript(value: Swift.PartialRangeFrom<Swift.Int>) -> Swift.Substring {
+    get
+  }
+}
+extension Foundation.NSMutableAttributedString {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var font: UIKit.UIFont? {
+    get
+    set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var color: UIKit.UIColor? {
+    get
+    set
+  }
+  #endif
+}
+extension CoreFoundation.CGRect {
+  public init(origin: CoreFoundation.CGPoint, radius: CoreFoundation.CGFloat)
+  public init(origin: CoreFoundation.CGPoint, cw: CoreFoundation.CGFloat, ch: CoreFoundation.CGFloat)
+  public func scale(_ s: CoreFoundation.CGSize) -> CoreFoundation.CGRect
+  public mutating func fitIn(_ parent: CoreFoundation.CGRect)
+  public mutating func fillIn(_ parent: CoreFoundation.CGRect)
+  public mutating func centerIn(_ parent: CoreFoundation.CGRect)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DevSettingsVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func resizingKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, fRect: CoreFoundation.CGRect, lRect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+extension UIKit.UIViewController : @retroactive UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public func hideKeyboardWhenTappedAround()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func dismissKeyboard()
+}
+public var currentlyWorking: Swift.Bool
+public var currentlyCancelling: Swift.Bool
+@_inheritsConvenienceInitializers @objc public class BackendObj : ObjectiveC.NSObject {
+  @objc public static func uploadStatus() -> [Swift.String : Any]
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.Dictionary {
+  public func multipartForm(_ boundary: Swift.String) -> Foundation.Data
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class StackView : RingoAI.LayoutView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+public var bwAutoExposureTwo: Swift.Bool
+public var lastHintAmbient: Swift.Bool
+@_inheritsConvenienceInitializers @objc open class FaceCaptureSW : ObjectiveC.NSObject {
+  @objc public var familyID: Swift.String
+  @objc public static var shared: RingoAI.FaceCaptureSW
+  @objc public static func resultsExited()
+  @objc public func requestGPS()
+  @objc public func startLocationManager()
+  @objc public static func hasAdminPage() -> ObjectiveC.ObjCBool
+  @objc public static func override_help(_ title: Swift.String, _ help: Swift.String)
+  @objc public static func override_localizations(_ table: [Swift.String : Swift.String])
+  @objc public static func metadata(_ meta_: [Swift.String : Any])
+  @objc public func defaultFamilyID() -> Swift.String
+  @objc public func setDefaultFamilyID(_ familyID: Swift.String)
+  @objc public func FCquestionnaire(_ answers: [Swift.Int], verbose: [[Swift.String : Any]], pre: [[Swift.String : Any]]) -> Swift.Bool
+  @objc public func FCsurvey(_ answers: RingoAI.JSON, sessionID: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func FCadminButtonPressed(_ sender: UIKit.UIView?, from: UIKit.UIViewController)
+  #endif
+  @objc public static func launched(_ production: Swift.Bool)
+  @objc public static func setDash(key: Swift.String, value: Swift.Double)
+  @objc public static func setDash(key: Swift.String, object: Any)
+  @objc public static func hudDash(_ string: Swift.String)
+  @objc public static func setMode(_ mode: RingoAI.AppBrightnessMode)
+  open func cancelProcessingInternal()
+  public func clearBriHistory()
+  public func resetStackBri()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
+  @objc public static func pushOnNav(_ navVC: UIKit.UINavigationController, animated: Swift.Bool = true)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func presentOnVC(_ targetVC: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  #endif
+  @objc public static func pushRestoreInstructions(_ navVC: UIKit.UINavigationController, animated: Swift.Bool = true)
+  @objc public static func popUX(_ navVC: UIKit.UINavigationController, animated: Swift.Bool = true)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension RingoAI.FaceCaptureSW : CallKit.CXCallObserverDelegate {
+  @objc dynamic public func callObserver(_ callObserver: CallKit.CXCallObserver, callChanged call: CallKit.CXCall)
+  public func askForLocation()
+}
+extension RingoAI.FaceCaptureSW : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+}
+extension Foundation.NSNotification.Name {
+  public static let kEXP_ISO_Notification: Foundation.NSNotification.Name
+}
+extension RingoAI.FaceCaptureSW {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func preflightRequirements() -> [Swift.String : Swift.String]?
+  #endif
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdminSettingsVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func resizingKeyboard(offset: CoreFoundation.CGFloat, first: Swift.Bool, last: Swift.Bool, fRect: CoreFoundation.CGRect, lRect: CoreFoundation.CGRect, info: [Swift.AnyHashable : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+extension RingoAI.LayoutView.Axis : Swift.Equatable {}
+extension RingoAI.LayoutView.Axis : Swift.Hashable {}
+extension RingoAI.LayoutView.Axis : Swift.RawRepresentable {}
+extension RingoAI.LayoutView.Distribution : Swift.Equatable {}
+extension RingoAI.LayoutView.Distribution : Swift.Hashable {}
+extension RingoAI.LayoutView.Distribution : Swift.RawRepresentable {}
+extension RingoAI.BGMode : Swift.Equatable {}
+extension RingoAI.BGMode : Swift.Hashable {}
+extension RingoAI.BGMode : Swift.RawRepresentable {}
+extension RingoAI.AppBrightnessMode : Swift.Equatable {}
+extension RingoAI.AppBrightnessMode : Swift.Hashable {}
+extension RingoAI.AppBrightnessMode : Swift.RawRepresentable {}
+extension RingoAI.BWExposures : Swift.Equatable {}
+extension RingoAI.BWExposures : Swift.Hashable {}
+extension RingoAI.BWExposures : Swift.RawRepresentable {}
+extension RingoAI.GeoMath : Swift.Hashable {}
+extension RingoAI.GeoMath : Swift.RawRepresentable {}
+extension RingoAI.HTTPMethod : Swift.Equatable {}
+extension RingoAI.HTTPMethod : Swift.Hashable {}
+extension RingoAI.HTTPMethod : Swift.RawRepresentable {}

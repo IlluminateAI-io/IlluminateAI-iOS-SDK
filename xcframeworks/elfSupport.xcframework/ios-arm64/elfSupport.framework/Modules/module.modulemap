@@ -1,0 +1,16 @@
+framework module elfSupport {
+	umbrella header "elfSupport.h"
+
+	export *
+	module * { export * }
+
+	explicit module Private {
+		header "fwSupport.h"
+		header "NSAttributedStringPlus.h"
+	}
+}
+
+module elfSupport.Swift {
+  header "elfSupport-Swift.h"
+  requires objc
+}
