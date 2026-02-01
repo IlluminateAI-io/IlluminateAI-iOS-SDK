@@ -458,6 +458,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "elfSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "elfSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -472,26 +492,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "elfSupport"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "elfSupport",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "elfSupport",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -555,324 +555,115 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "elfSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
-        "name": "UIColor",
-        "printedName": "UIColor",
+        "name": "SavvyIgnoreView",
+        "printedName": "SavvyIgnoreView",
         "children": [
           {
-            "kind": "Function",
-            "name": "appColor",
-            "printedName": "appColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE8appColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appWhiteColor",
-            "printedName": "appWhiteColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appWhiteColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE13appWhiteColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appBlackColor",
-            "printedName": "appBlackColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appBlackColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE13appBlackColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appBackgroundColor",
-            "printedName": "appBackgroundColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appBackgroundColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE18appBackgroundColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appDisabledColor",
-            "printedName": "appDisabledColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appDisabledColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE16appDisabledColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appVideoBGColor",
-            "printedName": "appVideoBGColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appVideoBGColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE15appVideoBGColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "appWarningColor",
-            "printedName": "appWarningColor()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appWarningColor",
-            "mangledName": "$sSo7UIColorC10elfSupportE15appWarningColorAByFZ",
-            "moduleName": "elfSupport",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hex:alpha:)",
+            "printedName": "init(frame:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
+                "name": "SavvyIgnoreView",
+                "printedName": "elfSupport.SavvyIgnoreView",
+                "usr": "c:@M@elfSupport@objc(cs)SavvyIgnoreView"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:So7UIColorC10elfSupportE3hex5alphaABSS_14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$sSo7UIColorC10elfSupportE3hex5alphaABSS_12CoreGraphics7CGFloatVtcfc",
+            "usr": "c:@M@elfSupport@objc(cs)SavvyIgnoreView(im)initWithFrame:",
+            "mangledName": "$s10elfSupport15SavvyIgnoreViewC5frameACSo6CGRectV_tcfc",
             "moduleName": "elfSupport",
-            "declAttributes": [
-              "Convenience"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(hex:alpha:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIColorC10elfSupportE3hex5alphaABs6UInt32V_14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$sSo7UIColorC10elfSupportE3hex5alphaABs6UInt32V_12CoreGraphics7CGFloatVtcfc",
-            "moduleName": "elfSupport",
-            "declAttributes": [
-              "Convenience"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(py)image",
-            "mangledName": "$sSo7UIColorC10elfSupportE5imageSo7UIImageCvp",
-            "moduleName": "elfSupport",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
             "declAttributes": [
               "Dynamic",
-              "ObjC"
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
             ],
-            "isFromExtension": true,
-            "accessors": [
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
               {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "elfSupport.SavvyIgnoreView?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "SavvyIgnoreView",
+                    "printedName": "elfSupport.SavvyIgnoreView",
+                    "usr": "c:@M@elfSupport@objc(cs)SavvyIgnoreView"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "c:@CM@elfSupport@@objc(cs)UIColor(im)image",
-                "mangledName": "$sSo7UIColorC10elfSupportE5imageSo7UIImageCvg",
-                "moduleName": "elfSupport",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
               }
-            ]
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@elfSupport@objc(cs)SavvyIgnoreView(im)initWithCoder:",
+            "mangledName": "$s10elfSupport15SavvyIgnoreViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:objc(cs)UIColor",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIColor",
+        "usr": "c:@M@elfSupport@objc(cs)SavvyIgnoreView",
+        "mangledName": "$s10elfSupport15SavvyIgnoreViewC",
+        "moduleName": "elfSupport",
         "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
+        "superclassUsr": "c:objc(cs)UIView",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -938,6 +729,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
@@ -945,10 +743,1901 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ExpressibleByColorLiteral",
-            "printedName": "_ExpressibleByColorLiteral",
-            "usr": "s:s26_ExpressibleByColorLiteralP",
-            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PopupMenu",
+        "printedName": "PopupMenu",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "autoSetSelf",
+            "printedName": "autoSetSelf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC11autoSetSelfSbvp",
+            "mangledName": "$s10elfSupport9PopupMenuC11autoSetSelfSbvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11autoSetSelfSbvg",
+                "mangledName": "$s10elfSupport9PopupMenuC11autoSetSelfSbvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11autoSetSelfSbvs",
+                "mangledName": "$s10elfSupport9PopupMenuC11autoSetSelfSbvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11autoSetSelfSbvM",
+                "mangledName": "$s10elfSupport9PopupMenuC11autoSetSelfSbvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(py)enabled",
+            "mangledName": "$s10elfSupport9PopupMenuC9isEnabledSbvp",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "enabled",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)isEnabled",
+                "mangledName": "$s10elfSupport9PopupMenuC9isEnabledSbvg",
+                "moduleName": "elfSupport",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "isEnabled",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)setEnabled:",
+                "mangledName": "$s10elfSupport9PopupMenuC9isEnabledSbvs",
+                "moduleName": "elfSupport",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setEnabled:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inset",
+            "printedName": "inset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC5inset14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s10elfSupport9PopupMenuC5inset12CoreGraphics7CGFloatVvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5inset14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s10elfSupport9PopupMenuC5inset12CoreGraphics7CGFloatVvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5inset14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s10elfSupport9PopupMenuC5inset12CoreGraphics7CGFloatVvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5inset14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s10elfSupport9PopupMenuC5inset12CoreGraphics7CGFloatVvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapAndHold",
+            "printedName": "tapAndHold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC10tapAndHoldSbvp",
+            "mangledName": "$s10elfSupport9PopupMenuC10tapAndHoldSbvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10tapAndHoldSbvg",
+                "mangledName": "$s10elfSupport9PopupMenuC10tapAndHoldSbvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10tapAndHoldSbvs",
+                "mangledName": "$s10elfSupport9PopupMenuC10tapAndHoldSbvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10tapAndHoldSbvM",
+                "mangledName": "$s10elfSupport9PopupMenuC10tapAndHoldSbvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alignsUnderSelected",
+            "printedName": "alignsUnderSelected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC19alignsUnderSelectedSbvp",
+            "mangledName": "$s10elfSupport9PopupMenuC19alignsUnderSelectedSbvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC19alignsUnderSelectedSbvg",
+                "mangledName": "$s10elfSupport9PopupMenuC19alignsUnderSelectedSbvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC19alignsUnderSelectedSbvs",
+                "mangledName": "$s10elfSupport9PopupMenuC19alignsUnderSelectedSbvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC19alignsUnderSelectedSbvM",
+                "mangledName": "$s10elfSupport9PopupMenuC19alignsUnderSelectedSbvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC4fontSo6UIFontCSgvp",
+            "mangledName": "$s10elfSupport9PopupMenuC4fontSo6UIFontCSgvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC4fontSo6UIFontCSgvg",
+                "mangledName": "$s10elfSupport9PopupMenuC4fontSo6UIFontCSgvg",
+                "moduleName": "elfSupport",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC4fontSo6UIFontCSgvs",
+                "mangledName": "$s10elfSupport9PopupMenuC4fontSo6UIFontCSgvs",
+                "moduleName": "elfSupport",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC4fontSo6UIFontCSgvM",
+                "mangledName": "$s10elfSupport9PopupMenuC4fontSo6UIFontCSgvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "incognito",
+            "printedName": "incognito",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(py)incognito",
+            "mangledName": "$s10elfSupport9PopupMenuC9incognitoSbvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "IBInspectable"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)incognito",
+                "mangledName": "$s10elfSupport9PopupMenuC9incognitoSbvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)setIncognito:",
+                "mangledName": "$s10elfSupport9PopupMenuC9incognitoSbvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC9incognitoSbvM",
+                "mangledName": "$s10elfSupport9PopupMenuC9incognitoSbvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parentView",
+            "printedName": "parentView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvp",
+            "mangledName": "$s10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvg",
+                "mangledName": "$s10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvs",
+                "mangledName": "$s10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvM",
+                "mangledName": "$s10elfSupport9PopupMenuC10parentViewSo6UIViewCSgvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleSuffix",
+            "printedName": "titleSuffix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(py)titleSuffix",
+            "mangledName": "$s10elfSupport9PopupMenuC11titleSuffixSSvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "IBInspectable"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)titleSuffix",
+                "mangledName": "$s10elfSupport9PopupMenuC11titleSuffixSSvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)setTitleSuffix:",
+                "mangledName": "$s10elfSupport9PopupMenuC11titleSuffixSSvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11titleSuffixSSvM",
+                "mangledName": "$s10elfSupport9PopupMenuC11titleSuffixSSvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alignment",
+            "printedName": "alignment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvp",
+            "mangledName": "$s10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextAlignment",
+                    "printedName": "UIKit.NSTextAlignment",
+                    "usr": "c:@E@NSTextAlignment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvg",
+                "mangledName": "$s10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextAlignment",
+                    "printedName": "UIKit.NSTextAlignment",
+                    "usr": "c:@E@NSTextAlignment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvs",
+                "mangledName": "$s10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvM",
+                "mangledName": "$s10elfSupport9PopupMenuC9alignmentSo15NSTextAlignmentVvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chosenValue",
+            "printedName": "chosenValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC11chosenValueSivp",
+            "mangledName": "$s10elfSupport9PopupMenuC11chosenValueSivp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11chosenValueSivg",
+                "mangledName": "$s10elfSupport9PopupMenuC11chosenValueSivg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11chosenValueSivs",
+                "mangledName": "$s10elfSupport9PopupMenuC11chosenValueSivs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC11chosenValueSivM",
+                "mangledName": "$s10elfSupport9PopupMenuC11chosenValueSivM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "values",
+            "printedName": "values",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC6valuesSaySSGvp",
+            "mangledName": "$s10elfSupport9PopupMenuC6valuesSaySSGvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC6valuesSaySSGvg",
+                "mangledName": "$s10elfSupport9PopupMenuC6valuesSaySSGvg",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC6valuesSaySSGvs",
+                "mangledName": "$s10elfSupport9PopupMenuC6valuesSaySSGvs",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC6valuesSaySSGvM",
+                "mangledName": "$s10elfSupport9PopupMenuC6valuesSaySSGvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10elfSupport9PopupMenuC5valueSSvp",
+            "mangledName": "$s10elfSupport9PopupMenuC5valueSSvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5valueSSvg",
+                "mangledName": "$s10elfSupport9PopupMenuC5valueSSvg",
+                "moduleName": "elfSupport",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5valueSSvs",
+                "mangledName": "$s10elfSupport9PopupMenuC5valueSSvs",
+                "moduleName": "elfSupport",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10elfSupport9PopupMenuC5valueSSvM",
+                "mangledName": "$s10elfSupport9PopupMenuC5valueSSvM",
+                "moduleName": "elfSupport",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(py)frame",
+            "mangledName": "$s10elfSupport9PopupMenuC5frameSo6CGRectVvp",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "frame",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)frame",
+                "mangledName": "$s10elfSupport9PopupMenuC5frameSo6CGRectVvg",
+                "moduleName": "elfSupport",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "frame",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)setFrame:",
+                "mangledName": "$s10elfSupport9PopupMenuC5frameSo6CGRectVvs",
+                "moduleName": "elfSupport",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setFrame:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PopupMenu",
+                "printedName": "elfSupport.PopupMenu",
+                "usr": "c:@M@elfSupport@objc(cs)PopupMenu"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)initWithFrame:",
+            "mangledName": "$s10elfSupport9PopupMenuC5frameACSo6CGRectV_tcfc",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "colors",
+            "printedName": "colors(fg:bg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10elfSupport9PopupMenuC6colors2fg2bgySo7UIColorC_AHtF",
+            "mangledName": "$s10elfSupport9PopupMenuC6colors2fg2bgySo7UIColorC_AHtF",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)drawRect:",
+            "mangledName": "$s10elfSupport9PopupMenuC4drawyySo6CGRectVF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)didMoveToSuperview",
+            "mangledName": "$s10elfSupport9PopupMenuC18didMoveToSuperviewyyF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)layoutSubviews",
+            "mangledName": "$s10elfSupport9PopupMenuC14layoutSubviewsyyF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sizeThatFits",
+            "printedName": "sizeThatFits(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)sizeThatFits:",
+            "mangledName": "$s10elfSupport9PopupMenuC12sizeThatFitsySo6CGSizeVAFF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "sizeThatFits:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesBegan",
+            "printedName": "touchesBegan(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)touchesBegan:withEvent:",
+            "mangledName": "$s10elfSupport9PopupMenuC12touchesBegan_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "touchesBegan:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesMoved",
+            "printedName": "touchesMoved(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)touchesMoved:withEvent:",
+            "mangledName": "$s10elfSupport9PopupMenuC12touchesMoved_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "touchesMoved:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesEnded",
+            "printedName": "touchesEnded(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)touchesEnded:withEvent:",
+            "mangledName": "$s10elfSupport9PopupMenuC12touchesEnded_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "touchesEnded:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesCancelled",
+            "printedName": "touchesCancelled(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)touchesCancelled:withEvent:",
+            "mangledName": "$s10elfSupport9PopupMenuC16touchesCancelled_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "touchesCancelled:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendAction",
+            "printedName": "sendAction(_:to:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@elfSupport@objc(cs)PopupMenu(im)sendAction:to:forEvent:",
+            "mangledName": "$s10elfSupport9PopupMenuC10sendAction_2to3fory10ObjectiveC8SelectorV_ypSgSo7UIEventCSgtF",
+            "moduleName": "elfSupport",
+            "overriding": true,
+            "objc_name": "sendAction:to:forEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@elfSupport@objc(cs)PopupMenu",
+        "mangledName": "$s10elfSupport9PopupMenuC",
+        "moduleName": "elfSupport",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
       },
@@ -1157,6 +2846,410 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "appColor",
+            "printedName": "appColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE8appColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appWhiteColor",
+            "printedName": "appWhiteColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appWhiteColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE13appWhiteColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appBlackColor",
+            "printedName": "appBlackColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appBlackColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE13appBlackColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appBackgroundColor",
+            "printedName": "appBackgroundColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appBackgroundColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE18appBackgroundColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appDisabledColor",
+            "printedName": "appDisabledColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appDisabledColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE16appDisabledColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appVideoBGColor",
+            "printedName": "appVideoBGColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appVideoBGColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE15appVideoBGColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appWarningColor",
+            "printedName": "appWarningColor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(cm)appWarningColor",
+            "mangledName": "$sSo7UIColorC10elfSupportE15appWarningColorAByFZ",
+            "moduleName": "elfSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexstr:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(im)initWithHexstr:alpha:",
+            "mangledName": "$sSo7UIColorC10elfSupportE6hexstr5alphaABSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "elfSupport",
+            "objc_name": "initWithHexstr:alpha:",
+            "declAttributes": [
+              "Dynamic",
+              "Convenience",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(im)initWithHex:alpha:",
+            "mangledName": "$sSo7UIColorC10elfSupportE3hex5alphaABs6UInt32V_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "elfSupport",
+            "objc_name": "initWithHex:alpha:",
+            "declAttributes": [
+              "Dynamic",
+              "Convenience",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@elfSupport@@objc(cs)UIColor(py)image",
+            "mangledName": "$sSo7UIColorC10elfSupportE5imageSo7UIImageCvp",
+            "moduleName": "elfSupport",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@elfSupport@@objc(cs)UIColor(im)image",
+                "mangledName": "$sSo7UIColorC10elfSupportE5imageSo7UIImageCvg",
+                "moduleName": "elfSupport",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
           }
         ]
       },
@@ -2881,550 +4974,704 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 277,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 309,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 442,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 15,
       "value": "\"$proc.success\""
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 694,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 734,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 763,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 12,
       "value": "\"$proc.prep\""
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1036,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1094,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1184,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 427,
-      "length": 16,
-      "value": "\"FuturaStd-Bold\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
-      "length": 16,
-      "value": "\"FuturaStd-Book\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 17,
-      "value": "\"FuturaStd-Light\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 20,
-      "value": "\"Futura-BoldOblique\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 596,
-      "length": 8,
-      "value": "0xF5DADF"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 632,
-      "length": 8,
-      "value": "0xFFFFFF"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 668,
-      "length": 8,
-      "value": "0x000000"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 708,
-      "length": 8,
-      "value": "0xd7c0b0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 746,
-      "length": 8,
-      "value": "0x808080"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 783,
-      "length": 8,
-      "value": "0x000000"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 820,
-      "length": 8,
-      "value": "0xFF0000"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1412,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1435,
-      "length": 16,
-      "value": "\"FuturaStd-Bold\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1472,
-      "length": 16,
-      "value": "\"FuturaStd-Book\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1510,
-      "length": 17,
-      "value": "\"FuturaStd-Light\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1553,
-      "length": 20,
-      "value": "\"Futura-BoldOblique\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "Array",
-      "offset": 1587,
-      "length": 88,
-      "value": "[\"FuturaStdOblique.otf\", \"FuturaStdBold.ttf\", \"FuturaStdBook.ttf\", \"FuturaStdLight.ttf\"]"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1697,
-      "length": 8,
-      "value": "0xF5DADF"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1729,
-      "length": 8,
-      "value": "0xf6dedb"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1758,
-      "length": 8,
-      "value": "0x485CC7"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1776,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1779,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1802,
-      "length": 16,
-      "value": "\"GothamSSm-Bold\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1839,
-      "length": 18,
-      "value": "\"GothamSSm-Medium\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1879,
-      "length": 17,
-      "value": "\"GothamSSm-Light\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 1922,
-      "length": 22,
-      "value": "\"Hiragino Mincho ProN\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "Array",
-      "offset": 1958,
-      "length": 91,
-      "value": "[\"HiraginoMincho.otf\", \"gothamssm_bold.otf\", \"gothamssm_medium.otf\", \"gothamssm_light.otf\"]"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2071,
-      "length": 8,
-      "value": "0xa22137"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2134,
-      "length": 8,
-      "value": "0xd7c0b0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2164,
-      "length": 8,
-      "value": "0xe9e3e1"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2193,
-      "length": 8,
-      "value": "0x000000"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2222,
-      "length": 8,
-      "value": "0xb40028"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "Array",
-      "offset": 2257,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "Array",
-      "offset": 2376,
-      "length": 50,
-      "value": "[\"elfSupport\", \"clarinsSupport\", \"clarinsSupport\"]"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2556,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2645,
-      "length": 45,
-      "value": "\"com.ringoai.sdk.\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2689,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2766,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2831,
-      "length": 2,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2909,
-      "length": 42,
-      "value": "\"registerFont \""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 2,
-      "value": "\" in \""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "StringLiteral",
-      "offset": 2950,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1303,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "FloatLiteral",
-      "offset": 5010,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5481,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5851,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/Utility\/Theme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5863,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
       "kind": "BooleanLiteral",
       "offset": 156,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
       "kind": "BooleanLiteral",
       "offset": 681,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "Array",
       "offset": 142,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1739,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1759,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1782,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 16,
+      "value": "\"FuturaStd-Bold\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 16,
+      "value": "\"FuturaStd-Book\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 17,
+      "value": "\"FuturaStd-Light\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 20,
+      "value": "\"Futura-BoldOblique\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 8,
+      "value": "0xF5DADF"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 668,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 708,
+      "length": 8,
+      "value": "0xd7c0b0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 746,
+      "length": 8,
+      "value": "0x808080"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 820,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 16,
+      "value": "\"FuturaStd-Bold\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 16,
+      "value": "\"FuturaStd-Book\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1511,
+      "length": 17,
+      "value": "\"FuturaStd-Light\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 20,
+      "value": "\"Futura-BoldOblique\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "Array",
+      "offset": 1588,
+      "length": 88,
+      "value": "[\"FuturaStdOblique.otf\", \"FuturaStdBold.ttf\", \"FuturaStdBook.ttf\", \"FuturaStdLight.ttf\"]"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1698,
+      "length": 8,
+      "value": "0xF5DADF"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1730,
+      "length": 8,
+      "value": "0xf6dedb"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1759,
+      "length": 8,
+      "value": "0x485CC7"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1777,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1780,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 16,
+      "value": "\"GothamSSm-Bold\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1840,
+      "length": 18,
+      "value": "\"GothamSSm-Medium\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 17,
+      "value": "\"GothamSSm-Light\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
+      "length": 22,
+      "value": "\"Hiragino Mincho ProN\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "Array",
+      "offset": 1959,
+      "length": 91,
+      "value": "[\"HiraginoMincho.otf\", \"gothamssm_bold.otf\", \"gothamssm_medium.otf\", \"gothamssm_light.otf\"]"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2072,
+      "length": 8,
+      "value": "0xa22137"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2135,
+      "length": 8,
+      "value": "0xd7c0b0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2165,
+      "length": 8,
+      "value": "0xe9e3e1"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2194,
+      "length": 8,
+      "value": "0x000000"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2223,
+      "length": 8,
+      "value": "0xb40028"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "Array",
+      "offset": 2258,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "Array",
+      "offset": 2377,
+      "length": 50,
+      "value": "[\"elfSupport\", \"clarinsSupport\", \"clarinsSupport\"]"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 45,
+      "value": "\"com.ringoai.sdk.\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2690,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2832,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2910,
+      "length": 42,
+      "value": "\"registerFont \""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 2,
+      "value": "\" in \""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "StringLiteral",
+      "offset": 2951,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1303,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "FloatLiteral",
+      "offset": 5039,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5889,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5901,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 4959,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5083,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5102,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5125,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5147,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5353,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5376,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/sadmin\/_dev_\/contracts\/IlluminateAI\/IlluminateAI_ios\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5400,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 193,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 376,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 422,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 570,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 899,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 939,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 1004,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 1017,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1041,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1100,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 1154,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1250,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "FloatLiteral",
+      "offset": 1302,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "StringLiteral",
+      "offset": 1363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "kind": "Array",
+      "offset": 1938,
+      "length": 2,
+      "value": "[]"
     }
   ]
 }

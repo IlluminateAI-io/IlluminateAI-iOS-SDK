@@ -1,0 +1,7 @@
+framework module IlluminateAISupport {
+	umbrella header "IlluminateAISupport.h"
+
+	export *
+	module * { export * }
+}
+

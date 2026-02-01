@@ -4,30 +4,30 @@
 import PackageDescription
 
 let package = Package(
-    name: "RingoAI_SDK",
+    name: "IlluminateAI_SDK",
 	defaultLocalization: "en",
 	platforms: [
 		.iOS(.v15)
 	],
     products: [
 		.library(
-			name: "RingoAI.xcframework",
-			targets: ["RingoAI.xcframework"]),
+			name: "IlluminateAI.xcframework",
+			targets: ["IlluminateAI.xcframework"]),
 		.library(
-			name: "RingoAISupport.xcframework",
-			targets: ["RingoAISupport.xcframework"]),
+			name: "IlluminateAISupport.xcframework",
+			targets: ["IlluminateAISupport.xcframework"]),
 		.library(
 			name: "elfSupport.xcframework",
 			targets: ["elfSupport.xcframework"])
     ],
     targets: [
 		.binaryTarget(
-			name: "RingoAI.xcframework",
-			path: "xcframeworks/RingoAI.xcframework"
+			name: "IlluminateAI.xcframework",
+			path: "xcframeworks/IlluminateAI.xcframework"
 		),
 		.binaryTarget(
-			name: "RingoAISupport.xcframework",
-			path: "xcframeworks/RingoAISupport.xcframework"
+			name: "IlluminateAISupport.xcframework",
+			path: "xcframeworks/IlluminateAI.xcframework"
 		),
 		.binaryTarget(
 			name: "elfSupport.xcframework",
