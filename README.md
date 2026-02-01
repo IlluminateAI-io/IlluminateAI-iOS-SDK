@@ -1,4 +1,4 @@
-# RingoAI_SDK
+# IlluminateAI_SDK
 
 ### Build 2026.02.01
 
