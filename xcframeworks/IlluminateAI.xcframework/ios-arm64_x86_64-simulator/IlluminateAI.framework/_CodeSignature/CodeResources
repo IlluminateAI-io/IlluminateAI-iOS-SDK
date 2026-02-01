@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/IlluminateAI.h</key>
 		<data>
-		xbA819r8fxF5LQEcScM/fmvhJb8=
+		ljZL+jImduX/Zlkxv1I/XBO60Eg=
 		</data>
 		<key>Headers/NSAttributedStringPlus.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AQNWENrG7awvX0k/0dqXZqoK1H8=
+		n+6vRN8IJU9aNrxGFMSo2YtGvEQ=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AQNWENrG7awvX0k/0dqXZqoK1H8=
+		n+6vRN8IJU9aNrxGFMSo2YtGvEQ=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ViKsKj1m65nyprOtl8Gvx7ZhBJ4=
+		V5GoOKrfacRRhCfDoJ7H/xeK5pI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>PrivateHeaders/IlluminateAIPrivate.h</key>
 		<data>
-		sWcIYPkumOvQ7qkdXe00hJDRxiA=
+		l/x8YlfHSIP/F2n3t01eEUpWlXA=
 		</data>
 		<key>PrivateHeaders/IteratePoly.h</key>
 		<data>
@@ -538,7 +538,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t1/olB2v77HOdIsYeEMXLt5B0v/8Y/s6zvdtLp/gzgk=
+			iQ9CCwXKJjhX9RBUi24VZVLPAdXVp4/qHWd5coiKAoA=
 			</data>
 		</dict>
 		<key>Headers/NSAttributedStringPlus.h</key>
@@ -601,7 +601,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p3ImKdXhAMYmYf1QtH8xLmZjqIOPc2dR8efK2Hq2fas=
+			MQjbgxnBH6JQ/6x5ek8i7ST/wNtkh8Fu5YM+W1i2TJE=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -636,7 +636,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p3ImKdXhAMYmYf1QtH8xLmZjqIOPc2dR8efK2Hq2fas=
+			MQjbgxnBH6JQ/6x5ek8i7ST/wNtkh8Fu5YM+W1i2TJE=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -671,7 +671,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bD9SVO6h/O/jxedio+8CYtsHVF+pA5puXu7fq6ryOkU=
+			1+YQMWjNMpOIdS0wJYcIGT2n1B596sZWr5UTmX1xlYQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/FaceCapturePrivate.h</key>
@@ -685,7 +685,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAijpVOgzSICw9N/PT2j3QV8A0zcdGCz/JnED/f9eg8=
+			mZv/5dxZOTbGDpetcaYUoN1isGgL45P3BZJLntKsoJc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/IteratePoly.h</key>

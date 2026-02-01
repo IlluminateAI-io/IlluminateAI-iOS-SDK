@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, MatchHow) {
 };
 
 
-@interface RingoAI(Private)
+@interface FindMyShade(Private)
 + (void)upateCPPsettings;	// bridging c++ / swift
 + (NSArray<RingoResult*>* _Nullable)complete;
 + (NSArray<RingoResult*>* _Nullable)rawHistory;
