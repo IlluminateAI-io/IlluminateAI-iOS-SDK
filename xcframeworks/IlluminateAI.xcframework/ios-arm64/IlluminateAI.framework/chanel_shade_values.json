@@ -1,0 +1,111 @@
+{
+	"modification_date": 1765776889,
+	"Lcoef_manual": [0.0, 1.0, 0.0],
+	"Lcoef_auto": [0.0, 0.9333, 0.005679],
+	"Lcoef_hybrid": [0.0, 1.1335, 0.0],
+	"Hcoef_manual": [0.0, 1.0, 0.0],
+	"Hcoef_auto": [0.0, 1.0404, 0.0],
+	"Hcoef_hybrid": [0.0, 1.0404, 0.0],
+	"adjustments":  [[30,25],[50,50],[60,60],[80,80]],
+	"shade_values": {
+		"ULTRA LE TEINT" : {
+			"default": 1,
+			"description_en":"(description_en)",
+			"description_fr":"(description_fr)",
+			"familyID": "1",
+			"colName": "ULTeint",
+			"matchingLines":  [1.97, 0.989, 0 ],
+			"assets" : {
+				"default": "ultra-le-teint.png"
+			},
+			"shadeMatcher": [
+				{"i": 1, "name": "BD01",	"desc": "Fair shade, golden undertone",						"productID": "1000","rgb": "EAD3C1","L": 73.23,"H": 0.062815},
+				{"i": 2, "name": "B10",		"desc": "Light shade, neutral undertone",					"productID": "1001","rgb": "E5C8B6","L": 68.43,"H": 0.061546},
+				{"i": 3, "name": "BD11",	"desc": "Light shade, golden undertone",					"productID": "1002","rgb": "E3C5AB","L": 69.23,"H": 0.068065},
+				{"i": 4, "name": "BR12",	"desc": "Light shade, rosy undertone",						"productID": "1003","rgb": "E4C9B4","L": 67.37,"H": 0.055963},
+				{"i": 5, "name": "B20",		"desc": "Light-medium shade, neutral undertone",			"productID": "1004","rgb": "E8CCB4","L": 62.6,"H": 0.056588},
+				{"i": 6, "name": "BD21",	"desc": "Light-medium shade, golden undertone",				"productID": "1005","rgb": "DBBAA7","L": 69.43,"H": 0.069272},
+				{"i": 7, "name": "BR22",	"desc": "Light-medium shade, rosy undertone",				"productID": "1006","rgb": "D6B49B","L": 65.1,"H": 0.055532},
+				{"i": 8, "name": "B30",		"desc": "Medium shade, neutral undertone",					"productID": "1007","rgb": "D5B39A","L": 61.57,"H": 0.060379},
+				{"i": 9, "name": "BD31",	"desc": "Medium shade, golden undertone",					"productID": "1008","rgb": "D7B093","L": 65.53,"H": 0.069848},
+				{"i": 10,"name": "BR32",	"desc": "Medium shade, rosy undertone",						"productID": "1009","rgb": "D2AF93","L": 60.8,"H": 0.05513},
+				{"i": 11,"name": "B40",		"desc": "Intense medium shade, neutral undertone",			"productID": "1010","rgb": "D7AE90","L": 56.6,"H": 0.058199},
+				{"i": 12,"name": "BD41",	"desc": "Intense medium shade, golden undertone",			"productID": "1011","rgb": "D7AF95","L": 60.53,"H": 0.067138},
+				{"i": 13,"name": "BR42",	"desc": "Intense medium shade, rosy undertone",				"productID": "1012","rgb": "D0A386","L": 58.07,"H": 0.056745},
+				{"i": 14,"name": "B50",		"desc": "Dark-medium shade, neutral undertone",				"productID": "1013","rgb": "D0A78B","L": 54.83,"H": 0.061642},
+				{"i": 15,"name": "BD51",	"desc": "Dark-medium shade, golden undertone",				"productID": "1014","rgb": "CEA086","L": 56.97,"H": 0.067636},
+				{"i": 16,"name": "B60",		"desc": "Intense dark-medium shade, neutral undertone",		"productID": "1015","rgb": "C89C81","L": 53.2,"H": 0.0618},
+				{"i": 17,"name": "BD61",	"desc": "Intense dark-medium shade, golden undertone",		"productID": "1016","rgb": "D29F80","L": 54.67,"H": 0.068722},
+				{"i": 18,"name": "B70",		"desc": "Very intense dark-medium shade, neutral undertone","productID": "1017","rgb": "CA9B7F","L": 51.93,"H": 0.065834},
+				{"i": 19,"name": "BD71",	"desc": "Very intense dark-medium shade, golden undertone",	"productID": "1018","rgb": "C3966D","L": 53.7,"H": 0.068806},
+				{"i": 20,"name": "B80",		"desc": "Light-deep shade, neutral undertone",				"productID": "1019","rgb": "CD966D","L": 50.03,"H": 0.068542},
+				{"i": 21,"name": "BD91",	"desc": "Intense medium shade, golden undertone",			"productID": "1020","rgb": "C3936D","L": 52.4,"H": 0.066479},
+				{"i": 22,"name": "BR92",	"desc": "Light-deep shade, rosy undertone",					"productID": "1021","rgb": "CA9D7C","L": 51.5,"H": 0.062266},
+				{"i": 23,"name": "BD101",	"desc": "Medium light-deep shade, golden undertone",		"productID": "1022","rgb": "C08863","L": 49.57,"H": 0.063873},
+				{"i": 24,"name": "BR102",	"desc": "Medium light-deep shade, rosy undertone",			"productID": "1023","rgb": "C38F68","L": 49.23,"H": 0.058612},
+				{"i": 25,"name": "B110",	"desc": "Deep shade, neutral undertone",					"productID": "1024","rgb": "CAA378","L": 47.53,"H": 0.065764},
+				{"i": 26,"name": "BD111",	"desc": "Deep shade, golden undertone",						"productID": "1025","rgb": "C79A70","L": 48.07,"H": 0.062974},
+				{"i": 27,"name": "BR112",	"desc": "Deep shade, rosy undertone",						"productID": "1026","rgb": "B98053","L": 46.27,"H": 0.060231},
+				{"i": 28,"name": "BD121",	"desc": "Medium-deep shade, golden undertone",				"productID": "1027","rgb": "B5764A","L": 46.67,"H": 0.065139},
+				{"i": 29,"name": "BR122",	"desc": "Medium-deep shade, rosy undertone",				"productID": "1028","rgb": "B27A49","L": 43.9,"H": 0.058879},
+				{"i": 30,"name": "BD131",	"desc": "Intense deep shade, golden undertone",				"productID": "1029","rgb": "A66C44","L": 44.77,"H": 0.062936},
+				{"i": 31,"name": "BR132",	"desc": "Intense deep shade, red undertone",				"productID": "1030","rgb": "AA7144","L": 40.73,"H": 0.056108},
+				{"i": 32,"name": "B140",	"desc": "Dark-deep shade, neutral undertone",				"productID": "1031","rgb": "91512B","L": 41.43,"H": 0.061272},
+				{"i": 33,"name": "BD141",	"desc": "Dark-deep shade, golden undertone",				"productID": "1032","rgb": "9E6134","L": 42.27,"H": 0.061066},
+				{"i": 34,"name": "BR152",	"desc": "Dark-deep shade, red undertone",					"productID": "1033","rgb": "8D5228","L": 39.07,"H": 0.060441},
+				{"i": 35,"name": "BR172",	"desc": "Intense dark-deep shade, red undertone",			"productID": "1034","rgb": "804D2E","L": 31.63,"H": 0.047246}
+			],
+			"gridMatcher": [
+				{"range.L":[68,1000],"group":[
+					{"H":0.0621,"shade":1,"friends":[2]}]},
+				{"range.L":[64,68],"group":[
+					{"H":0.055963,"shade":4,"friends":[2,7]},
+					{"H":0.061546,"shade":2,"friends":[4,3]},
+					{"H":0.068065,"shade":3,"friends":[2,6]},
+					{"H":0.069272,"shade":6,"friends":[3]}]},
+				{"range.L":[62,64],"group":[
+					{"H":0.055532,"shade":7,"friends":[5,4]},
+					{"H":0.069848,"shade":9,"friends":[8,6]}]},
+				{"range.L":[60,62],"group":[
+					{"H":0.056588,"shade":5, "friends":[7,10]},
+					{"H":0.055130,"shade":10,"friends":[8,5]},
+					{"H":0.060379,"shade":8, "friends":[10,12]},
+					{"H":0.067138,"shade":12,"friends":[8,15]}]},
+				{"range.L":[57,60],"group":[
+					{"H":0.056745,"shade":13,"friends":[11]},
+					{"H":0.058199,"shade":11,"friends":[13,14]},
+					{"H":0.067636,"shade":15,"friends":[11,12]}]},
+				{"range.L":[54,57],"group":[
+					{"H":0.061642,"shade":14,"friends":[11,17]},
+					{"H":0.068722,"shade":17,"friends":[14,15]} ]},
+				{"range.L":[51,54],"group":[
+					{"H":0.0618,"shade":16,"friends":[14,17]},
+					{"H":0.068806,"shade":19,"friends":[18,17]}]},
+				{"range.L":[49,51],"group":[
+					{"H":0.062266,"shade":22,"friends":[16,21]},
+					{"H":0.066479,"shade":21,"friends":[18,22]},
+					{"H":0.065834,"shade":18,"friends":[21,19]}]},
+				{"range.L":[47,49],"group":[
+					{"H":0.058612,"shade":24,"friends":[23,22]},
+					{"H":0.063873,"shade":23,"friends":[24,20]},
+					{"H":0.068542,"shade":20,"friends":[23,18]}]},
+				{"range.L":[45,47],"group":[
+					{"H":0.060231,"shade":27,"friends":[26]},
+					{"H":0.062974,"shade":26,"friends":[23,28]},
+					{"H":0.065139,"shade":28,"friends":[25,26]},
+					{"H":0.065764,"shade":25,"friends":[]} ]},
+				{"range.L":[43,45],"group":[
+					{"H":0.058879,"shade":29,"friends":[30,27]},
+					{"H":0.062936,"shade":30,"friends":[29]}]},
+				{"range.L":[40,43],"group":[
+					{"H":0.056108,"shade":31,"friends":[32,34]},
+					{"H":0.061272,"shade":32,"friends":[33,31]},
+					{"H":0.061066,"shade":33,"friends":[32,34]}]},
+				{"range.L":[37,40],"group":[
+					{"H":0.060441,"shade":34,"friends":[32,33]}]},
+				{"range.L":[0,37],"group":[
+					{"H":0.047246,"shade":35,"friends":[]}]}
+			]
+		}
+	}
+}
