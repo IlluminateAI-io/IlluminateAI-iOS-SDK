@@ -4974,700 +4974,700 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 277,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 309,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 442,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 15,
       "value": "\"$proc.success\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 694,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 734,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 763,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 12,
       "value": "\"$proc.prep\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1036,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1094,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/ProcessingViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1184,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
       "kind": "BooleanLiteral",
       "offset": 156,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/subclasses\/CustomButtons.swift",
       "kind": "BooleanLiteral",
       "offset": 681,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "Array",
       "offset": 142,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1739,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1759,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/AppSpecific\/elf_ProcessingVC\/OrbitingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1782,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 16,
       "value": "\"FuturaStd-Bold\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 16,
       "value": "\"FuturaStd-Book\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 17,
       "value": "\"FuturaStd-Light\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 20,
       "value": "\"Futura-BoldOblique\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 596,
       "length": 8,
       "value": "0xF5DADF"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 8,
       "value": "0xFFFFFF"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 668,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 708,
       "length": 8,
       "value": "0xd7c0b0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 746,
       "length": 8,
       "value": "0x808080"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 783,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 820,
       "length": 8,
       "value": "0xFF0000"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1436,
       "length": 16,
       "value": "\"FuturaStd-Bold\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 16,
       "value": "\"FuturaStd-Book\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1511,
       "length": 17,
       "value": "\"FuturaStd-Light\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1554,
       "length": 20,
       "value": "\"Futura-BoldOblique\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
       "offset": 1588,
       "length": 88,
       "value": "[\"FuturaStdOblique.otf\", \"FuturaStdBold.ttf\", \"FuturaStdBook.ttf\", \"FuturaStdLight.ttf\"]"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1698,
       "length": 8,
       "value": "0xF5DADF"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1730,
       "length": 8,
       "value": "0xf6dedb"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1759,
       "length": 8,
       "value": "0x485CC7"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1777,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1780,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1803,
       "length": 16,
       "value": "\"GothamSSm-Bold\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1840,
       "length": 18,
       "value": "\"GothamSSm-Medium\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1880,
       "length": 17,
       "value": "\"GothamSSm-Light\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 1923,
       "length": 22,
       "value": "\"Hiragino Mincho ProN\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
       "offset": 1959,
       "length": 91,
       "value": "[\"HiraginoMincho.otf\", \"gothamssm_bold.otf\", \"gothamssm_medium.otf\", \"gothamssm_light.otf\"]"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2072,
       "length": 8,
       "value": "0xa22137"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2135,
       "length": 8,
       "value": "0xd7c0b0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2165,
       "length": 8,
       "value": "0xe9e3e1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2194,
       "length": 8,
       "value": "0x000000"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2223,
       "length": 8,
       "value": "0xb40028"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
       "offset": 2258,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "Array",
       "offset": 2377,
       "length": 50,
       "value": "[\"elfSupport\", \"clarinsSupport\", \"clarinsSupport\"]"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2557,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2646,
       "length": 45,
       "value": "\"com.ringoai.sdk.\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2690,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 2832,
       "length": 2,
       "value": "42"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2910,
       "length": 42,
       "value": "\"registerFont \""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2935,
       "length": 2,
       "value": "\" in \""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "StringLiteral",
       "offset": 2951,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 1303,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "FloatLiteral",
       "offset": 5039,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 5519,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 5889,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/Theme.swift",
       "kind": "IntegerLiteral",
       "offset": 5901,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 4959,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5083,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5102,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5125,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5147,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5353,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5376,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/Support\/UIViewPlus.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/Support\/UIViewPlus.swift",
       "kind": "FloatLiteral",
       "offset": 5400,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 193,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 376,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 382,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 422,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 458,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 570,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 899,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "IntegerLiteral",
       "offset": 935,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 939,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 1004,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 1017,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 1041,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 790,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "IntegerLiteral",
       "offset": 1100,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 1154,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 1250,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "FloatLiteral",
       "offset": 1302,
       "length": 4,
       "value": "22.0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "StringLiteral",
       "offset": 1363,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "BooleanLiteral",
       "offset": 1529,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "IntegerLiteral",
       "offset": 1643,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
+      "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/MySkin\/Utility\/PopupMenu.swift",
       "kind": "Array",
       "offset": 1938,
       "length": 2,

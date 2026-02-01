@@ -60341,77 +60341,77 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 7350,
+      "offset": 7358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 7682,
+      "offset": 7690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 8536,
+      "offset": 8544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 9004,
+      "offset": 9012,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "FloatLiteral",
-      "offset": 11708,
+      "offset": 11716,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 11987,
+      "offset": 11995,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "IntegerLiteral",
-      "offset": 12036,
+      "offset": 12044,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 17665,
+      "offset": 17673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 17687,
+      "offset": 17695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 28148,
+      "offset": 28156,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/utility\/Goodies.swift",
       "kind": "BooleanLiteral",
-      "offset": 32369,
+      "offset": 32377,
       "length": 5,
       "value": "false"
     },
@@ -66277,7 +66277,7 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios-main\/src\/iOS_Project\/RingoAI\/AssetsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3619,
+      "offset": 3627,
       "length": 1,
       "value": "0"
     },

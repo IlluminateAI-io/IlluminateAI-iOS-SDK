@@ -28,7 +28,7 @@ typedef NS_ENUM(NSInteger, RingoErrors) {
 	staleMatchHistory = 701
 };
 
-@interface RingoAI : NSObject
+@interface FindMyShade : NSObject
 
 @property (class, strong) NSString* _Nullable location;
 

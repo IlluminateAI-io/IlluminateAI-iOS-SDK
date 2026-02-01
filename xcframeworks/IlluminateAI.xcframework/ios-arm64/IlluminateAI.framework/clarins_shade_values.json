@@ -1,0 +1,1122 @@
+{
+	"modification_date": 1768865147,
+	"Lcoef_manual": [0.0, 1.0, 0.0],
+	"Lcoef_auto": [0.0, 0.9333, 0.005679],
+	"Lcoef_hybrid": [0.0, 1.1335, 0.0],
+	"Hcoef_manual": [0.0, 1.0, 0.0],
+	"Hcoef_auto": [0.0, 1.0404, 0.0],
+	"Hcoef_hybrid": [0.0, 1.0404, 0.0],
+	"adjustments":  [[30,25],[50,50],[60,60],[80,80]],
+	"L-delta-families": [
+		{"familyID":"6", "default":0.0},
+		{"familyID":"7", "default":0.0}
+	],
+	"results_ux": {
+		"L-squares": [
+			{ "name":{"en": "Fair", 		"fr": "Très clair"}, 	"rgb":"eac8ae", "range":[65.0, 1000.0]},
+			{ "name":{"en": "Light", 		"fr": "Clair"}, 		"rgb":"ddbb9c", "range":[57.0, 65.0]},
+			{ "name":{"en": "Medium", 		"fr": "Médium"}, 		"rgb":"d7b897", "range":[50.0, 57.0]},
+			{ "name":{"en": "Medium Deep", 	"fr": "Brun"}, 			"rgb":"d0986c", "range":[43.0, 50.0]},
+			{ "name":{"en": "Deep", 		"fr": "Brun foncé"}, 	"rgb":"8c5843", "range":[0.0, 43.0]}
+		],
+		"H-squares": [
+			{ "name":{"en": "Rosy", 	"fr": "Rosée"}, 	"rgb": "fad4ec", "range":[0.0,   0.058]},
+			{ "name":{"en": "Neutral", 	"fr": "Neutre"}, 	"rgb": "f1dcce", "range":[0.058, 0.066]},
+			{ "name":{"en": "Golden", 	"fr": "Dorée"}, 	"rgb": "fcdfb5", "range":[0.066, 1.0]}
+		]
+	},
+	"locations": {
+		"Santa Cruz 🏄": {
+			"development": true,
+			"lat_lon": [36.96460391909226, -122.01631290559334],
+			"cc" : "us",
+			"missing_skus": { }
+		},
+		"Palm Springs 🌴": {
+			"development": true,
+			"lat_lon": [33.824026530866405, -116.51182885314391],
+			"cc" : "us",
+			"missing_skus": {"JR": ["80107641", "80094245", "80107640", "80094251", "80094250", "80094248", "80107643",
+									"80107642", "80094261", "80094247", "80094263", "80094258", "80094249"]
+			}
+		},
+		"Clarins John Lewis Oxford street": {
+			"lat_lon": [51.51552352364926, -0.14527692732503217],
+			"cc" : "uk",
+			"missing_skus": { "2": ["80039707"],"3": ["80098951"]}
+		},
+		"Clarins Cambridge John Lewis": {
+			"lat_lon": [52.20391215053622, 0.1230835846005998],
+			"cc" : "uk",
+			"missing_skus": { "2": ["80039707"],"3": ["80098951"]}
+		},
+		"Clarins Boots Liverpool Street": {
+			"lat_lon": [51.51832067164737, -0.08210945644149906],
+			"cc" : "uk",
+			"missing_skus": { "2": ["80039707"],"3": ["80098951"]}
+		},
+		"Paris": {
+			"lat_lon": [48.85792202370703, 2.3532119042591573],
+			"cc": "fr",
+			"missing_skus": { "JR":["80094245","80094247","80094249","80094250","80094251","80094261","80094263","80107640","80107641","80107642","80107643"]}
+		},
+		"Lyon": {
+			"lat_lon": [45.764410319097706, 4.836496605548893],
+			"cc": "fr",
+			"missing_skus": { "JR":["80094245","80094247","80094249","80094250","80094251","80094261","80094263","80107640","80107641","80107642","80107643"]}
+		},
+		"Bordeaux": {
+			"lat_lon": [44.84227320540248, -0.5842992147820214],
+			"cc": "fr",
+			"missing_skus": { "JR":["80094245","80094247","80094249","80094250","80094251","80094261","80094263","80107640","80107641","80107642","80107643"]}
+		},
+		"Ireland": {
+			"lat_lon": [53.30687693841004, -7.6603259097365894],
+			"cc": "ie",
+			"missing_skus": {
+				"2":["80039705","80039707","80039708"],
+				"3":["80079894"],
+				"4":["80079894","80079911","80079912","80079913","80079985"],
+				"EC":["80068518","80068519"],
+				"EMCP":["80079939","80079940","80079941"],
+				"AIOC":["80118239","80118240","80118244","80118253","80118254","80118256","80118258"]
+			}
+		},
+		"Germany": {
+			"lat_lon": [51.2495486400903, 10.33199207255369],
+			"cc": "de",
+			"missing_skus": { }
+		},
+		"Italy": {
+			"lat_lon": [41.906376203060205, 12.489983719983382],
+			"cc": "it",
+			"missing_skus": {
+				"1":["80106993","80106994","80106998","80107001","80107002","80107003","80107006","80107009","80107011"],
+				"2":["80039708"],
+				"3":["80079894"],
+				"4":["80079894","80079911","80079912","80079913","80079985"],
+				"6":["80119223","80119224","80119225","80119226","80119227","80119231","80119233","80119241","80119243","80119244","80119249","80119252","80119253","80119254","80119255","80119256","80119257","80119258","80119259"],
+				"7":["80079911","80079912","80079913","80079985","80106993","80106994","80106998","80107001","80107002","80107003","80107006","80107009","80107011"],
+				"EMCP":["80079939","80079940","80079941"],
+				"AIOC":["80118239","80118242","80118249","80118253","80118254","80118256","80118258"]
+			}
+		},
+		"Portugal": {
+			"lat_lon": [39.157740922401366, -8.18645937063052],
+			"cc": "it",
+			"missing_skus": { }
+		},
+		"Benelux": {
+			"lat_lon": [51.16788970176882, 4.392799877725997],
+			"cc": ["be","nl","lu"],
+			"missing_skus": { }
+		},
+		"Switzerland": {
+			"lat_lon": [47.37850473346768, 8.447452799143555],
+			"cc": "ch",
+			"missing_skus": { "2":["80039705","80039707","80054189"]}
+		},
+		"Dubai": {
+			"lat_lon": [25.22386052406911, 55.292021940922695],
+			"cc": "ae",
+			"missing_skus": {
+				"1":["80106977","80106981","80106982","80106995","80107008","80107009","80107011"],
+				"2":["80039689","80039708","80050027","80054189"],
+				"6":["80119252","80119254","80119255","80119256","80119257","80119258","80119259"],
+				"7":["80106977","80106981","80106982","80106995","80107008","80107009","80107011"]
+			}
+		},
+		"Mexico": {
+			"lat_lon": [19.469296080020364, -99.44488373334555],
+			"cc": "mx",
+			"missing_skus": {
+				"1":["80106977","80106978","80106980","80106981","80106982","80106983","80107005","80107007","80107010","80107011","80107012"],
+				"2":["80039688","80039689","80039690","80039696","80039697","80039705","80039707","80039708","80050027","80054189"],
+				"3":["80098955","80098956","80098957","80098958","80100266"],
+				"4":["80079890","80079892","80079893","80079894","80079896","80079901","80079902","80079907","80079909","80079910","80079911","80079912","80079913","80079985"],
+				"6":["80119223","80119224","80119226","80119227","80119228","80119231","80119232","80119235","80119238","80119243","80119245","80119249","80119250","80119251","80119252","80119253","80119254","80119255","80119256","80119257","80119258","80119259"],
+				"7":["80079907","80079909","80079910","80079911","80079912","80079913","80079985","80079939","80079943","80094251","80094261","80098955","80098956","80098957","80098958","80100266","80106977","80106978","80106980","80106981","80106982","80106983","80107005","80107007","80107010","80107011","80107012"],
+				"EC":["80068518","80068519"],
+				"EMCP":["80079939","80079943"],
+				"JR":["80094251","80094261"],
+				"AIOC":["80118240","80118242","80118244","80118245","80118247","80118249","80118251","80118253","80118256","80118258"]
+			}
+		}
+	},
+	"additional_products_v2": {
+		"lipstick": {
+			"Joli Rouge Satin": {
+				"tree_match": {
+					"light":	["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985", "80106986", "80106987", "80106988", "80106989", "80106990"],
+					"medium":	["80106991", "80106992", "80106993", "80106994", "80106995", "80106996", "80106997", "80106998", "80106999", "80107000", "80107001", "80107002"],
+					"dark":		["80107003", "80107004", "80107005", "80107006", "80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+				},
+				"map": [
+					{"fL":"light", 	"H":[0.000,0.333], "productID":["80107641", "80094245"]},
+					{"fL":"light", 	"H":[0.333,0.666], "productID":["80107640", "80094245"]},
+					{"fL":"light", 	"H":[0.666,1.000], "productID":["80107640", "80094251"]},
+					{"fL":"medium", "H":[0.000,0.333], "productID":["80107642", "80094245"]},
+					{"fL":"medium", "H":[0.333,0.666], "productID":["80107643", "80094245"]},
+					{"fL":"medium", "H":[0.666,1.000], "productID":["80107643", "80094250", "80094258", "80094248"]},
+					{"fL":"dark", 	"H":[0.000,0.333], "productID":["80094261", "80094247"]},
+					{"fL":"dark", 	"H":[0.333,0.666], "productID":["80094263", "80094249"]},
+					{"fL":"dark", 	"H":[0.666,1.000], "productID":["80094263", "80094249", "80094258"]}
+				],
+				"values":[
+					{"name":"787 camellia nude",	"wl":["fr","us","uk"],	"rgb": "cc756e", "productID":"80107641", "img":"Joli Rouge 787-camellia nude.png"},
+					{"name":"742 joli rouge",		"wl":["fr","us","uk"],	"rgb": "D50032", "productID":"80094245", "img":"Joli Rouge 742.png"},
+					{"name":"786 beige nude",		"wl":["fr","us","uk"],	"rgb": "db8b6d", "productID":"80107640", "img":"Joli Rouge 786-beige nude.png"},
+					{"name":"743 cherry red",		"wl":["fr","us","uk"],	"rgb": "de2d37", "productID":"80094251", "img":"Joli Rouge 743-cherry red.png"},
+					{"name":"772 red hibiscus",		"wl":["fr","us"], 		"rgb": "c43c38", "productID":"80094250", "img":"Joli Rouge 772-red hibiscus.png"},
+					{"name":"770 apple",			"wl":["uk"],	  		"rgb": "be141e", "productID":"80094248", "img":"Joli Rouge 772-red hibiscus.png"},
+					{"name":"789 mocha nude",		"wl":["fr","us","uk"],	"rgb": "be6557", "productID":"80107643", "img":"Joli Rouge 789-mocha nude.png"},
+					{"name":"788 peach nude",		"wl":["fr","us","uk"],	"rgb": "d67f71", "productID":"80107642", "img":"Joli Rouge 788-peach nude.png"},
+					{"name":"752 rosewood",			"wl":["fr","us","uk"],	"rgb": "c65f6e", "productID":"80094261", "img":"Joli Rouge 752-rosewood.png"},
+					{"name":"769 burgundy lily",	"wl":["fr","us"], 		"rgb": "982434", "productID":"80094247", "img":"Joli Rouge 769-burgundy lily.png"},
+					{"name":"737 spicy cinnamon",	"wl":["fr","us"], 		"rgb": "c3524c", "productID":"80094263", "img":"Joli Rouge 737-spicy cinnamon.png"},
+					{"name":"774 pink blossom",		"wl":["uk"], 	  		"rgb": "bf5d5d", "productID":"80094258", "img":"Joli Rouge 789-mocha nude.png"},
+					{"name":"771 dahlia red",		"wl":["fr","us","uk"], 	"rgb": "A6192E", "productID":"80094249", "img":"Joli Rouge 771-dahlia red.png"}
+				]
+			}
+		},
+		"concealer": {
+			"Everlasting Concealer" : {
+				"wl": ["fr","us"],
+				"tree_match": {
+					"80068512":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985"],
+					"80068513":["80106986", "80106987", "80106988", "80106989"],
+					"80068514":["80106990", "80106991", "80106992", "80106993", "80106994", "80106995"],
+					"80068515":["80106996", "80106997", "80106998", "80106999", "80107000", "80107001"],
+					"80068516":["80107002", "80107003", "80107004", "80107005", "80107006"],
+					"80068517":["80107007", "80107008"],
+					"80068518":["80107009", "80107010", "80107011"],
+					"80068519":["80107012"]
+				},
+				"values": [
+					{"name":"00 very light",	"rgb": "F4C7A5", "productID":"80068512", "img":"Everlasting Concealer 00 VERY LIGHT.png"},
+					{"name":"01 light",			"rgb": "F1C09D", "productID":"80068513", "img":"Everlasting Concealer 01 LIGHT.png"},
+					{"name":"02 light medium",	"rgb": "E8B79B", "productID":"80068514", "img":"Everlasting Concealer 02 LIGHT MEDIUM.png"},
+					{"name":"02.5 medium",		"rgb": "E9C0A3", "productID":"80068515", "img":"Everlasting Concealer 02.5 MEDIUM.png"},
+					{"name":"03 medium deep",	"rgb": "E2B38A", "productID":"80068516", "img":"Everlasting Concealer 03 MEDIUM DEEP.png"},
+					{"name":"04 deep",			"rgb": "AD7243", "productID":"80068517", "img":"Everlasting Concealer 04 DEEP.png"},
+					{"name":"05 deep",			"rgb": "9E694A", "productID":"80068518", "img":"Everlasting Concealer 05 DEEP.png"},
+					{"name":"06 extra deep",	"rgb": "885844", "productID":"80068519", "img":"Everlasting Concealer 06 EXTRA DEEP.png"}
+				]
+			},
+			"Instant Concealer" : {
+				"wl": ["uk"],
+				"tree_match": {
+					"IC_00":	["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985"],
+					"IC_01":	["80106986", "80106987", "80106988", "80106989"],
+					"IC_02":	["80106990", "80106991", "80106992", "80106993", "80106994", "80106995","80106996", "80106997", "80106998"],
+					"IC_025":	["80106999", "80107000", "80107001", "80107002", "80107003", "80107004", "80107005", "80107006"],
+					"IC_03":	["80107007", "80107008"],
+					"IC_04":	["80107009", "80107010", "80107011"],
+					"IC_05":	["80107012"]
+				},
+				"values": [
+					{"name":"00 very light",	"rgb": "F4C7A5", "productID":"IC_00", "img":"InstantConcealer.png"},
+					{"name":"01 light",			"rgb": "F1C09D", "productID":"IC_01", "img":"InstantConcealer.png"},
+					{"name":"02 light medium",	"rgb": "E8B79B", "productID":"IC_02", "img":"InstantConcealer.png"},
+					{"name":"02.5 medium",		"rgb": "E9C0A3", "productID":"IC_025", "img":"InstantConcealer.png"},
+					{"name":"03 medium deep",	"rgb": "E2B38A", "productID":"IC_03", "img":"InstantConcealer.png"},
+					{"name":"04 deep",			"rgb": "AD7243", "productID":"IC_04", "img":"InstantConcealer.png"},
+					{"name":"05 deep",			"rgb": "9E694A", "productID":"IC_05", "img":"InstantConcealer.png"}
+				]
+			},
+			"All In One Concealer": {
+				"wl": [""],
+				"tree_match_variant": {
+					"Even/Correct": {
+						"AIOC_001":["80106977"],
+						"AIOC_002":["80106982"],
+						"AIOC_003":["80106978", "80106979", "80106980"],
+						"AIOC_004":["80106983", "80106984"],
+						"AIOC_005":["80106985", "80106986"],
+						"AIOC_007":["80106987", "80106988"],
+						"AIOC_008":["80106989", "80106990", "80106991"],
+						"AIOC_009":["80106992", "80106994"],
+						"AIOC_010":["80106993"],
+						"AIOC_011":["80106997"],
+						"AIOC_012":["80106995", "80106996", "80106998", "80107001", "80107002"],
+						"AIOC_013":["80106999", "80107000"],
+						"AIOC_015":["80107003"],
+						"AIOC_016":["80107006", "80107007", "80107008"],
+						"AIOC_018":["80107009", "80107010"],
+						"AIOC_020":["80107011", "80107012"]
+					},
+					"Illuminate": {
+						"AIOC_001":["80106978", "80106979", "80106980", "80106981", "80106982"],
+						"AIOC_002":["80106985", "80106986"],
+						"AIOC_003":["80106983", "80106984"],
+						"AIOC_004":["80106987", "80106988"],
+						"AIOC_005":["80106989", "80106990", "80106991"],
+						"AIOC_007":["80106992", "80106994"],
+						"AIOC_009":["80106993"],
+						"AIOC_010":["80106995", "80106996", "80106997", "80106998", "80107001", "80107002"],
+						"AIOC_012":["80106999", "80107000"],
+						"AIOC_013":["80107003"],
+						"AIOC_015":["80107006", "80107007", "80107008"],
+						"AIOC_016":["80107009", "80107010"],
+						"AIOC_018":["80107011", "80107012"]
+					},
+					"Sculpt" : {
+						"AIOC_012":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106985", "80106986", "80106983", "80106984", "80106987", "80106988"],
+						"AIOC_013":["80106989", "80106990", "80106991", "80106992", "80106993", "80106994", "80106995", "80106996"],
+						"AIOC_018":["80106997", "80106998", "80106999", "80107000", "80107001", "80107002", "80107003"],
+						"AIOC_020":["80107006", "80107007", "80107008", "80107009", "80107010"]
+					}
+				},
+				"values": [
+					{"name":"01",	"rgb": "FEECDE", "productID":"AIOC_001", "img":"SIAIO.png"},
+					{"name":"02",	"rgb": "FAE1CE", "productID":"AIOC_002", "img":"SIAIO.png"},
+					{"name":"03",	"rgb": "FEEDE3", "productID":"AIOC_003", "img":"SIAIO.png"},
+					{"name":"04",	"rgb": "FEE8D6", "productID":"AIOC_004", "img":"SIAIO.png"},
+					{"name":"05",	"rgb": "FCE3C7", "productID":"AIOC_005", "img":"SIAIO.png"},
+					{"name":"06",	"rgb": "FBDBC4", "productID":"AIOC_006", "img":"SIAIO.png"},
+					{"name":"07",	"rgb": "FDE1C8", "productID":"AIOC_007", "img":"SIAIO.png"},
+					{"name":"08",	"rgb": "F7D8C3", "productID":"AIOC_008", "img":"SIAIO.png"},
+					{"name":"09",	"rgb": "F4D4BB", "productID":"AIOC_009", "img":"SIAIO.png"},
+					{"name":"10",	"rgb": "FADBB8", "productID":"AIOC_010", "img":"SIAIO.png"},
+					{"name":"11",	"rgb": "FBD8B8", "productID":"AIOC_011", "img":"SIAIO.png"},
+					{"name":"12",	"rgb": "F8DBBB", "productID":"AIOC_012", "img":"SIAIO.png"},
+					{"name":"13",	"rgb": "F4D5B5", "productID":"AIOC_013", "img":"SIAIO.png"},
+					{"name":"14",	"rgb": "EEC395", "productID":"AIOC_014", "img":"SIAIO.png"},
+					{"name":"15",	"rgb": "F0C9A4", "productID":"AIOC_015", "img":"SIAIO.png"},
+					{"name":"16",	"rgb": "E9BF9B", "productID":"AIOC_016", "img":"SIAIO.png"},
+					{"name":"17",	"rgb": "DEB490", "productID":"AIOC_017", "img":"SIAIO.png"},
+					{"name":"18",	"rgb": "C09270", "productID":"AIOC_018", "img":"SIAIO.png"},
+					{"name":"19",	"rgb": "B48B6F", "productID":"AIOC_019", "img":"SIAIO.png"},
+					{"name":"20",	"rgb": "A97C5B", "productID":"AIOC_020", "img":"SIAIO.png"}
+				]
+			}
+		},
+		"bronzer": {
+			"Ever Bronze Compact Powder": {
+				"tree_match": {
+					"80086534":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985", "80106986", "80106987", "80106988", "80106989", "80106990"],
+					"80086535":["80106991", "80106992", "80106993", "80106994", "80106995", "80106996", "80106997", "80106998", "80106999", "80107000", "80107001", "80107002"],
+					"80086536":["80107003", "80107004", "80107005", "80107006", "80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+				},
+				"values": [
+					{"name":"O1 Light",	"rgb": "f1c4a3", "productID":"80086534", "img": "80086534_original_original_A.png"	},
+					{"name":"02 Medium","rgb": "eab58d", "productID":"80086535", "img": "80086535_original_original_A.png"	},
+					{"name":"03 Deep",	"rgb": "ca8967", "productID":"80086536", "img": "80086536_original_original_A.png"	}
+				]
+			}
+		}
+	},
+	"additional_products_v3": [
+		{
+			"category": "primer",
+			"name": "SOS Color Correcting Primer",
+			"familyID": "SOSP",
+			"concern_map": {
+				"0": ["80095976"],
+				"1": ["80095977"],
+				"2": ["80095977"],
+				"3": ["80095977","80095977"],
+				"4": [],
+				"5": [],
+				"6": ["80095975"],
+				"7": ["80095975"],
+				"8": []
+			},
+			"values" : [
+				{ "name": "Instant Smooth", "fr": "Lisse Minute", 	"rgb": "e1dbd5", "productID": "80095977", "img":"InstantSmoothPrimer.png"},
+				{ "name": "Green", 			"fr": "Vert", 			"rgb": "99b784", "productID": "80095976", "img":"GreenPrimer.png"},
+				{ "name": "Peach", 			"fr": "Pêche", 			"rgb": "e0ab7b", "productID": "80095975", "img":"PeachPrimer.png"},
+				{ "name": "Blue", 			"fr": "Bleu", 			"rgb": "bbddff", "productID": "80095977", "img":"BluePrimer.png"},
+				{ "name": "Pink", 			"fr": "Rose", 			"rgb": "dca792", "productID": "80095974", "img":"PinkPrimer.png"}
+			]
+		}, {
+			"category": "concealer",
+			"fr": "anti-cernes",
+			"name": "Everlasting Concealer",
+			"familyID": "EC",
+			"wl": ["fr","us"],
+			"tree_match": {
+				"80068512":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985"],
+				"80068513":["80106986", "80106987", "80106988", "80106989"],
+				"80068514":["80106990", "80106991", "80106992", "80106993", "80106994", "80106995"],
+				"80068515":["80106996", "80106997", "80106998", "80106999", "80107000", "80107001"],
+				"80068516":["80107002", "80107003", "80107004", "80107005", "80107006"],
+				"80068517":["80107007", "80107008"],
+				"80068518":["80107009", "80107010", "80107011"],
+				"80068519":["80107012"]
+			},
+			"values": [
+				{"name":"00 very light",	"rgb": "F4C7A5", "productID":"80068512", "img":"Everlasting Concealer 00 VERY LIGHT.png"},
+				{"name":"01 light",			"rgb": "F1C09D", "productID":"80068513", "img":"Everlasting Concealer 01 LIGHT.png"},
+				{"name":"02 light medium",	"rgb": "E8B79B", "productID":"80068514", "img":"Everlasting Concealer 02 LIGHT MEDIUM.png"},
+				{"name":"02.5 medium",		"rgb": "E9C0A3", "productID":"80068515", "img":"Everlasting Concealer 02.5 MEDIUM.png"},
+				{"name":"03 medium deep",	"rgb": "E2B38A", "productID":"80068516", "img":"Everlasting Concealer 03 MEDIUM DEEP.png"},
+				{"name":"04 deep",			"rgb": "AD7243", "productID":"80068517", "img":"Everlasting Concealer 04 DEEP.png"},
+				{"name":"05 deep",			"rgb": "9E694A", "productID":"80068518", "img":"Everlasting Concealer 05 DEEP.png"},
+				{"name":"06 extra deep",	"rgb": "885844", "productID":"80068519", "img":"Everlasting Concealer 06 EXTRA DEEP.png"}
+			]
+		}, {
+			"category":"concealer",
+			"fr": "anti-cernes",
+			"name": "Instant Concealer",
+			"familyID": "IC",
+			"wl": ["uk"],
+			"tree_match": {
+				"IC_00":	["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985"],
+				"IC_01":	["80106986", "80106987", "80106988", "80106989"],
+				"IC_02":	["80106990", "80106991", "80106992", "80106993", "80106994", "80106995","80106996", "80106997", "80106998"],
+				"IC_025":	["80106999", "80107000", "80107001", "80107002", "80107003", "80107004", "80107005", "80107006"],
+				"IC_03":	["80107007", "80107008"],
+				"IC_04":	["80107009", "80107010", "80107011"],
+				"IC_05":	["80107012"]
+			},
+			"values": [
+				{"name":"00 very light",	"rgb": "F4C7A5", "productID":"IC_00", "img":"InstantConcealer.png"},
+				{"name":"01 light",			"rgb": "F1C09D", "productID":"IC_01", "img":"InstantConcealer.png"},
+				{"name":"02 light medium",	"rgb": "E8B79B", "productID":"IC_02", "img":"InstantConcealer.png"},
+				{"name":"02.5 medium",		"rgb": "E9C0A3", "productID":"IC_025", "img":"InstantConcealer.png"},
+				{"name":"03 medium deep",	"rgb": "E2B38A", "productID":"IC_03", "img":"InstantConcealer.png"},
+				{"name":"04 deep",			"rgb": "AD7243", "productID":"IC_04", "img":"InstantConcealer.png"},
+				{"name":"05 deep",			"rgb": "9E694A", "productID":"IC_05", "img":"InstantConcealer.png"}
+			]
+		}, {
+			"category":"concealer",
+			"fr": "anti-cernes",
+			"name": "All In One Concealer",
+			"familyID": "AIOC",
+			"wl": [""],
+			"tree_match_variant": {
+				"Even/Correct": {
+					"AIOC_001":["80106977"],
+					"AIOC_002":["80106982"],
+					"AIOC_003":["80106978", "80106979", "80106980"],
+					"AIOC_004":["80106983", "80106984"],
+					"AIOC_005":["80106985", "80106986"],
+					"AIOC_007":["80106987", "80106988"],
+					"AIOC_008":["80106989", "80106990", "80106991"],
+					"AIOC_009":["80106992", "80106994"],
+					"AIOC_010":["80106993"],
+					"AIOC_011":["80106997"],
+					"AIOC_012":["80106995", "80106996", "80106998", "80107001", "80107002"],
+					"AIOC_013":["80106999", "80107000"],
+					"AIOC_015":["80107003"],
+					"AIOC_016":["80107006", "80107007", "80107008"],
+					"AIOC_018":["80107009", "80107010"],
+					"AIOC_020":["80107011", "80107012"]
+				},
+				"Illuminate": {
+					"AIOC_001":["80106978", "80106979", "80106980", "80106981", "80106982"],
+					"AIOC_002":["80106985", "80106986"],
+					"AIOC_003":["80106983", "80106984"],
+					"AIOC_004":["80106987", "80106988"],
+					"AIOC_005":["80106989", "80106990", "80106991"],
+					"AIOC_007":["80106992", "80106994"],
+					"AIOC_009":["80106993"],
+					"AIOC_010":["80106995", "80106996", "80106997", "80106998", "80107001", "80107002"],
+					"AIOC_012":["80106999", "80107000"],
+					"AIOC_013":["80107003"],
+					"AIOC_015":["80107006", "80107007", "80107008"],
+					"AIOC_016":["80107009", "80107010"],
+					"AIOC_018":["80107011", "80107012"]
+				},
+				"Sculpt" : {
+					"AIOC_012":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106985", "80106986", "80106983", "80106984", "80106987", "80106988"],
+					"AIOC_013":["80106989", "80106990", "80106991", "80106992", "80106993", "80106994", "80106995", "80106996"],
+					"AIOC_018":["80106997", "80106998", "80106999", "80107000", "80107001", "80107002", "80107003"],
+					"AIOC_020":["80107006", "80107007", "80107008", "80107009", "80107010"]
+				}
+			},
+			"values": [
+				{"name":"01",	"rgb": "FEECDE", "productID":"AIOC_001", "img":"SIAIO.png"},
+				{"name":"02",	"rgb": "FAE1CE", "productID":"AIOC_002", "img":"SIAIO.png"},
+				{"name":"03",	"rgb": "FEEDE3", "productID":"AIOC_003", "img":"SIAIO.png"},
+				{"name":"04",	"rgb": "FEE8D6", "productID":"AIOC_004", "img":"SIAIO.png"},
+				{"name":"05",	"rgb": "FCE3C7", "productID":"AIOC_005", "img":"SIAIO.png"},
+				{"name":"06",	"rgb": "FBDBC4", "productID":"AIOC_006", "img":"SIAIO.png"},
+				{"name":"07",	"rgb": "FDE1C8", "productID":"AIOC_007", "img":"SIAIO.png"},
+				{"name":"08",	"rgb": "F7D8C3", "productID":"AIOC_008", "img":"SIAIO.png"},
+				{"name":"09",	"rgb": "F4D4BB", "productID":"AIOC_009", "img":"SIAIO.png"},
+				{"name":"10",	"rgb": "FADBB8", "productID":"AIOC_010", "img":"SIAIO.png"},
+				{"name":"11",	"rgb": "FBD8B8", "productID":"AIOC_011", "img":"SIAIO.png"},
+				{"name":"12",	"rgb": "F8DBBB", "productID":"AIOC_012", "img":"SIAIO.png"},
+				{"name":"13",	"rgb": "F4D5B5", "productID":"AIOC_013", "img":"SIAIO.png"},
+				{"name":"14",	"rgb": "EEC395", "productID":"AIOC_014", "img":"SIAIO.png"},
+				{"name":"15",	"rgb": "F0C9A4", "productID":"AIOC_015", "img":"SIAIO.png"},
+				{"name":"16",	"rgb": "E9BF9B", "productID":"AIOC_016", "img":"SIAIO.png"},
+				{"name":"17",	"rgb": "DEB490", "productID":"AIOC_017", "img":"SIAIO.png"},
+				{"name":"18",	"rgb": "C09270", "productID":"AIOC_018", "img":"SIAIO.png"},
+				{"name":"19",	"rgb": "B48B6F", "productID":"AIOC_019", "img":"SIAIO.png"},
+				{"name":"20",	"rgb": "A97C5B", "productID":"AIOC_020", "img":"SIAIO.png"}
+			]
+		}, {
+			"category":	"bronzer",
+			"name": "Ever Bronze Compact Powder",
+			"familyID": "EBCP",
+			"tree_match": {
+				"80086534":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985", "80106986", "80106987", "80106988", "80106989", "80106990"],
+				"80086535":["80106991", "80106992", "80106993", "80106994", "80106995", "80106996", "80106997", "80106998", "80106999", "80107000", "80107001", "80107002"],
+				"80086536":["80107003", "80107004", "80107005", "80107006", "80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+			},
+			"values": [
+				{"name":"O1 Light",	"rgb": "f1c4a3", "productID":"80086534", "img": "80086534_original_original_A.png"	},
+				{"name":"02 Medium","rgb": "eab58d", "productID":"80086535", "img": "80086535_original_original_A.png"	},
+				{"name":"03 Deep",	"rgb": "ca8967", "productID":"80086536", "img": "80086536_original_original_A.png"	}
+			]
+		}, {
+			"category": "lipstick",
+			"fr": "bouche",
+			"name": "Joli Rouge Satin",
+			"familyID": "JR",
+			"tree_match": {
+				"light":	["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985", "80106986", "80106987", "80106988", "80106989", "80106990"],
+				"medium":	["80106991", "80106992", "80106993", "80106994", "80106995", "80106996", "80106997", "80106998", "80106999", "80107000", "80107001", "80107002"],
+				"dark":		["80107003", "80107004", "80107005", "80107006", "80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+			},
+			"map": [
+				{"fL":"light", 	"H":[0.000,0.333], "productID":["80107641", "80094245"]},
+				{"fL":"light", 	"H":[0.333,0.666], "productID":["80107640", "80094245"]},
+				{"fL":"light", 	"H":[0.666,1.000], "productID":["80107640", "80094251"]},
+				{"fL":"medium", "H":[0.000,0.333], "productID":["80107642", "80094245"]},
+				{"fL":"medium", "H":[0.333,0.666], "productID":["80107643", "80094245"]},
+				{"fL":"medium", "H":[0.666,1.000], "productID":["80107643", "80094250", "80094258", "80094248"]},
+				{"fL":"dark", 	"H":[0.000,0.333], "productID":["80094261", "80094247"]},
+				{"fL":"dark", 	"H":[0.333,0.666], "productID":["80094263", "80094249"]},
+				{"fL":"dark", 	"H":[0.666,1.000], "productID":["80094263", "80094249", "80094258"]}
+			],
+			"values":[
+				{"name":"787 camellia nude",	"wl":["fr","us","uk"],	"rgb": "cc756e", "productID":"80107641", "img":"Joli Rouge 787-camellia nude.png"},
+				{"name":"742 joli rouge",		"wl":["fr","us","uk"],	"rgb": "D50032", "productID":"80094245", "img":"Joli Rouge 742.png"},
+				{"name":"786 beige nude",		"wl":["fr","us","uk"],	"rgb": "db8b6d", "productID":"80107640", "img":"Joli Rouge 786-beige nude.png"},
+				{"name":"743 cherry red",		"wl":["fr","us","uk"],	"rgb": "de2d37", "productID":"80094251", "img":"Joli Rouge 743-cherry red.png"},
+				{"name":"772 red hibiscus",		"wl":["fr","us"], 		"rgb": "c43c38", "productID":"80094250", "img":"Joli Rouge 772-red hibiscus.png"},
+				{"name":"770 apple",			"wl":["uk"],	  		"rgb": "be141e", "productID":"80094248", "img":"Joli Rouge 772-red hibiscus.png"},
+				{"name":"789 mocha nude",		"wl":["fr","us","uk"],	"rgb": "be6557", "productID":"80107643", "img":"Joli Rouge 789-mocha nude.png"},
+				{"name":"788 peach nude",		"wl":["fr","us","uk"],	"rgb": "d67f71", "productID":"80107642", "img":"Joli Rouge 788-peach nude.png"},
+				{"name":"752 rosewood",			"wl":["fr","us","uk"],	"rgb": "c65f6e", "productID":"80094261", "img":"Joli Rouge 752-rosewood.png"},
+				{"name":"769 burgundy lily",	"wl":["fr","us"], 		"rgb": "982434", "productID":"80094247", "img":"Joli Rouge 769-burgundy lily.png"},
+				{"name":"737 spicy cinnamon",	"wl":["fr","us"], 		"rgb": "c3524c", "productID":"80094263", "img":"Joli Rouge 737-spicy cinnamon.png"},
+				{"name":"774 pink blossom",		"wl":["uk"], 	  		"rgb": "bf5d5d", "productID":"80094258", "img":"Joli Rouge 789-mocha nude.png"},
+				{"name":"771 dahlia red",		"wl":["fr","us","uk"], 	"rgb": "A6192E", "productID":"80094249", "img":"Joli Rouge 771-dahlia red.png"}
+			]
+		}, {
+			"category":	"matte powder",
+			"name": "Ever Matte Compact Powder",
+			"familyID": "EMCP",
+			"tree_match": {
+				"80100863":["80106977", "80106978", "80106979", "80106980", "80106981", "80106982"],
+				"80100864":["80106983", "80106984", "80106985", "80106986", "80106987"],
+				"80100865":["80106988", "80106989", "80106990", "80106991", "80106992", "80106993"],
+				"80100866":["80106994", "80106995", "80106996", "80106997", "80106998", "80106999"],
+				"80100867":["80107000", "80107001", "80107002", "80107003", "80107004", "80107005", "80107006"],
+				"80100868":["80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+			},
+			"values": [
+				{"name":"01 very light",	"rgb": "EED9C5", "productID":"80100863", "img": "Ever matte powder 01 VERY LIGHT.png"},
+				{"name":"02 light",			"rgb": "E1BFA1", "productID":"80100864", "img": "Ever matte powder 02 LIGHT.png"},
+				{"name":"03 light medium",	"rgb": "D7B99A", "productID":"80100865", "img": "Ever matte powder 03 LIGHT MEDIUM.png"},
+				{"name":"04 medium",		"rgb": "CAA481", "productID":"80100866", "img": "Ever matte powder 04 MEDIUM.png"},
+				{"name":"05 medium deep",	"rgb": "BD8F61", "productID":"80100867", "img": "Ever matte powder 05 MEDIUM DEEP.png"},
+				{"name":"06 deep",			"rgb": "9E7660", "productID":"80100868", "img": "Ever matte powder 06 DEEP.png"}
+			]
+		}, {
+			"category": "lip perfector & lip oil",
+			"name": "Lip Perfector & Lip Oil",
+			"familyID": "LP",
+			"tree_match": {
+				"light":	["80106977", "80106978", "80106979", "80106980", "80106981", "80106982", "80106983", "80106984", "80106985", "80106986", "80106987", "80106988", "80106989", "80106990"],
+				"medium":	["80106991", "80106992", "80106993", "80106994", "80106995", "80106996", "80106997", "80106998", "80106999", "80107000", "80107001", "80107002"],
+				"dark":		["80107003", "80107004", "80107005", "80107006", "80107007", "80107008", "80107009", "80107010", "80107011", "80107012"]
+			},
+			"map": [
+				{"fL":"light", 	"H":[0.000,0.333], "productID":["palerose"]},
+				{"fL":"light", 	"H":[0.333,0.666], "productID":["peach"]},
+				{"fL":"light", 	"H":[0.666,1.000], "productID":["coral"]},
+				{"fL":"medium", "H":[0.000,0.333], "productID":["fuchsia"]},
+				{"fL":"medium", "H":[0.333,0.666], "productID":["rosewood"]},
+				{"fL":"medium", "H":[0.666,1.000], "productID":["earthtones"]},
+				{"fL":"dark", 	"H":[0.000,0.333], "productID":["burgundy"]},
+				{"fL":"dark", 	"H":[0.333,0.666], "productID":["garnet"]},
+				{"fL":"dark", 	"H":[0.666,1.000], "productID":["earthtones"]}
+			],
+			"values": [
+				{"name":"Pale rosé",						"rgb": ["FCD8E0", "F08592", "FABCCA"], "productID":"palerose"},
+				{"name":"Peach",		"fr":"Pêche",		"rgb": ["F6CCB0", "F0B184", "FEA389"], "productID":"peach"},
+				{"name":"Coral",							"rgb": ["F79191", "F57D7F", "F76C5C"], "productID":"coral"},
+				{"name":"Fuchsia",		"fr":"Fushia",		"rgb": ["D83A60", "bd2448", "760C2F"], "productID":"fuchsia"},
+				{"name":"Rosewood",		"fr":"Bois de rose","rgb": ["cf6e79", "ab5b5a", "8a4948"], "productID":"rosewood"},
+				{"name":"Earth tones",						"rgb": ["b0495a", "872939", "65011b"], "productID":"earthtones"},
+				{"name":"Burgundy",							"rgb": ["854c52", "83354f", "591e24"], "productID":"burgundy"},
+				{"name":"Garnet",		"fr":"Grenat",		"rgb": ["bf2036", "ae0c37", "770b04"], "productID":"garnet"},
+				{"name":"Red",			"fr":"Rouges",		"rgb": ["d60f4e", "ba0a2e", "990623"], "productID":"red"}
+			]
+		}
+	],
+	"shade_values": {
+		"Skin Illusion Full Coverage" : {
+			"default": 1,
+			"useTree": true,
+			"description_en":"Medium to high coverage|Natural / matte finish|Refines skin texture",
+			"description_fr":"Couvrance moyenne à haute|Fini naturel / mat|Affine le grain de peau",
+			"familyID": "1",
+			"priority": 3,
+			"colName": "SI_FullCoverage",
+			"matchingLines": [-59.8, 3.4, -0.0232],
+			"assets": {
+				"100.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.3n_-80106978-1288332_presentation.png",
+				"100.4 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.4n_-80106979-1288333_presentation.png",
+				"100.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100.5w_-80106980-1288331_presentation.png",
+				"100 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-100c_-80106977-1288339_presentation.png",
+				"101 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-101w_-80106981-1288337_presentation.png",
+				"102.5 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-102.5c_-80106982-1288338_presentation.png",
+				"103 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-103n_-80106983-1288343_presentation.png",
+				"105 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-105n_-80106984-1288345_presentation.png",
+				"105.5 W":	"Skin Illusion Full Coverage 2025-30ml-Packshot-105.5w_-80106985-1288344_presentation.png",
+				"106 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-106n-80106986-1288349_presentation.png",
+				"107 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-107c_-80106987-1288350_presentation.png",
+				"108.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108.3n_-80106989-1288351_presentation.png",
+				"108.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108.5w_-80106990-1288355_presentation.png",
+				"108 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-108w_-80106988-1288357_presentation.png",
+				"109 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-109c_-80106991-1288356_presentation.png",
+				"110.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-110.5w_-80106993-1288361_presentation.png",
+				"110 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-110n_-80106992-1288363_presentation.png",
+				"111 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-111n_-80106994-1288362_presentation.png",
+				"112.3 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.3n_-80106996-1288367_presentation.png",
+				"112.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.5w_-80106997-1288368_presentation.png",
+				"112.7 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112.7w_-80106998-1288369_presentation.png",
+				"112 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-112c_-80106995-1288373_presentation.png",
+				"113 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-113c_-80106999-1288374_presentation.png",
+				"114.3 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114.3w_-80107001-1288375_presentation.png",
+				"114.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114.5w_-80107002-1288379_presentation.png",
+				"114 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-114n_-80107000-1288380_presentation.png",
+				"115 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-115c_-80107003-1288381_presentation.png",
+				"116.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-116.5w_-80107004-1288385_presentation.png",
+				"117.5 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-117.5w_-80107006-1288387_presentation.png",
+				"117 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-117n_-80107005-1288386_presentation.png",
+				"118.3 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118.3w_-80107008-1288393_presentation.png",
+				"118.5 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118.5n_-80107009-1288392_presentation.png",
+				"118 N":	"Skin Illusion Full Coverage 2024-30ml-Packshot-118n_-80107007-1288391_presentation.png",
+				"119.5 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-119.5c_-80107011-1288397_presentation.png",
+				"119 W":	"Skin Illusion Full Coverage 2024-30ml-Packshot-119w_-80107010-1288398_presentation.png",
+				"120 C":	"Skin Illusion Full Coverage 2024-30ml-Packshot-120c_-80107012-1288399_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 36, "name": "120 C", 		"desc":"neutral", 			"productID":"80107012", "rgb": "A97C5B", "L": 33.10, "H": 0.0428322077	},
+				{"i": 35, "name": "119.5 C",	"desc":"rosy", 				"productID":"80107011", "rgb": "B48B6F", "L": 33.87, "H": 0.0493184932	},
+				{"i": 34, "name": "119 W", 		"desc":"rosy",				"productID":"80107010", "rgb": "C09270", "L": 39.40, "H": 0.0578557430	},
+				{"i": 33, "name": "118.5 N", 	"desc":"neutral-rosy", 		"productID":"80107009", "rgb": "D5AA7F", "L": 40.20, "H": 0.0662699545	},
+				{"i": 32, "name": "118 N", 		"desc":"neutral-rosy", 		"productID":"80107007", "rgb": "DEB490", "L": 42.57, "H": 0.0657879479	},
+				{"i": 31, "name": "118.3 W", 	"desc":"golden", 			"productID":"80107008", "rgb": "DBB18B", "L": 43.33, "H": 0.0689574046	},
+				{"i": 30, "name": "117.5 W", 	"desc":"neutral-golden", 	"productID":"80107006", "rgb": "DDB28A", "L": 44.07, "H": 0.0683883476	},
+				{"i": 29, "name": "116.5 W", 	"desc":"golden", 			"productID":"80107004", "rgb": "E9BF9B", "L": 45.53, "H": 0.0719777816	},
+				{"i": 28, "name": "117 N", 		"desc":"neutral-rosy", 		"productID":"80107005", "rgb": "E4B68D", "L": 47.63, "H": 0.0655593633	},
+				{"i": 27, "name": "115 C", 		"desc":"neutral-golden", 	"productID":"80107003", "rgb": "F0C9A4", "L": 51.40, "H": 0.0680001622	},
+				{"i": 26, "name": "113 C", 		"desc":"neutral", 			"productID":"80106999", "rgb": "ECCEB6", "L": 52.67, "H": 0.0646241730	},
+				{"i": 25, "name": "114.5", 		"desc":"golden", 			"productID":"80107002", "rgb": "EEC395", "L": 52.83, "H": 0.0711619347	},
+				{"i": 24, "name": "114 N", 		"desc":"neutral", 			"productID":"80107000", "rgb": "F4D5B5", "L": 54.10, "H": 0.0659547884	},
+				{"i": 23, "name": "112.7 W", 	"desc":"golden", 			"productID":"80106998", "rgb": "F8DBBB", "L": 55.00, "H": 0.0687954793	},
+				{"i": 22, "name": "114.3 W", 	"desc":"very golden", 		"productID":"80107001", "rgb": "FADAB7", "L": 56.20, "H": 0.0731913438	},
+				{"i": 21, "name": "112 C", 		"desc":"neutral-rosy", 		"productID":"80106995", "rgb": "F4D5C0", "L": 56.57, "H": 0.0601807059	},
+				{"i": 20, "name": "112.3 N", 	"desc":"neutral", 			"productID":"80106996", "rgb": "EFD4B6", "L": 57.67, "H": 0.0658067765	},
+				{"i": 19, "name": "111 N", 		"desc":"neutral", 			"productID":"80106994", "rgb": "F4D4BB", "L": 57.73, "H": 0.0617845187	},
+				{"i": 18, "name": "112.5 W", 	"desc":"very golden", 		"productID":"80106997", "rgb": "FBD8B8", "L": 59.33, "H": 0.0716413450	},
+				{"i": 17, "name": "110.5 W", 	"desc":"golden", 			"productID":"80106993", "rgb": "FADBB8", "L": 59.80, "H": 0.0687332300	},
+				{"i": 16, "name": "110 N", 		"desc":"neutral-golden", 	"productID":"80106992", "rgb": "F5D7BF", "L": 60.73, "H": 0.0660585711	},
+				{"i": 15, "name": "107 C", 		"desc":"neutral-rosy", 		"productID":"80106987", "rgb": "FBDBC4", "L": 61.17, "H": 0.0574397167	},
+				{"i": 14, "name": "108.5 W", 	"desc":"neutral", 			"productID":"80106990", "rgb": "F7DABF", "L": 61.20, "H": 0.0599357576	},
+				{"i": 13, "name": "108.3 N", 	"desc":"neutral", 			"productID":"80106989", "rgb": "FCDEC6", "L": 61.80, "H": 0.0612839953	},
+				{"i": 12, "name": "109 C", 		"desc":"rosy", 				"productID":"80106991", "rgb": "F7D8C3", "L": 62.00, "H": 0.0567730681	},
+				{"i": 11, "name": "106 N", 		"desc":"neutral", 			"productID":"80106986", "rgb": "FBDDC3", "L": 63.47, "H": 0.0651791236	},
+				{"i": 10, "name": "105.5 W", 	"desc":"golden", 			"productID":"80106985", "rgb": "FCE3C7", "L": 64.07, "H": 0.0651791236	},
+				{"i":  9, "name": "108 W", 		"desc":"neutral-rosy", 		"productID":"80106988", "rgb": "FDE1C8", "L": 64.07, "H": 0.0642950765	},
+				{"i":  8, "name": "102.5 C", 	"desc":"neutral-rosy", 		"productID":"80106982", "rgb": "FAE1CE", "L": 64.30, "H": 0.0570797060	},
+				{"i":  7, "name": "103 N", 		"desc":"neutral-golden",	"productID":"80106983", "rgb": "FEE8D6", "L": 65.70, "H": 0.0657822237	},
+				{"i":  6, "name": "105 N", 		"desc":"netural-golden",	"productID":"80106984", "rgb": "FEE8D6", "L": 66.73, "H": 0.0672725396	},
+				{"i":  5, "name": "100.5 W", 	"desc":"very golden", 		"productID":"80106980", "rgb": "FDEAD3", "L": 66.97, "H": 0.0747372291	},
+				{"i":  4, "name": "101 W", 		"desc":"golden", 			"productID":"80106981", "rgb": "FFEAD3", "L": 67.63, "H": 0.0725898017	},
+				{"i":  3, "name": "100.4 N", 	"desc":"neutral", 			"productID":"80106979", "rgb": "FEECDD", "L": 68.03, "H": 0.0682168670	},
+				{"i":  2, "name": "100.3 N", 	"desc":"neutral", 			"productID":"80106978", "rgb": "FEEDE3", "L": 68.20, "H": 0.0644463854	},
+				{"i":  1, "name": "100 C", 		"desc":"neutral", 			"productID":"80106977", "rgb": "FEECDE", "L": 72.83, "H": 0.0663954380	}
+			],
+			"gridMatcher": [
+				{ "range.L": [68, 1000], "group": [
+				{ "H": 0.0663954380, "shade": 1, "friends": [2] } ]
+				}, { "range.L": [65, 68], "group": [
+					{ "H": 0.0644463854, "shade": 2, "friends": [3] },
+					{ "H": 0.0682168670, "shade": 3, "friends": [6,2] },
+					{ "H": 0.0672725396, "shade": 6, "friends": [7] },
+					{ "H": 0.0725898017, "shade": 4, "friends": [5] },
+				{ "H": 0.0747372291, "shade": 5, "friends": [4] }  ]
+				}, { "range.L": [62, 65], "group": [
+					{ "H": 0.0570797060, "shade": 8, "friends": [9] },
+					{ "H": 0.0642950765, "shade": 9, "friends": [11] },
+					{ "H": 0.0651791236, "shade": 11, "friends": [9,13] },
+					{ "H": 0.0657822237, "shade": 7, "friends": [6] },
+				{ "H": 0.0693125547, "shade": 10, "friends": [7] } ]
+				}, { "range.L": [59, 62], "group": [
+					{ "H": 0.0567730681, "shade": 12, "friends": [15] },
+					{ "H": 0.0574397167, "shade": 15, "friends": [13,14] },
+					{ "H": 0.0599357576, "shade": 14, "friends": [13] },
+					{ "H": 0.0612839953, "shade": 13, "friends": [14,16] },
+				{ "H": 0.0660585711, "shade": 16, "friends": [13,14] } ]
+				}, { "range.L": [57, 59], "group": [
+					{ "H": 0.0601807059, "shade": 21, "friends": [19,20] },
+					{ "H": 0.0617845187, "shade": 19, "friends": [20,21] },
+					{ "H": 0.0658067765, "shade": 20, "friends": [19,17] },
+					{ "H": 0.0687332300, "shade": 17, "friends": [20,16] },
+				{ "H": 0.0716413450, "shade": 18, "friends": [17,20] } ]
+				}, { "range.L": [54, 57], "group": [
+					{ "H": 0.0659547884, "shade": 24, "friends": [26] },
+					{ "H": 0.0687954793, "shade": 23, "friends": [24] },
+				{ "H": 0.0731913438, "shade": 22, "friends": [23,25] } ]
+				}, { "range.L": [51, 54], "group": [
+					{ "H": 0.0646241730, "shade": 26, "friends": [24] },
+					{ "H": 0.0680001622, "shade": 27, "friends": [24,25] },
+				{ "H": 0.0711619347, "shade": 25, "friends": [27,22] } ]
+				}, { "range.L": [48, 51], "group": [
+					{ "H": 0.0655593633, "shade": 28, "friends": [29,31] },
+				{ "H": 0.0719777816, "shade": 29, "friends": [28,31] } ]
+				}, { "range.L": [44, 48], "group": [
+					{ "H": 0.0657879479, "shade": 32, "friends": [31,28] },
+					{ "H": 0.0683883476, "shade": 30, "friends": [31,29] },
+				{ "H": 0.0689574046, "shade": 31, "friends": [29] } ]
+				}, { "range.L": [40, 44], "group": [
+					{ "H": 0.0578557430, "shade": 34, "friends": [33] },
+				{ "H": 0.0662699545, "shade": 33, "friends": [32,31] } ]
+				}, { "range.L": [0, 40],  "group": [
+					{ "H": 0.0493184932, "shade": 35, "friends": [36] },
+				{ "H": 0.0428322077, "shade": 36, "friends": [35] } ]
+				}
+			]
+		},
+		"Skin Illusion" : {
+			"useTree": true,
+			"description_en":"Adjustable coverage|Natural finish|Bare skin effect",
+			"description_fr":"Couvrance modulable|Fini naturel|Effet peau nue",
+			"familyID": "2",
+			"priority": 2,
+			"colName": "ClarinsSkinIllusion",
+			"matchingLines": [71.78444,-1.89929,0.02826],
+			"assets": {
+				"116.5W": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-116.5w-80039705-191013_presentation.png",
+				"117N": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-117n-80039706-191016_presentation.png",
+				"118N": 	"Skin Illusion Foundation - 2018-30ml-Ethnic-Packshot-118n-80039707-191017_presentation.png",
+				"108.5W": 	"Skin Illusion Foundation - 2018-30ml-Packshot-108.5w-80039696-190936_presentation.png",
+				"111N": 	"Skin Illusion Foundation - 2018-30ml-Packshot-111n-80039699-190959_presentation.png",
+				"112.3N": 	"Skin Illusion Foundation - 2018-30ml-Packshot-112.3n-80039701-190932_presentation.png",
+				"100.5W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-100.5w-80039889-190950_presentation.png",
+				"100C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-100c-80050027-190969_presentation.png",
+				"101W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-101w-80039688-190946_presentation.png",
+				"102.5C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-102.5c-80039689-190944_presentation.png",
+				"103N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-103n-80039690-190953_presentation.png",
+				"105.5W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-105.5w-80054189-190970_presentation.png",
+				"105N":		"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-105n-80039691-190942_presentation.png",
+				"106N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-106n-80039692-190954_presentation.png",
+				"107C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-107c-80039693-190940_presentation.png",
+				"108.3N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-108.3n-80039695-190957_presentation.png",
+				"108W": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-108w-80039694-190938_presentation.png",
+				"109C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-109c-80039697-190934_presentation.png",
+				"110N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-110n-80039698-190962_presentation.png",
+				"112C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-112c-80039700-190949_presentation.png",
+				"113C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-113c-80039702-190960_presentation.png",
+				"114N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-114n-80039703-190930_presentation.png",
+				"115C": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-115c-80039704-190928_presentation.png",
+				"118.5N": 	"Skin Illusion Foundation - 2018-30ml-Worldwide-Packshot-118.5n-80039708-190965_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 24, "name": "100C", 	"desc":"neutral", 			"productID":"80050027", "rgb": "FEECDE", "L": 69.17, "H": 0.054296},
+				{"i": 23, "name": "100.5W", "desc":"very golden", 		"productID":"80039889", "rgb": "FDEAD3", "L": 69.87, "H": 0.074154},
+				{"i": 22, "name": "101W", 	"desc":"golden", 			"productID":"80039688", "rgb": "FFEAD3", "L": 67.33, "H": 0.072591},
+				{"i": 21, "name": "102.5C", "desc":"neutral-rosy", 		"productID":"80039689", "rgb": "FAE1CE", "L": 64.13, "H": 0.057335},
+				{"i": 20, "name": "103N", 	"desc":"neutral-golden", 	"productID":"80039690", "rgb": "FEE8D6", "L": 67.13, "H": 0.068776},
+				{"i": 19, "name": "105N", 	"desc":"netural-golden", 	"productID":"80039691", "rgb": "FEE8D6", "L": 67.20, "H": 0.062776},
+				{"i": 18, "name": "105.5W", "desc":"golden", 			"productID":"80054189", "rgb": "FCE3C7", "L": 65.17, "H": 0.070411},
+				{"i": 17, "name": "106N", 	"desc":"neutral", 			"productID":"80039692", "rgb": "FBDDC3", "L": 64.73, "H": 0.069419},
+				{"i": 16, "name": "107C", 	"desc":"neutral-rosy", 		"productID":"80039693", "rgb": "FBDBC4", "L": 64.97, "H": 0.061787},
+				{"i": 15, "name": "108W", 	"desc":"neutral-rosy", 		"productID":"80039694", "rgb": "FDE1C8", "L": 63.30, "H": 0.066453},
+				{"i": 14, "name": "108.3N", "desc":"neutral", 			"productID":"80039695", "rgb": "FCDEC6", "L": 61.70, "H": 0.067501},
+				{"i": 13, "name": "108.5W", "desc":"neutral", 			"productID":"80039696", "rgb": "F7DABF", "L": 59.50, "H": 0.061843},
+				{"i": 12, "name": "109C", 	"desc":"rosy", 				"productID":"80039697", "rgb": "F7D8C3", "L": 59.20, "H": 0.060324},
+				{"i": 11, "name": "110N", 	"desc":"neutral-golden", 	"productID":"80039698", "rgb": "F5D7BF", "L": 60.17, "H": 0.070118},
+				{"i": 10, "name": "111N", 	"desc":"neutral", 			"productID":"80039699", "rgb": "F4D4BB", "L": 56.27, "H": 0.068134},
+				{"i":  9, "name": "112C", 	"desc":"neutral-rosy", 		"productID":"80039700", "rgb": "F4D5C0", "L": 53.77, "H": 0.062733},
+				{"i":  8, "name": "112.3N", "desc":"neutral", 			"productID":"80039701", "rgb": "EFD4B6", "L": 53.53, "H": 0.06678},
+				{"i":  7, "name": "113C", 	"desc":"neutral",			"productID":"80039702", "rgb": "ECCEB6", "L": 52.53, "H": 0.056438},
+				{"i":  6, "name": "114N", 	"desc":"neutral",			"productID":"80039703", "rgb": "F4D5B5", "L": 51.93, "H": 0.064106},
+				{"i":  5, "name": "115C", 	"desc":"neutral-golden", 	"productID":"80039704", "rgb": "F0C9A4", "L": 47.67, "H": 0.059518},
+				{"i":  4, "name": "116.5W", "desc":"golden", 			"productID":"80039705", "rgb": "E9BF9B", "L": 46.53, "H": 0.065319},
+				{"i":  3, "name": "117N", 	"desc":"neutral-rosy", 		"productID":"80039706", "rgb": "E4B68D", "L": 45.80, "H": 0.06259},
+				{"i":  2, "name": "118N", 	"desc":"neutral-rosy", 		"productID":"80039707", "rgb": "DEB490", "L": 41.53, "H": 0.062662},
+				{"i":  1, "name": "118.5N", "desc":"neutral-rosy", 		"productID":"80039708", "rgb": "D5AA7F", "L": 40.50, "H": 0.056666}
+			],
+			"gridMatcher": [
+				{ "range.L": [70, 1000], "group": [
+					{ "H": 0.054, "shade": 24, "friends": [19] } ,
+				{ "H": 0.074, "shade": 23, "friends": [22] } ]
+				}, { "range.L": [66, 70], "group": [
+					{ "H": 0.063, "shade": 19, "friends": [20] },
+					{ "H": 0.069, "shade": 20, "friends": [19,17,22] },
+				{ "H": 0.073, "shade": 22, "friends": [17,22] }]
+				}, { "range.L": [61, 66], "group": [
+					{ "H": 0.057, "shade": 21, "friends": [16] },
+					{ "H": 0.062, "shade": 16, "friends": [15] },
+					{ "H": 0.067, "shade": 15, "friends": [17] },
+					{ "H": 0.069, "shade": 17, "friends": [15] },
+				{ "H": 0.070, "shade": 18, "friends": [17,22] } ]
+				}, { "range.L": [56, 61], "group": [
+					{ "H": 0.060, "shade": 12, "friends": [13] },
+					{ "H": 0.062, "shade": 13, "friends": [12,14] },
+					{ "H": 0.068, "shade": 14, "friends": [11,17] },
+				{ "H": 0.070, "shade": 11, "friends": [14] }]
+				}, { "range.L": [52,56], "group": [
+					{ "H": 0.063, "shade": 9, "friends": [8] },
+					{ "H": 0.067, "shade": 8, "friends": [10,9,6] },
+				{ "H": 0.068, "shade": 10, "friends": [8] }]
+				}, { "range.L": [49,52], "group": [
+					{ "H": 0.056, "shade": 7, "friends": [9] },
+				{ "H": 0.064, "shade": 6, "friends": [8] }]
+				}, { "range.L": [43,49], "group": [
+					{ "H": 0.060, "shade": 5, "friends": [3] },
+					{ "H": 0.063, "shade": 3, "friends": [5] },
+				{ "H": 0.065, "shade": 4, "friends": [] } ]
+				}, { "range.L": [0,43], "group": [
+					{ "H": 0.057, "shade": 1, "friends": [2] },
+				{ "H": 0.063, "shade": 2, "friends": [1] } ]
+				}
+			]
+		},
+		"Oleo Tinted Serum" : {
+			"useTree": true,
+			"description_en":"Light coverage|Glowing finish|Ideal for dry skin",
+			"description_fr":"Couvrance légère|Fini glowy|Idéal pour les peaux sèches",
+			"familyID": "3",
+			"priority": 6,
+			"colName": "ClarinsOleoTintedSerum",
+			"matchingLines": [-0.5140, 1.0500, 0.0],
+			"assets": {
+				"1":	"Tinted Oleo-Serum 2023-30ml-Packshot-01-80098949-930164_presentation.png",
+				"2":	"Tinted Oleo-Serum 2023-30ml-Packshot-02-80098950-930165_presentation.png",
+				"2.5":	"Tinted Oleo-Serum 2023-30ml-Packshot-02.5-80098951-930161_presentation.png",
+				"3":	"Tinted Oleo-Serum 2023-30ml-Packshot-03-80098952-930167_presentation.png",
+				"4":	"Tinted Oleo-Serum 2023-30ml-Packshot-04-80098953-930171_presentation.png",
+				"5":	"Tinted Oleo-Serum 2023-30ml-Packshot-05-80098954-930170_presentation.png",
+				"6":	"Tinted Oleo-Serum 2023-30ml-Packshot-06-80098955-930173_presentation.png",
+				"7":	"Tinted Oleo-Serum 2023-30ml-Packshot-07-80098956-930178_presentation.png",
+				"8":	"Tinted Oleo-Serum 2023-30ml-Packshot-08-80098957-930175_presentation.png",
+				"9":	"Tinted Oleo-Serum 2023-30ml-Packshot-09-80098958-930179_presentation.png",
+				"10":	"Tinted Oleo-Serum 2023-30ml-Packshot-10-80100266-930181_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i": 11, "name": "1", 		"desc":"Packshot 1", 	"productID":"80098949", "rgb": "D4AD8B", "L": 65.73, "H": 0.072528},
+				{"i": 10, "name": "2", 		"desc":"Packshot 2", 	"productID":"80098950", "rgb": "D9AA82", "L": 66.43, "H": 0.073651},
+				{"i":  9, "name": "2.5", 	"desc":"Packshot 2.5", 	"productID":"80098951", "rgb": "D09D77", "L": 65.43, "H": 0.06191},
+				{"i":  8, "name": "3",		"desc":"Packshot 3", 	"productID":"80098952", "rgb": "C99874", "L": 64.43, "H": 0.068122},
+				{"i":  7, "name": "4", 		"desc":"Packshot 4",	"productID":"80098953", "rgb": "D1A575", "L": 63.57, "H": 0.075391},
+				{"i":  6, "name": "5", 		"desc":"Packshot 5",	"productID":"80098954", "rgb": "CC9C6D", "L": 59.67, "H": 0.0662},
+				{"i":  5, "name": "6", 		"desc":"Packshot 6", 	"productID":"80098955", "rgb": "BD8854", "L": 56.73, "H": 0.063221},
+				{"i":  4, "name": "7", 		"desc":"Packshot 7", 	"productID":"80098956", "rgb": "AF793E", "L": 50.40, "H": 0.06853},
+				{"i":  3, "name": "8", 		"desc":"Packshot 8", 	"productID":"80098957", "rgb": "9A663A", "L": 46.03, "H": 0.062152},
+				{"i":  2, "name": "9", 		"desc":"Packshot 9", 	"productID":"80098958", "rgb": "754D33", "L": 41.13, "H": 0.047037},
+				{"i":  1, "name": "10", 	"desc":"Packshot 10", 	"productID":"80100266", "rgb": "653F2B", "L": 35.23, "H": 0.045589}
+			],
+			"gridMatcher": [
+				{ "range.L": [64,1000], "group": [
+					{ "H": 0.062, "shade": 9, "friends": [8] },
+					{ "H": 0.073, "shade": 11, "friends": [10] },
+				{ "H": 0.074, "shade": 10, "friends": [11,8] }]
+				}, { "range.L": [60,64], "group": [
+					{ "H": 0.068, "shade": 8, "friends": [10,7] },
+				{ "H": 0.075, "shade": 7, "friends": [8] }]
+				}, { "range.L": [57.5,60], "group": [
+				{ "H": 0.067, "shade": 6, "friends": [7,3] }]
+				}, { "range.L": [53,57.5], "group": [
+				{ "H": 0.063, "shade": 5, "friends": [6,4] }]
+				}, { "range.L": [48,53], "group": [
+				{ "H":0.069 , "shade": 4, "friends": [5,3] }]
+				}, { "range.L": [44,48], "group": [
+				{ "H": 0.062, "shade":  3,"friends": [4,2] }]
+				}, { "range.L": [38,44], "group": [
+				{ "H":0.047 , "shade": 2, "friends": [3,1] }]
+				}, { "range.L": [0,38], "group": [
+				{ "H":0.046 , "shade": 1, "friends": [2] }]
+				}
+			]
+		},
+		"Skin Illusion Velvet": {
+			"useTree": true,
+			"description_en":"Adjustable coverage|Matte finish|Combination and oily skin",
+			"description_fr":"Couvrance modulable|Fini mat|Peaux mixtes et grasses",
+			"familyID": "4",
+			"priority": 4,
+			"colName": "SIVelvet",
+			"matchingLines": [-14.7, 1.22, 0.0],
+			"assets": {
+				"100C":		"Skin Illusion Velvet-100c.png",
+				"100.3N":	"Skin Illusion Velvet-100.3n.png",
+				"100.5W":	"Skin Illusion Velvet-100.5W.png",
+				"101W":		"Skin Illusion Velvet-101w.png",
+				"102.5C":	"Skin Illusion Velvet-102.5c.png",
+				"103N":		"Skin Illusion Velvet-103n.png",
+				"105.5W":	"Skin Illusion Velvet-105.5w.png",
+				"105N":		"Skin Illusion Velvet-105n.png",
+				"106N":		"Skin Illusion Velvet-106n.png",
+				"107C":		"Skin Illusion Velvet-107c.png",
+				"108.3N":	"Skin Illusion Velvet-108.3n.png",
+				"108.5W":	"Skin Illusion Velvet-108.5w.png",
+				"108W":		"Skin Illusion Velvet-108w.png",
+				"109C":		"Skin Illusion Velvet-109c.png",
+				"110.5W":	"Skin Illusion Velvet-110.5w.png",
+				"110N":		"Skin Illusion Velvet-110n.png",
+				"111N":		"Skin Illusion Velvet-111n.png",
+				"112.3N":	"Skin Illusion Velvet-112.3n.png",
+				"112.5W":	"Skin Illusion Velvet-112.5w.png",
+				"112C":		"Skin Illusion Velvet-112c.png",
+				"113C":		"Skin Illusion Velvet-113c.png",
+				"112.7W":	"Skin Illusion Velvet-112.7.png",
+				"115C":		"Skin Illusion Velvet-115c.png",
+				"116.5W":	"Skin Illusion Velvet-116.5w.png",
+				"117N":		"Skin Illusion Velvet-117n.png",
+				"118.5N":	"Skin Illusion Velvet-118.5n.png",
+				"117.5W":	"Skin Illusion Velvet-117.5.png",
+				"118N":		"Skin Illusion Velvet-118n.png"
+			},
+			"shadeMatcher": [
+				{"i":  28, 	"name": "100C", 	"desc":"lily", 		"productID":"80079890", "rgb": "FEECDE", "L": 66.47, "H": 0.0545791911	},
+				{"i":  27,	"name": "100.3N", 	"desc":"shell", 	"productID":"80079985", "rgb": "FEEDE3", "L": 68.90, "H": 0.0685086560	},
+				{"i":  26,	"name": "100.5W",	"desc":"shell", 	"productID":"80079891", "rgb": "FDEAD3", "L": 66.80, "H": 0.0750899135	},
+				{"i":  25,	"name": "101W",		"desc":"linen", 	"productID":"80079892", "rgb": "FFEAD3", "L": 65.43, "H": 0.0741460994	},
+				{"i":  24,	"name": "102.5C", 	"desc":"porcelain", "productID":"80079893", "rgb": "FAE1CE", "L": 62.40, "H": 0.0580976325	},
+				{"i":  23,	"name": "103N",		"desc":"ivory", 	"productID":"80079894", "rgb": "FEE8D6", "L": 64.67, "H": 0.0677528840	},
+				{"i":  22,	"name": "105.5W", 	"desc":"flesh", 	"productID":"80079896", "rgb": "FCE3C7", "L": 62.33, "H": 0.0697106079	},
+				{"i":  21,	"name": "105N",		"desc":"nude", 		"productID":"80079895", "rgb": "FEE8D6", "L": 63.87, "H": 0.0692891064	},
+				{"i":  20,	"name": "106N", 	"desc":"vanilla", 	"productID":"80079897", "rgb": "FBDDC3", "L": 61.10, "H": 0.0673519139	},
+				{"i":  19,	"name": "107C", 	"desc":"beige", 	"productID":"80079898", "rgb": "FBDBC4", "L": 61.23, "H": 0.0582993666	},
+				{"i":  18,	"name": "108.3N",	"desc":"organza", 	"productID":"80079900", "rgb": "FCDEC6", "L": 60.50, "H": 0.0658619339	},
+				{"i":  17,	"name": "108.5W", 	"desc":"cashew", 	"productID":"80079901", "rgb": "F7DABF", "L": 59.37, "H": 0.0634982741	},
+				{"i":  16,	"name": "108W", 	"desc":"sand", 		"productID":"80079899", "rgb": "FDE1C8", "L": 62.00, "H": 0.0633612132	},
+				{"i":  15,	"name": "109C", 	"desc":"wheat", 	"productID":"80079902", "rgb": "F7D8C3", "L": 57.33, "H": 0.0553867193	},
+				{"i":  14,	"name": "110.5W", 	"desc":"tawny", 	"productID":"80079987", "rgb": "FADBB8", "L": 59.23, "H": 0.0707459465	},
+				{"i":  13,	"name": "110N",		"desc":"honey", 	"productID":"80079903", "rgb": "F5D7BF", "L": 58.40, "H": 0.0696980590	},
+				{"i":  12,	"name": "111N",		"desc":"auburn", 	"productID":"80079904", "rgb": "F4D4BB", "L": 55.73, "H": 0.0638942520	},
+				{"i":  11,	"name": "112.3N",	"desc":"sandalwood","productID":"80079906", "rgb": "EFD4B6", "L": 55.17, "H": 0.0636356889	},
+				{"i":  10,	"name": "112.5W", 	"desc":"caramel", 	"productID":"80079989", "rgb": "FBD8B8", "L": 55.10, "H": 0.0650895223	},
+				{"i":  9, 	"name": "112C",		"desc":"amber", 	"productID":"80079905", "rgb": "F4D5C0", "L": 53.30, "H": 0.0603096080	},
+				{"i":  8, 	"name": "113C", 	"desc":"chestnut", 	"productID":"80079907", "rgb": "ECCEB6", "L": 49.77, "H": 0.0600933489	},
+				{"i":  7, 	"name": "112.7W", 	"desc":"amber",		"productID":"80102874", "rgb": "F8DBBB", "L": 51.17, "H": 0.0646538782	},
+				{"i":  6, 	"name": "115C", 	"desc":"cognac", 	"productID":"80079909", "rgb": "F0C9A4", "L": 49.10, "H": 0.0675159815	},
+				{"i":  5, 	"name": "116.5W",	"desc":"coffee", 	"productID":"80079910", "rgb": "E9BF9B", "L": 46.90, "H": 0.0672404183	},
+				{"i":  4, 	"name": "117N",  	"desc":"hazelnut", 	"productID":"80079911", "rgb": "E4B68D", "L": 47.67, "H": 0.0639311618	},
+				{"i":  3, 	"name": "118.5N",	"desc":"chocolate", "productID":"80079913", "rgb": "D5AA7F", "L": 38.57, "H": 0.0617858908	},
+				{"i":  2,  	"name": "117.5W", 	"desc":"hazelnut", 	"productID":"80079914", "rgb": "DDB28A", "L": 42.30, "H": 0.0620897768	},
+				{"i":  1, 	"name": "118N", 	"desc":"sienna", 	"productID":"80079912", "rgb": "DEB490", "L": 40.27, "H": 0.0617196092	}
+			],
+			"gridMatcher": [
+				{ "range.L": [66,1000], "group": [
+					{ "H": 0.0545791911,	"shade": 28, "friends": [27,24] },
+					{ "H": 0.0685086560, "shade": 27, "friends": [26,23] },
+				{ "H": 0.0750899135, "shade": 26, "friends": [25,27] }]
+				}, { "range.L": [62,66], "group": [
+					{ "H": 0.0580976325, "shade": 24, "friends": [23,10] },
+					{ "H": 0.0677528840, "shade": 23, "friends": [21,24] },
+					{ "H": 0.0692891064, "shade": 21, "friends": [23,25] },
+				{ "H": 0.0741460994, "shade": 25, "friends": [26,21] }]
+				}, { "range.L": [59,62], "group": [
+					{ "H": 0.0582993666, "shade": 19, "friends": [24,20] },
+					{ "H": 0.0633612132, "shade": 16, "friends": [20,19] },
+					{ "H": 0.0673519139, "shade": 20, "friends": [16,22] },
+				{ "H": 0.0697106079, "shade": 22, "friends": [20] }]
+				}, { "range.L": [56,59], "group": [
+					{ "H": 0.0553867193, "shade": 15, "friends": [13,18] },
+					{ "H": 0.0634982741, "shade": 17, "friends": [18,13] },
+					{ "H": 0.0658619339, "shade": 18, "friends": [13,17] },
+					{ "H": 0.0696980590, "shade": 13, "friends": [18,14] },
+				{ "H": 0.0707459465, "shade": 14, "friends": [13,18] }]
+				}, { "range.L": [52,56], "group": [
+					{ "H": 0.0603096080, "shade": 9,  "friends": [11,12] },
+					{ "H": 0.0636356889, "shade": 11, "friends": [12,9] },
+					{ "H": 0.0638942520, "shade": 12, "friends": [11,10] },
+				{ "H" :0.0650895223, "shade": 10, "friends": [12,11] }]
+				}, { "range.L": [48,52], "group": [
+					{ "H": 0.0600933489, "shade": 8, "friends": [7,6] },
+					{ "H": 0.0646538782, "shade": 7, "friends": [6,8] },
+				{ "H": 0.0675159815, "shade": 6, "friends": [7,4] }]
+				}, { "range.L": [44,48], "group": [
+					{ "H": 0.0639311618, "shade": 4, "friends": [5,6] },
+				{ "H": 0.0672404183, "shade": 5, "friends": [4] }]
+				}, { "range.L": [39,44], "group": [
+					{ "H": 0.0617196092, "shade": 1, "friends": [2,3] },
+				{ "H": 0.0620897768,	"shade": 2, "friends": [1] }]
+				}, { "range.L": [0,39], "group": [
+				{ "H": 0.0617858908, "shade": 3, "friends": [1] }]
+				}
+			]
+		},
+		"BB Cream Skin Detox": {
+			"useTree": true,
+			"description_en":"Light coverage|Natural glow|Unifies, hydrates, protects",
+			"description_fr":"Couvrance légère|Glow naturel|Unifie, hydrate, protège",
+			"familyID": "5",
+			"priority": 5,
+			"colName": "BBCream",
+			"matchingLines": [-14.04143608804560, 1.21450818960442, 0.0],
+			"assets" : {
+				"default": "2016 BB Cream Skin Detox SPF 25 ferme.tif_presentation.png"
+			},
+			"shadeMatcher": [
+				{"i":  4, "name": "00 Fair", 	"desc":"fair", 		"productID":"80083944", "rgb": "D7AE90", "L": 64.70, "H": 0.0638051150	},
+				{"i":  3, "name": "01 Light", 	"desc":"light", 	"productID":"80083945", "rgb": "E2BF99", "L": 56.80, "H": 0.0604070956	},
+				{"i":  2, "name": "02 Medium", 	"desc":"medium", 	"productID":"80083946", "rgb": "E1B6A3", "L": 53.53, "H": 0.0556147689	},
+				{"i":  1, "name": "03 Dark", 	"desc":"dark", 		"productID":"80083947", "rgb": "BF986D", "L": 51.33, "H": 0.0627199780	}
+			],
+			"gridMatcher": [
+				{ "range.L": [58, 1000], "group": [
+				{ "H": 0.0638051150, "shade": 4, "friends": [3] } ]
+				}, { "range.L": [55,58], "group": [
+				{ "H": 0.0604070956, "shade": 3, "friends": [4] }]
+				}, { "range.L": [52,55], "group": [
+				{ "H": 0.0556147689, "shade": 2, "friends": [3] }]
+				}, { "range.L": [48,52], "group": [
+				{ "H": 0.0627199780, "shade": 1, "friends": [2] }]
+				}, { "range.L": [0,48], "group": []
+				}
+			]
+
+		},
+		"Double Serum Foundation": {
+			"useTree": false,
+			"description_en":"All skin types|Natural finish|Unifies, hydrates, protects",
+			"description_fr":"Tous types de peau|Finition naturelle|Unifie, hydrate, protège",
+			"familyID": "6",
+			"priority": 0,
+			"colName": "Athena",
+			"matchingLines": [14.7, 0.754, 0.0],
+			"assets" : {
+				"default": "Athena.png"
+			},
+			"shadeMatcher": [
+				{"i": 1,"name": "L1C","desc": "L1C","productID": "3666057362538","rgb": "EAD3C1","L": 69.93333333,"H": 0.06060945637},
+				{"i": 2,"name": "L2C","desc": "L2C","productID": "3666057362545","rgb": "E5C8B6","L": 66.53333333,"H": 0.05676132547},
+				{"i": 3,"name": "L2W","desc": "L2W","productID": "3666057362552","rgb": "E3C5AB","L": 66.23333333,"H": 0.07271476685},
+				{"i": 4,"name": "L3N","desc": "L3N","productID": "3666057362569","rgb": "E4C9B4","L": 65.86666667,"H": 0.06373560714},
+				{"i": 5,"name": "L3W","desc": "L3W","productID": "3666057362576","rgb": "E8CCB4","L": 65.73333333,"H": 0.06969493877},
+				{"i": 6,"name": "L4C","desc": "L4C","productID": "3666057362583","rgb": "DBBAA7","L": 61.76666667,"H": 0.05490089649},
+				{"i": 7,"name": "L4N","desc": "L4N","productID": "3666057362590","rgb": "D6B49B","L": 64.03333333,"H": 0.06246398384},
+				{"i": 8,"name": "L5N","desc": "L5N","productID": "3666057362606","rgb": "D5B39A","L": 64.33333333,"H": 0.06379430028},
+				{"i": 9,"name": "L5W","desc": "L5W","productID": "3666057362613","rgb": "D7B093","L": 61.4,"H": 0.0646157278},
+				{"i": 10,"name": "L6N","desc": "L6N","productID": "3666057362637","rgb": "D2AF93","L": 61.16666667,"H": 0.0616091396},
+				{"i": 11,"name": "L6W","desc": "L6W","productID": "3666057362644","rgb": "D7AE90","L": 62.7,"H": 0.05992988656},
+				{"i": 12,"name": "L6C","desc": "L6C","productID": "3666057362620","rgb": "D7AF95","L": 60.7,"H": 0.05702645367},
+				{"i": 13,"name": "M1C","desc": "M1C","productID": "3666057362651","rgb": "D0A386","L": 58.53333333,"H": 0.05246623941},
+				{"i": 14,"name": "M1W","desc": "M1W","productID": "3666057362668","rgb": "D0A78B","L": 59.83333333,"H": 0.06307998909},
+				{"i": 15,"name": "M2N","desc": "M2N","productID": "3666057362675","rgb": "CEA086","L": 60.36666667,"H": 0.05840150367},
+				{"i": 16,"name": "M2W","desc": "M2W","productID": "3666057362682","rgb": "C89C81","L": 59.23333333,"H": 0.06042383132},
+				{"i": 17,"name": "M3C","desc": "M3C","productID": "3666057362699","rgb": "D29F80","L": 54.73333333,"H": 0.05458539063},
+				{"i": 18,"name": "M3N","desc": "M3N","productID": "3666057362705","rgb": "CA9B7F","L": 56.9,"H": 0.0578627101},
+				{"i": 19,"name": "M3W","desc": "M3W","productID": "3666057362712","rgb": "C3966D","L": 57.3,"H": 0.06427064299},
+				{"i": 20,"name": "M4C","desc": "M4C","productID": "3666057362729","rgb": "CD966D","L": 56.06666667,"H": 0.06060303213},
+				{"i": 21,"name": "M4N","desc": "M4N","productID": "3666057362736","rgb": "C3936D","L": 53.93333333,"H": 0.06278064198},
+				{"i": 22,"name": "M4W","desc": "M4W","productID": "3666057362743","rgb": "CA9D7C","L": 58.1,"H": 0.06511027366},
+				{"i": 23,"name": "M5C","desc": "M5C","productID": "3666057362750","rgb": "C08863","L": 52.06666667,"H": 0.05925262725},
+				{"i": 24,"name": "M5N","desc": "M5N","productID": "3666057362767","rgb": "C38F68","L": 53.96666667,"H": 0.06145272532},
+				{"i": 25,"name": "M5W","desc": "M5W","productID": "3666057362774","rgb": "CAA378","L": 56.16666667,"H": 0.07085712587},
+				{"i": 26,"name": "M6W","desc": "M6W","productID": "3666057362781","rgb": "C79A70","L": 54.36666667,"H": 0.06808607709},
+				{"i": 27,"name": "D1W","desc": "D1W","productID": "3666057362798","rgb": "B98053","L": 50.16666667,"H": 0.06301873197},
+				{"i": 28,"name": "D2N","desc": "D2N","productID": "3666057362804","rgb": "B5764A","L": 47.8,"H": 0.05981093652},
+				{"i": 29,"name": "D2W","desc": "D2W","productID": "3666057362811","rgb": "B27A49","L": 46.46666667,"H": 0.06662187747},
+				{"i": 30,"name": "D3N","desc": "D3N","productID": "3666057362828","rgb": "A66C44","L": 43.66666667,"H": 0.06327707036},
+				{"i": 31,"name": "D3W","desc": "D3W","productID": "3666057362835","rgb": "AA7144","L": 45.23333333,"H": 0.0635263116},
+				{"i": 32,"name": "D4C","desc": "D4C","productID": "3666057362842","rgb": "91512B","L": 40.93333333,"H": 0.05739912178},
+				{"i": 33,"name": "D4N","desc": "D4N","productID": "3666057362859","rgb": "9E6134","L": 43.3,"H": 0.06527803586},
+				{"i": 34,"name": "D4W","desc": "D4W","productID": "3666057362866","rgb": "8D5228","L": 43.66666667,"H": 0.06051385842},
+				{"i": 35,"name": "D5N","desc": "D5N","productID": "3666057362873","rgb": "804D2E","L": 39.03333333,"H": 0.05892451991},
+				{"i": 36,"name": "D6C","desc": "D6C","productID": "3666057362880","rgb": "6C3B2A","L": 36.13333333,"H": 0.04364802532},
+				{"i": 37,"name": "D6N","desc": "D6N","productID": "3666057362897","rgb": "59321B","L": 34.8,"H": 0.05042931281}
+			],
+			"gridMatcher": [
+				{"range.L":[66,1000],"group":[{"H":0.06060945637,"shade":1,"friends":[2]}]},
+				{"range.L":[63,66],"group":[
+					{"H":0.05676132547,"shade":2,"friends":[4]},
+					{"H":0.06373560714,"shade":4,"friends":[7]},
+					{"H":0.06969493877,"shade":5,"friends":[3,7]},
+					{"H":0.07271476685,"shade":3,"friends":[5,7]}]},
+				{"range.L":[61,63],"group":[
+					{"H":0.05992988656,"shade":11,"friends":[8,6]},
+					{"H":0.06246398384,"shade":7,"friends":[4,8]},
+				{"H":0.06379430028,"shade":8,"friends":[7,11]}]},
+				{"range.L":[59,61],"group":[{"H":0.05490089649,"shade":6,"friends":[11,12]},
+					{"H":0.05702645367,"shade":12,"friends":[6,10]},
+					{"H":0.0616091396,"shade":10,"friends":[8,9]},
+				{"H":0.0646157278,"shade":9,"friends":[10,14]}]},
+				{"range.L":[58,59],"group":[{"H":0.05246623941,"shade":13,"friends":[15,12]},
+					{"H":0.05840150367,"shade":15,"friends":[16,13]},
+					{"H":0.06042383132,"shade":16,"friends":[15,14]},
+				{"H":0.06307998909,"shade":14,"friends":[10,16]}]},
+				{"range.L":[57,58],"group":[
+					{"H":0.0578627101,"shade":18,"friends":[20]},
+					{"H":0.06060303213,"shade":20,"friends":[24,19]},
+					{"H":0.06427064299,"shade":19,"friends":[22,14]},
+					{"H":0.06511027366,"shade":22,"friends":[19]},
+					{"H":0.07085712587,"shade":25,"friends":[22,26]}]},
+				{"range.L":[55,57],"group":[
+					{"H":0.05458539063,"shade":17,"friends":[24]},
+					{"H":0.06145272532,"shade":24,"friends":[21,17]},
+					{"H":0.06278064198,"shade":21,"friends":[24,26]},
+					{"H":0.06808607709,"shade":26,"friends":[21]}]},
+				{"range.L":[53,55],"group":[
+					{"H":0.05925262725,"shade":23,"friends":[24]},
+					{"H":0.06301873197,"shade":27,"friends":[23]}]},
+				{"range.L":[50,53],"group":[
+					{"H":0.05981093652,"shade":28,"friends":[31]},
+					{"H":0.0635263116,"shade":31,"friends":[28,33]},
+					{"H":0.06662187747,"shade":29,"friends":[31,33]}]},
+				{"range.L":[46,50],"group":[
+					{"H":0.06051385842,"shade":34,"friends":[33,30]},
+					{"H":0.06327707036,"shade":30,"friends":[34,33]},
+					{"H":0.06527803586,"shade":33,"friends":[31,34]}]},
+				{"range.L":[43,46],"group":[{"H":0.05739912178,"shade":32,"friends":[]}]},
+				{"range.L":[41,43],"group":[{"H":0.05892451991,"shade":35,"friends":[]}]},
+				{"range.L":[0,41],"group":[
+					{"H":0.04364802532,"shade":36,"friends":[]},
+					{"H":0.05042931281,"shade":37,"friends":[]}]}
+			]
+
+		},
+		"Skin Illusion Tinted Moisturizer": {
+			"useTree": false,
+			"description_en":"All skin types|Naked skin effect|Glossy finish",
+			"description_fr":"Tous types de peau|Effet peau nue|Finition brillante",
+			"familyID": "7",
+			"priority": 1,
+			"colName": "SI_TntMoist",
+			"matchingLines":  [-15.2, 1.28, 0.0],
+			"assets" : {
+				"default": "SITM.png"
+			},
+			"shadeMatcher":[
+				{"i": 1,"name": "01","desc": "01","productID": "3666057297991","rgb": "D4AD8B","L": 69.87,"H": 0.061494},
+				{"i": 2,"name": "02","desc": "02","productID": "3666057298004","rgb": "D9AA82","L": 69.77,"H": 0.067982},
+				{"i": 3,"name": "02.5","desc": "02.5","productID": "3666057298011","rgb": "D09D77","L": 66.4,"H": 0.054958},
+				{"i": 4,"name": "03","desc": "03","productID": "3666057298028","rgb": "C99874","L": 66.0,"H": 0.059613},
+				{"i": 5,"name": "04","desc": "04","productID": "3666057298035","rgb": "D1A575","L": 66.27,"H": 0.068489},
+				{"i": 6,"name": "05","desc": "05","productID": "3666057298042","rgb": "CC9C6D","L": 62.4,"H": 0.063625},
+				{"i": 7,"name": "06","desc": "06","productID": "3666057298059","rgb": "BD8854","L": 59.1,"H": 0.061972},
+				{"i": 8,"name": "07","desc": "07","productID": "3666057298066","rgb": "AF793E","L": 51.6,"H": 0.066637},
+				{"i": 9,"name": "08","desc": "08","productID": "3666057298073","rgb": "9A663A","L": 47.3,"H": 0.060516},
+				{"i": 10,"name": "09","desc": "09","productID": "3666057298080","rgb": "754D33","L": 43.43,"H": 0.051044},
+				{"i": 11,"name": "10","desc": "10","productID": "3666057298097","rgb": "653F2B","L": 37.23,"H": 0.055628}
+				],
+			"gridMatcher":[
+				{"range.L":[65,1000],"group":[	{"H":0.061494,"shade":1,"friends":[2]},
+												{"H":0.067982,"shade":2,"friends":[1]}]},
+				{"range.L":[60,65],"group":[	{"H":0.054958,"shade":3,"friends":[4]},
+												{"H":0.059613,"shade":4,"friends":[5,3]},
+												{"H":0.068489,"shade":5,"friends":[4,6]}]},
+				{"range.L":[57,60],"group":[	{"H":0.063625,"shade":6,"friends":[4,5]}]},
+				{"range.L":[53,57],"group":[	{"H":0.061972,"shade":7,"friends":[6,8]}]},
+				{"range.L":[47,53],"group":[	{"H":0.066637,"shade":8,"friends":[7,9]}]},
+				{"range.L":[40,47],"group":[	{"H":0.060516,"shade":9,"friends":[8,10]}]},
+				{"range.L":[34,40],"group":[	{"H":0.051044,"shade":10,"friends":[11,9]}]},
+				{"range.L":[0,34],"group":[		{"H":0.055628,"shade":11,"friends":[10]}]}
+			]
+		}
+	}
+}

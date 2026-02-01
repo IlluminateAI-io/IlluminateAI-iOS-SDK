@@ -27,7 +27,7 @@ let package = Package(
 		),
 		.binaryTarget(
 			name: "IlluminateAISupport.xcframework",
-			path: "xcframeworks/IlluminateAI.xcframework"
+			path: "xcframeworks/IlluminateAISupport.xcframework"
 		),
 		.binaryTarget(
 			name: "elfSupport.xcframework",
