@@ -46,7 +46,6 @@ typedef NS_ENUM(NSInteger, RingoErrors) {
 + (void)deleteHistory;
 + (RingoResult* _Nullable)pastMatch:(NSString* _Nonnull)familyID;
 
-
 + (NSArray<NSString*>* _Nonnull)locationNames;
 + (NSString* _Nullable)locationForGPS:(CLLocationCoordinate2D)gps;
 

@@ -8,5 +8,6 @@
 	+ (NSArray\<RingoResult\*\>\* _Nullable)history;
 	+ (void)deleteHistory;
 	+ (RingoResult\* _Nullable)pastMatch:(NSString\* _Nonnull)familyID;
-	+ (NSArray\<NSString\*\>  \* _Nonnull)supportedProducts;
-	+ (NSArray\<NSString\*\>  \* _Nonnull)supportedFamilyIDs;
+* new FaceCapture functions
+	- (NSString* _Nullable)familyIDfromProduct:(NSString*_Nonnull)product;
+	- (NSString* _Nullable)productFromFamilyID:(NSString*_Nonnull)familyID;

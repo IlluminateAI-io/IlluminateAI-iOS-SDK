@@ -535,6 +535,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) FaceCaptureSW * _Nonnu
 + (void)popUX:(UINavigationController * _Nonnull)navVC animated:(BOOL)animated;
 + (void)showResults:(UINavigationController * _Nullable)nav;
 + (void)openDevSettings:(UINavigationController * _Nonnull)nav;
++ (void)customerHeartbeat:(NSDictionary<NSString *, id> * _Nonnull)customer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -739,6 +740,9 @@ SWIFT_CLASS("_TtC12IlluminateAI9SavvyView")
 
 SWIFT_CLASS("_TtC12IlluminateAI8Settings")
 @interface Settings : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull lastTaskId;)
++ (NSString * _Nonnull)lastTaskId SWIFT_WARN_UNUSED_RESULT;
++ (void)setLastTaskId:(NSString * _Nonnull)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable location;)
 + (NSString * _Nullable)location SWIFT_WARN_UNUSED_RESULT;
 + (void)setLocation:(NSString * _Nullable)newValue;
@@ -1238,8 +1242,8 @@ SWIFT_CLASS("_TtC12IlluminateAI9StackView")
 - (void)processingUpWithText:(NSString * _Nonnull)text;
 - (UILabel * _Nonnull)processingUpLabel SWIFT_WARN_UNUSED_RESULT;
 - (void)updateProcessingLabelWithNotification:(NSNotification * _Nonnull)notification;
-- (void)show:(NSString * _Nonnull)title message:(NSString * _Nonnull)message;
-- (void)show_buttons:(NSString * _Nonnull)title message:(NSString * _Nonnull)message buttons:(NSArray<NSString *> * _Nonnull)buttons handler:(void (^ _Nonnull)(NSInteger))handler;
+- (void)show:(NSString * _Nullable)title message:(NSString * _Nullable)message;
+- (void)show_buttons:(NSString * _Nullable)title message:(NSString * _Nullable)message buttons:(NSArray<NSString *> * _Nonnull)buttons handler:(void (^ _Nonnull)(NSInteger))handler;
 - (void)endEditTouch:(UITapGestureRecognizer * _Nonnull)gr;
 - (void)keyboardWithNote:(NSNotification * _Nonnull)note;
 - (void)resizingKeyboardWithOffset:(CGFloat)offset first:(BOOL)first last:(BOOL)last fRect:(CGRect)fRect lRect:(CGRect)lRect info:(NSDictionary * _Nullable)info;

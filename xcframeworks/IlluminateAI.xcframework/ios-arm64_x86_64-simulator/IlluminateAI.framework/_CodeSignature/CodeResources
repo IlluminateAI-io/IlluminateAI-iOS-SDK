@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/FaceCapture.h</key>
 		<data>
-		s+TFuc9vf4pEgeHSVF39PDIZSgE=
+		mt8oVlVXKiJr0/Xejy+Rug0hw1E=
 		</data>
 		<key>Headers/Goodies.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Headers/IlluminateAI-Swift.h</key>
 		<data>
-		YggdAv1O+ZypwrcniOtY/g8WmGA=
+		IpfTt8cBPGgP+ppxky9QeGjCxPc=
 		</data>
 		<key>Headers/IlluminateAI.h</key>
 		<data>
-		ljZL+jImduX/Zlkxv1I/XBO60Eg=
+		MVDuad4qniRmlFaBbFHvHv/uup4=
 		</data>
 		<key>Headers/NSAttributedStringPlus.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/cBYEZ7O8Bann1H/AsUjDKuX5jI=
+		n06YUmXqqoDuwqHSUESogWSeBns=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		n+6vRN8IJU9aNrxGFMSo2YtGvEQ=
+		Etv9ohSKzUOkJ9f4vJyR72SKsu4=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		clF8WRcdnrHqzl1krrmuVv79mh8=
+		3BDwfLZFDkRjCV3T3MpRF465MF4=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -118,19 +118,19 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		clF8WRcdnrHqzl1krrmuVv79mh8=
+		3BDwfLZFDkRjCV3T3MpRF465MF4=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o7wNYT1XsxmVSUFDhVpNuW49p/8=
+		xy+BODk+VJeBRsWEEQw5YYlfDqI=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		n+6vRN8IJU9aNrxGFMSo2YtGvEQ=
+		Etv9ohSKzUOkJ9f4vJyR72SKsu4=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uHfgQRTEM+CzpstssDMV5WPV8N0=
+		mYqY9qqtOFx0/peT3XK/mgTB5go=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uHfgQRTEM+CzpstssDMV5WPV8N0=
+		mYqY9qqtOFx0/peT3XK/mgTB5go=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/F6N6tj2lP2ZVSCtrHW+ITrL0tk=
+		yYfFF7x5mL1o9bje1u8Pu6ZpHwU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>clarins_shade_values.json</key>
 		<data>
-		ucqNn6FzFU3Y72fA09zDsXYThBQ=
+		L1GsOyHN845JCD/YPGYFOqoq/Zk=
 		</data>
 		<key>clarins_survey_map.json</key>
 		<data>
@@ -357,7 +357,7 @@
 		</data>
 		<key>phone_to_phone.json</key>
 		<data>
-		KVW2P4AUmEwxqse/IjyDftzpIZY=
+		BEHStAe7848s6JKd/+ecP3gMYH8=
 		</data>
 		<key>preconfig_0_0.png</key>
 		<data>
@@ -510,7 +510,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q5xXKXsygjsEKd/O6kWSMXExdHfT/iC+wZmOetu0uqc=
+			02uHDKsRwR0IAja8JdtLv3uFfcZckCxfRuIbZmVsvjE=
 			</data>
 		</dict>
 		<key>Headers/Goodies.h</key>
@@ -531,14 +531,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JSVBHZZKrQkEry4jekCrwyHc6VfdOQ63E5Zm1kBBSzQ=
+			Wi1vtMsB33IkFsItE1hJcQ2xL5cfoP23FLK1yjSsiLo=
 			</data>
 		</dict>
 		<key>Headers/IlluminateAI.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQ9CCwXKJjhX9RBUi24VZVLPAdXVp4/qHWd5coiKAoA=
+			Jh4HUixI2CDNlSN7C+HCvowk5+PaCrxMWP0O3v4ug4E=
 			</data>
 		</dict>
 		<key>Headers/NSAttributedStringPlus.h</key>
@@ -601,14 +601,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MQjbgxnBH6JQ/6x5ek8i7ST/wNtkh8Fu5YM+W1i2TJE=
+			zPfXHGqR29oPUNw1rIcn+wYF9TV6WYVVtAS6OMANrTI=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CdtF4ZVQXEVB2LiXviRu5TqP4pwOhQ80MmTGelzh2Q4=
+			uJK/6uNslmAnfCprImSdXdJHu7SaBIN4EaGg6/RfzQw=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -622,28 +622,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CdtF4ZVQXEVB2LiXviRu5TqP4pwOhQ80MmTGelzh2Q4=
+			uJK/6uNslmAnfCprImSdXdJHu7SaBIN4EaGg6/RfzQw=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4HrWkWtRVNvcQ2Gm5FDdWPbhRUd++Goe6PtHdTFpXQ0=
+			5nuvOG3r06DKRHUh09ForGJSdxqPxuemj3KMiTWKD80=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MQjbgxnBH6JQ/6x5ek8i7ST/wNtkh8Fu5YM+W1i2TJE=
+			zPfXHGqR29oPUNw1rIcn+wYF9TV6WYVVtAS6OMANrTI=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CXVlgfLhqQfqTPTL3tK8ikD9/mh9nQGOdvgIbq1wYa4=
+			aNuz2PZedHGWvYWtBimN99NSzUT8/adw2JoXZ5c5524=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -657,14 +657,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CXVlgfLhqQfqTPTL3tK8ikD9/mh9nQGOdvgIbq1wYa4=
+			aNuz2PZedHGWvYWtBimN99NSzUT8/adw2JoXZ5c5524=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RtvQlQCeDtzWxKRetfBvdoBKioIcVQ0raF1ugIwdB4s=
+			Zzu7EwJDlnf9Pyywb+UsCtAy2Z88xYzjpiStpru0W9I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -820,7 +820,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1TQIEVYQ1Y68yLqtQMxtsSNnHR57WeVkA4C9U7r8bg=
+			QfnR4oBNqFUFb+ViIf1/SW/fPqbz9txLheJkDn9nAaw=
 			</data>
 		</dict>
 		<key>clarins_survey_map.json</key>
@@ -986,7 +986,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b4l8yC+1hPAN4UPbXSptDMxr+FkcldGpqim+hcxspFs=
+			SL9YvV5tJUsGmZSIWrtAIxHdWBF9y2IG+7XQGgzE8sQ=
 			</data>
 		</dict>
 		<key>preconfig_0_0.png</key>

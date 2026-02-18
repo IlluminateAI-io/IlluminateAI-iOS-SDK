@@ -222,12 +222,20 @@ extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public func safeshow(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String?, message: Swift.String?, handler: ((UIKit.UIAlertAction) -> Swift.Void)? = nil)
   #endif
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show(_ title: Swift.String, message: Swift.String)
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show_buttons(_ title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, handler: @escaping (UIKit.UIAlertAction) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String, message: Swift.String, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show(_ title: Swift.String?, message: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func show_buttons(_ title: Swift.String?, message: Swift.String?, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String?, message: Swift.String, handler: @escaping (UIKit.UIAlertAction) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func show(title: Swift.String?, message: Swift.String?, buttons: [Swift.String], handler: @escaping (Swift.Int) -> Swift.Void)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func dismiss(completion: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func currentEditFrame() -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency public func installEndEditTouch(onView: UIKit.UIView)
@@ -355,6 +363,10 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
   public static var capture_fov: Swift.Double
   public static func applyURL(_ url: Foundation.URL)
   public static func applyTaskSettings(_ task: IlluminateAI.JSON)
+  @objc public static var lastTaskId: Swift.String {
+    @objc get
+    @objc set
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public static var location: Swift.String? {
     @objc get
@@ -1523,6 +1535,7 @@ extension Foundation.NSNotification.Name {
   public static let fcTaskComplete: Foundation.Notification.Name
   public static let fcManualCapture: Foundation.Notification.Name
   public static let fcCaptureInterruptus: Foundation.Notification.Name
+  public static let customerHeartbeat: Foundation.Notification.Name
 }
 public struct CaptureExposure {
 }
@@ -1821,6 +1834,7 @@ public var lastHintAmbient: Swift.Bool
   @objc public static func showResults(_ nav: UIKit.UINavigationController?)
   #endif
   @objc public static func openDevSettings(_ nav: UIKit.UINavigationController)
+  @objc public static func customerHeartbeat(_ customer: [Swift.String : Any])
   @objc deinit
   @objc override dynamic public init()
 }

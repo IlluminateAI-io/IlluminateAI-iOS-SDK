@@ -133,6 +133,10 @@ typedef NSDictionary<NSString*, id> RingoResult;
 
 - (NSArray<NSString*>*_Nonnull)supportedFamilyIDs;
 - (NSArray<NSString*>*_Nonnull)supportedFamilies;
+
+- (NSString* _Nullable)familyIDfromProduct:(NSString*_Nonnull)product;
+- (NSString* _Nullable)productFromFamilyID:(NSString*_Nonnull)familyID;
+
 - (NSArray<RingoProduct*>*_Nonnull)supportedProducts;
 - (NSDictionary<NSString*,NSDictionary*>*_Nonnull)supportedSKUs;
 - (NSString*_Nullable)defaultFamilyID;
