@@ -1,6 +1,6 @@
 # IlluminateAI_SDK
 
-### Build 2026.02.16
+### Build 2026.02.18
 
 * built with xcode 26
 * new FindMyShade functions
