@@ -281,9 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
-@import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -308,29 +305,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 @class NSString;
-@class NSCoder;
-@class UITouch;
-@class UIEvent;
-SWIFT_CLASS("_TtC10elfSupport9PopupMenu")
-@interface PopupMenu : UIButton
-@property (nonatomic, getter=isEnabled) BOOL enabled;
-@property (nonatomic) IBInspectable BOOL incognito;
-@property (nonatomic, copy) IBInspectable NSString * _Nonnull titleSuffix;
-@property (nonatomic) CGRect frame;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)drawRect:(CGRect)rect;
-- (void)didMoveToSuperview;
-- (void)layoutSubviews;
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (void)sendAction:(SEL _Nonnull)action to:(id _Nullable)target forEvent:(UIEvent * _Nullable)event;
-@end
-
 @class NSBundle;
+@class NSCoder;
 SWIFT_CLASS("_TtC10elfSupport24ProcessingViewController")
 @interface ProcessingViewController : UIViewController
 @property (nonatomic) BOOL killItWithFire;
@@ -340,12 +316,6 @@ SWIFT_CLASS("_TtC10elfSupport24ProcessingViewController")
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC10elfSupport15SavvyIgnoreView")
-@interface SavvyIgnoreView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -362,8 +332,6 @@ SWIFT_CLASS("_TtC10elfSupport15SavvyIgnoreView")
 + (UIColor * _Nonnull)appDisabledColor SWIFT_WARN_UNUSED_RESULT;
 + (UIColor * _Nonnull)appVideoBGColor SWIFT_WARN_UNUSED_RESULT;
 + (UIColor * _Nonnull)appWarningColor SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithHexstr:(NSString * _Nonnull)hexstr alpha:(CGFloat)alpha;
-- (nonnull instancetype)initWithHex:(uint32_t)hex alpha:(CGFloat)alpha;
 @property (nonatomic, readonly, strong) UIImage * _Nonnull image;
 @end
 

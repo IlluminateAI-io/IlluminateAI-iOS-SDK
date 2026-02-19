@@ -1,0 +1,6 @@
+framework module RingoAISupport {
+  umbrella header "RingoAISupport.h"
+  export *
+
+  module * { export * }
+}
