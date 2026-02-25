@@ -715,8 +715,8 @@ SWIFT_CLASS("_TtC12IlluminateAI9ResultsUX")
 @class RingoResult;
 SWIFT_CLASS("_TtC12IlluminateAI8RingoAIS")
 @interface RingoAIS : NSObject
-+ (RingoResult * _Nullable)synthesizeRingoResultWithL:(double)L H:(double)H matches:(NSDictionary<NSString *, ProductMatches *> * _Nonnull)matches familyID:(NSString * _Nullable)familyID sessionID:(NSString * _Nullable)sessionID SWIFT_WARN_UNUSED_RESULT;
-+ (NSDictionary<NSString *, id> * _Nullable)synthesize:(double)L :(double)H :(NSDictionary<NSString *, ProductMatches *> * _Nonnull)matches familyID:(NSString * _Nullable)familyID sessionID:(NSString * _Nullable)sessionID SWIFT_WARN_UNUSED_RESULT;
++ (RingoResult * _Nullable)synthesizeRingoResultWithL:(double)L H:(double)H defProduct:(NSString * _Nonnull)defProduct matches:(NSDictionary<NSString *, ProductMatches *> * _Nonnull)matches familyID:(NSString * _Nullable)familyID sessionID:(NSString * _Nullable)sessionID SWIFT_WARN_UNUSED_RESULT;
++ (NSDictionary<NSString *, id> * _Nullable)synthesize:(double)L :(double)H :(NSString * _Nonnull)defProduct :(NSDictionary<NSString *, ProductMatches *> * _Nonnull)matches familyID:(NSString * _Nullable)familyID sessionID:(NSString * _Nullable)sessionID SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

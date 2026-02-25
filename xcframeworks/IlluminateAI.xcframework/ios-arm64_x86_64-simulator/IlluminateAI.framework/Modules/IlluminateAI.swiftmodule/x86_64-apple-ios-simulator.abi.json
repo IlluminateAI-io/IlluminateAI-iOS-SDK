@@ -39324,7 +39324,7 @@
           {
             "kind": "Function",
             "name": "synthesizeRingoResult",
-            "printedName": "synthesizeRingoResult(L:H:matches:familyID:sessionID:)",
+            "printedName": "synthesizeRingoResult(L:H:defProduct:matches:familyID:sessionID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -39351,6 +39351,12 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -39404,11 +39410,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@IlluminateAI@objc(cs)RingoAIS(cm)synthesizeRingoResultWithL:H:matches:familyID:sessionID:",
-            "mangledName": "$s12IlluminateAI8RingoAISC010synthesizeC6Result1L1H7matches8familyID07sessionI0So0cF0CSgSd_SdSDySSAA14ProductMatchesCGSSSgAPtFZ",
+            "usr": "c:@M@IlluminateAI@objc(cs)RingoAIS(cm)synthesizeRingoResultWithL:H:defProduct:matches:familyID:sessionID:",
+            "mangledName": "$s12IlluminateAI8RingoAISC010synthesizeC6Result1L1H10defProduct7matches8familyID07sessionK0So0cF0CSgSd_SdSSSDySSAA0H7MatchesCGSSSgAQtFZ",
             "moduleName": "IlluminateAI",
             "static": true,
-            "objc_name": "synthesizeRingoResultWithL:H:matches:familyID:sessionID:",
+            "objc_name": "synthesizeRingoResultWithL:H:defProduct:matches:familyID:sessionID:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -39419,7 +39425,7 @@
           {
             "kind": "Function",
             "name": "synthesize",
-            "printedName": "synthesize(_:_:_:familyID:sessionID:)",
+            "printedName": "synthesize(_:_:_:_:familyID:sessionID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -39462,6 +39468,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Dictionary",
                 "printedName": "[Swift.String : IlluminateAI.ProductMatches]",
                 "children": [
@@ -39512,8 +39524,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@IlluminateAI@objc(cs)RingoAIS(cm)synthesize:::familyID:sessionID:",
-            "mangledName": "$s12IlluminateAI8RingoAISC10synthesize___8familyID07sessionG0SDySSypGSgSd_SdSDySSAA14ProductMatchesCGSSSgALtFZ",
+            "usr": "c:@M@IlluminateAI@objc(cs)RingoAIS(cm)synthesize::::familyID:sessionID:",
+            "mangledName": "$s12IlluminateAI8RingoAISC10synthesize____8familyID07sessionG0SDySSypGSgSd_SdSSSDySSAA14ProductMatchesCGSSSgALtFZ",
             "moduleName": "IlluminateAI",
             "static": true,
             "declAttributes": [
@@ -67678,21 +67690,21 @@
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 25947,
+      "offset": 25948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 26311,
+      "offset": 26312,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios\/src\/iOS_Project\/RingoAI\/FaceCaptureSupport\/FCCommon.swift",
       "kind": "BooleanLiteral",
-      "offset": 26576,
+      "offset": 26577,
       "length": 4,
       "value": "true"
     },

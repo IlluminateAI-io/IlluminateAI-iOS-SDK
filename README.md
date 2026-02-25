@@ -1,8 +1,11 @@
 # IlluminateAI_SDK
 
-### Build 2026.02.18
+### Build 2026.02.25
 
-* built with xcode 26
+* **built with xcode 26.2**
+* `defaultFamilyID` & `defaultFamily` correctly set
+
+#### PREVIOUSLY
 * new FindMyShade functions
 	+ (BOOL)hasHistory;
 	+ (NSArray\<RingoResult\*\>\* _Nullable)history;

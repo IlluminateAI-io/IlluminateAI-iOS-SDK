@@ -1572,10 +1572,10 @@ extension UIKit.UIView {
 }
 @_inheritsConvenienceInitializers @objc public class RingoAIS : ObjectiveC.NSObject {
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public static func synthesizeRingoResult(L: Swift.Double, H: Swift.Double, matches: [Swift.String : IlluminateAI.ProductMatches], familyID: Swift.String? = nil, sessionID: Swift.String? = nil) -> IlluminateAI.RingoResult?
+  @objc public static func synthesizeRingoResult(L: Swift.Double, H: Swift.Double, defProduct: Swift.String, matches: [Swift.String : IlluminateAI.ProductMatches], familyID: Swift.String? = nil, sessionID: Swift.String? = nil) -> IlluminateAI.RingoResult?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public static func synthesize(_ L: Swift.Double, _ H: Swift.Double, _ matches: [Swift.String : IlluminateAI.ProductMatches], familyID: Swift.String? = nil, sessionID: Swift.String? = nil) -> [Swift.String : Any]?
+  @objc public static func synthesize(_ L: Swift.Double, _ H: Swift.Double, _ defProduct: Swift.String, _ matches: [Swift.String : IlluminateAI.ProductMatches], familyID: Swift.String? = nil, sessionID: Swift.String? = nil) -> [Swift.String : Any]?
   #endif
   @objc override dynamic public init()
   @objc deinit
