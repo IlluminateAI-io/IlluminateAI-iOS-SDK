@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/IlluminateAI-Swift.h</key>
 		<data>
-		4ztqM1qnHd0fyKCuht9o94aMZQw=
+		x0+r3VfT2e3xgBYwNxgDWWrSw0c=
 		</data>
 		<key>Headers/IlluminateAI.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2RHTKQfOBJVRZOLtAQn3bf08joM=
+		vbkQPWvRaoTx8xNwsId5cX+XGI4=
 		</data>
 		<key>LHGridCell.nib</key>
 		<data>
@@ -106,43 +106,43 @@
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MJ/wyeBxCd2ZrSWnvMvw/C9jHS4=
+		NOx7oIkzAd/an7+FwOZTNNoqQVw=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tqnal9fsGwjmAZlLCK4khPm4Te0=
+		Q2IwAbK0LJ2tPmaEogiUbyd7hbM=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fRMq35SywdrlgqszH6owt2MQxws=
+		1/rYUPQiT/LZGqrBs36/B1RBau8=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tqnal9fsGwjmAZlLCK4khPm4Te0=
+		Q2IwAbK0LJ2tPmaEogiUbyd7hbM=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o00GXsnbCqJ7di5TbXUf1BzhU8Q=
+		psbvelBNwsHaszDWb34K/6XYzt4=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MJ/wyeBxCd2ZrSWnvMvw/C9jHS4=
+		NOx7oIkzAd/an7+FwOZTNNoqQVw=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KUmLE056Q+ab+PZDz+cGMm/uigc=
+		hRlhaMebYuK5S+7hcAsyn1h0kfM=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1r1MJ4/SFy9Im7tNyf/sVqy99E4=
+		Qx9gfSfOX+WXpI9shWSCzo/Ha3g=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KUmLE056Q+ab+PZDz+cGMm/uigc=
+		hRlhaMebYuK5S+7hcAsyn1h0kfM=
 		</data>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ViHolwEggfj7TrJo1depKzlV+kw=
+		aRWjNoTIX0nLkHmzmleubm/zrE0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -239,7 +239,7 @@
 		</data>
 		<key>clarins_shade_values.json</key>
 		<data>
-		L1GsOyHN845JCD/YPGYFOqoq/Zk=
+		Rfm947VD/2fsy3docVZLLfDadQ0=
 		</data>
 		<key>clarins_survey_map.json</key>
 		<data>
@@ -280,7 +280,7 @@
 		</data>
 		<key>elf_shade_values.json</key>
 		<data>
-		i/4ME1uTRPwU1+s2IAXg0JofPxc=
+		gjXEwrobWaJZlzqgNZUcrSpOyMA=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -353,11 +353,11 @@
 		</dict>
 		<key>phoneModel.json</key>
 		<data>
-		HNNvWVkrEWcaYpJvNsEUGaAvo1Y=
+		mZ+P+nm5fkGLHM3MCOLvmvDXSXk=
 		</data>
 		<key>phone_to_phone.json</key>
 		<data>
-		BEHStAe7848s6JKd/+ecP3gMYH8=
+		0VxOUncARAHRUOrIpkFPuMl/HBg=
 		</data>
 		<key>preconfig_0_0.png</key>
 		<data>
@@ -531,7 +531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pWaqaet5D49uNR23fYfrU9dkQlPy+xRdMB+qL4YRMo0=
+			xA05ZO9MG6olOaQ60jLHzbLgpG+TAKBNEFAH9l4DkIQ=
 			</data>
 		</dict>
 		<key>Headers/IlluminateAI.h</key>
@@ -601,70 +601,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3wLZe0l5k7YJrVpisXSU8TZfmkEUq0zDPdMIll0u4g=
+			itZ+SAy3RYTELFN+WFp6zxijknNnATdZjVhHQvnkb/0=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bRSKeFMKF7xr82TCutsua6yRN3e4gsQPybAa4olaLwM=
+			oYUPgiw3a+ManEE60JJrmubGa7nAfrJ8P6pK6BfRC+k=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cafG+xzl1qdlrekHh/UGKXclI++QEF73dOeDLwxBX8Q=
+			K4tF2VvtikBbEyfH7IQANSKFIF566G+JyTjTSshDRkY=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bRSKeFMKF7xr82TCutsua6yRN3e4gsQPybAa4olaLwM=
+			oYUPgiw3a+ManEE60JJrmubGa7nAfrJ8P6pK6BfRC+k=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6r6Asp7Oqtinbjlh/bjEe0iw6hFTfAXabQatU8V0h8=
+			TMQxTcaVqO9YNi5sfq1o4uqjU/CUQXMb1Th/QfXx8Uw=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3wLZe0l5k7YJrVpisXSU8TZfmkEUq0zDPdMIll0u4g=
+			itZ+SAy3RYTELFN+WFp6zxijknNnATdZjVhHQvnkb/0=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+XEuFrRgSjAJbpLhE45HiYRNhBOthPAq4kX/EmmlXc=
+			wJreJFf6ta7mOkP4/fEyeLkzKWCSomsw9A67fIb1Do4=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OEngK6LmBtatw9szsYC7ffmG8xZlUxQwQ0O03/iuAMM=
+			3C1rMeJzHXVDxzFHgXF3hSSI65sE8VPEVI7ILgmqmRM=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W+XEuFrRgSjAJbpLhE45HiYRNhBOthPAq4kX/EmmlXc=
+			wJreJFf6ta7mOkP4/fEyeLkzKWCSomsw9A67fIb1Do4=
 			</data>
 		</dict>
 		<key>Modules/IlluminateAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rR8RJHbAtphpstEhqjskro4Ef9OOtqJA40shq5NTkDo=
+			QRIHoYh0RmAq332aYLkrwdfy1qvJTgeB/Ne+J7jyFSw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -820,7 +820,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QfnR4oBNqFUFb+ViIf1/SW/fPqbz9txLheJkDn9nAaw=
+			XY3/RIAh1qAeyGJ2EoA+zlNVlMEw6UJT+VgOlwjKnis=
 			</data>
 		</dict>
 		<key>clarins_survey_map.json</key>
@@ -885,7 +885,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			skGzODuTWokwnfUWDvy1yH8Whw1bo6BFSt7r4+mEOw0=
+			5dAieZbNYQ2XqT5ht7ucfBfxPBFTfTBswbxaliJZjRc=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -979,14 +979,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EGJVEgkr+TRpl5mnFqoqhdEAS5VLch6ak5g8EkM1irI=
+			YnHGtSqB14w0xi+UWinOT1iHvBU40+ECQdkdt2k8DXg=
 			</data>
 		</dict>
 		<key>phone_to_phone.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SL9YvV5tJUsGmZSIWrtAIxHdWBF9y2IG+7XQGgzE8sQ=
+			MZJ6u2gRuJD6PlUEIgNLJNC4urv5axYVKvDylw1nLJE=
 			</data>
 		</dict>
 		<key>preconfig_0_0.png</key>

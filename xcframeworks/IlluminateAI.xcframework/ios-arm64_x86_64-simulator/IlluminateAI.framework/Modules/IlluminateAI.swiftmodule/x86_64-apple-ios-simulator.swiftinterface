@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IlluminateAI
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AVKit
 import Accelerate
@@ -377,6 +377,10 @@ public enum GeoMath : Swift.Int, Swift.Comparable {
     @objc get
   }
   @objc public static var hideNPSButton: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var ironFist: Swift.Bool {
     @objc get
     @objc set
   }
@@ -1017,7 +1021,7 @@ public let kGPS_Satellite: Swift.String
   @objc public static func OSversion() -> Swift.String
   @objc public static func supportedProducts() -> [Swift.String]
   @objc public static func supportedFamilyIDs() -> [Swift.String]
-  public static func jsonFilesInfos() -> [Swift.String : [Swift.String : Any]]
+  public static func jsonFilesInfos(dateStyle: Foundation.DateFormatter.Style = .short, timeStyle: Foundation.DateFormatter.Style = .short) -> [Swift.String : [Swift.String : Any]]
   @objc override dynamic public init()
   @objc deinit
 }

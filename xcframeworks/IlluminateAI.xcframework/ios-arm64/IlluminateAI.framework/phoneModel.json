@@ -1,5 +1,5 @@
 {
-	"modification_date": 1769314752,
+	"modification_date": 1772135181,
 	"modelTable": {
 		"i386": "iPhone Simulator",
 		"x86_64": "iPhone Simulator",
@@ -151,6 +151,8 @@
 		"iPad14,9": "iPad Air 6th Gen",
 		"iPad14,10": "iPad Air 7th Gen",
 		"iPad14,11": "iPad Air 7th Gen",
+		"iPad16,1": "iPad mini 7th Gen",
+		"iPad16,2": "iPad mini 7th Gen",
 		"iPad16,3": "iPad Pro 11 inch 5th Gen",
 		"iPad16,4": "iPad Pro 11 inch 5th Gen",
 		"iPad16,5": "iPad Pro 12.9 inch 7th Gen",

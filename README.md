@@ -1,9 +1,8 @@
 # IlluminateAI_SDK
 
-### Build 2026.02.25
+### Build 2026.02.26.3
 
-* **built with xcode 26.2**
-* `defaultFamilyID` & `defaultFamily` correctly set
+* **built with xcode 26.3**
 
 #### PREVIOUSLY
 * new FindMyShade functions
@@ -14,3 +13,4 @@
 * new FaceCapture functions
 	- (NSString* _Nullable)familyIDfromProduct:(NSString*_Nonnull)product;
 	- (NSString* _Nullable)productFromFamilyID:(NSString*_Nonnull)familyID;
+* `defaultFamilyID` & `defaultFamily` correctly set
