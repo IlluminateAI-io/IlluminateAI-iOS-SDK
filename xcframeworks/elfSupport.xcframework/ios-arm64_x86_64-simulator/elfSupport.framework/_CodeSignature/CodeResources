@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/elfSupport-Swift.h</key>
 		<data>
-		OY/dfE90R/CdgoEPiPd3m1W42us=
+		dgAsOl96V51tfAbRP3/eIsV/jCs=
 		</data>
 		<key>Headers/elfSupport.h</key>
 		<data>
@@ -30,51 +30,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z67oY85uAkbpl6p4/g0Fgk6GzrA=
+		/ucHg/ASnr14IsAlCw4xyX/m074=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MFL1IG9LdrSglyQPMQAc/t2qO4k=
+		5tKX0JTJ0hCrBRWSxWwpGuE34Lw=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2NirRnPSzHGylBDFwR3r5fm2g4w=
+		5bEbaG6gywu3SYU1l/F3JwTUIXQ=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EsD6S4nyfE71qUQeaAlPCDSp6fM=
+		ZHBC35LHcocQGMvV7CRrxAJiB8Y=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2NirRnPSzHGylBDFwR3r5fm2g4w=
+		5bEbaG6gywu3SYU1l/F3JwTUIXQ=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P5lXgDGe0JQPlbIqeZQCUCTOBEo=
+		pX4Wsv5aegJH6nRdVodX+rHPCl4=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MFL1IG9LdrSglyQPMQAc/t2qO4k=
+		5tKX0JTJ0hCrBRWSxWwpGuE34Lw=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZzogHWUhtbZ4F6NWhTgDVJ5cYRo=
+		gxxZoOTQTjGPWQGf/R4dulPw93E=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		V/DilEi0++AW/KM29/WBQ35wsKw=
+		cuHaLF72vt4kyKJ7GViVDSrri38=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZzogHWUhtbZ4F6NWhTgDVJ5cYRo=
+		gxxZoOTQTjGPWQGf/R4dulPw93E=
 		</data>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		omIbvuom6Ks1NiXKWjd02+5bHC8=
+		X0CW6kmvrxFlX0Eai7IJUI6YIYE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		SjJaeg+DzBaxuPI0VohedAVTUII=
+		CiJ8mEolA4nW4Osc2AXbe05a1go=
 		</data>
 		<key>PrivateHeaders/NSAttributedStringPlus.h</key>
 		<data>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Bjglr5wJ9WZRud9VNE1o7KaggVO0GcaTvkQdVe1M/I=
+			miSx0qz9GKX5nK2CkBzYKRegaVNcQCQY78laJIPV2QA=
 			</data>
 		</dict>
 		<key>Headers/elfSupport.h</key>
@@ -157,77 +157,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kxJI+nxY41hoSr/EFnmnd2+Ml7dD+Kj8+QzlySDNDwU=
+			f0etW/Fsg2j7nLV6fAxfgdameCtsyCDr2CFIGEJBmKU=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boEabJf3G7gb3Lp056kzaaCaR5ljFZXDsErX9bxlhFs=
+			G81UteY6nmVwnx3NbK1yEtaGuCHy2xV3c9Q8TyNsfrQ=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p4C0+VTxYL5atVGNNjcKR8yPjlGCG4OYCkX2BBdFd0Q=
+			2GtamaakGevnis7DjaxSugH874W3zvPKarMW811LJZY=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boEabJf3G7gb3Lp056kzaaCaR5ljFZXDsErX9bxlhFs=
+			G81UteY6nmVwnx3NbK1yEtaGuCHy2xV3c9Q8TyNsfrQ=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bvt1O5ZMU4YCGLM5vtqnj4ee+OaweOmwTHtFaMbJ0UQ=
+			FPJx1nI6RMl7R4P5eIIZ9P+OgQWaVVBScir1HEC/eTs=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kxJI+nxY41hoSr/EFnmnd2+Ml7dD+Kj8+QzlySDNDwU=
+			f0etW/Fsg2j7nLV6fAxfgdameCtsyCDr2CFIGEJBmKU=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ws1l6pe98OuzuKSNmSO8iqg+Gd6725Rl02rCBE+7QfE=
+			E1vwQLU4L1afLIkMiSmupuKAM2Ol4fYqB4HJuU+tYyw=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/uVZkELyOHqAPkIcNIOh3DqxVx+t0I8ThLTlElUNBc=
+			bdUCaq0N1u2WQAhaaafZq0mmWCF+BeOUbwxqwgcayy0=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ws1l6pe98OuzuKSNmSO8iqg+Gd6725Rl02rCBE+7QfE=
+			E1vwQLU4L1afLIkMiSmupuKAM2Ol4fYqB4HJuU+tYyw=
 			</data>
 		</dict>
 		<key>Modules/elfSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFLEwbeboHNICRsV6MZnmSUJjrVqKcJ6tDvlINo+CGU=
+			Rs0ByM0f+UfJshV3FZSZLyX9Ji1jh5b8n2l+Qs+qjso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NvCCuowOz1i52JVRyka1myJBTch5rbYLTn/bYgKWSmI=
+			7MxgZtFaKad56gpaM1pzfZNGMz8DuSs+H6MuNrdyFS4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/NSAttributedStringPlus.h</key>

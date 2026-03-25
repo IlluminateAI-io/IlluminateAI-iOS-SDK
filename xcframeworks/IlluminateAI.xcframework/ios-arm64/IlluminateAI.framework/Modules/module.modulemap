@@ -20,5 +20,4 @@ framework module IlluminateAI {
 
 module IlluminateAI.Swift {
   header "IlluminateAI-Swift.h"
-  requires objc
 }
