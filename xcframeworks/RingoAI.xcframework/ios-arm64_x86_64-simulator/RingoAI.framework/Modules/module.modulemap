@@ -20,5 +20,4 @@ framework module RingoAI {
 
 module RingoAI.Swift {
   header "RingoAI-Swift.h"
-  requires objc
 }
