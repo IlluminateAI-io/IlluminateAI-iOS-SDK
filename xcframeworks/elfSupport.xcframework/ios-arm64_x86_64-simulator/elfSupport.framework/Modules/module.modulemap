@@ -12,5 +12,4 @@ framework module elfSupport {
 
 module elfSupport.Swift {
   header "elfSupport-Swift.h"
-  requires objc
 }
