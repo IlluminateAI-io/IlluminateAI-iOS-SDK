@@ -56842,90 +56842,90 @@
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "BooleanLiteral",
       "offset": 3945,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "Dictionary",
-      "offset": 3987,
+      "offset": 3986,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "Dictionary",
-      "offset": 4028,
+      "offset": 4027,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "Dictionary",
-      "offset": 4069,
+      "offset": 4068,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "IntegerLiteral",
-      "offset": 4167,
+      "offset": 4166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 4273,
       "length": 6,
       "value": "\"∆L\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 4291,
       "length": 6,
       "value": "\"∆H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4333,
+      "offset": 4332,
       "length": 10,
       "value": "\"∆L∆H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4369,
+      "offset": 4368,
       "length": 11,
       "value": "\"grid_OG_H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4383,
+      "offset": 4382,
       "length": 6,
       "value": "\"OG_H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4412,
+      "offset": 4411,
       "length": 8,
       "value": "\"grid_H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 4422,
       "length": 3,
       "value": "\"H\""
     },
     {
       "filePath": "\/Volumes\/data\/_dev_\/contracts\/IlluminateAI\/mobile-sdk-ios_release_2026_02_25\/src\/iOS_Project\/RingoAI\/ShadeCode\/JJMagic.swift",
       "kind": "IntegerLiteral",
-      "offset": 4516,
+      "offset": 4515,
       "length": 1,
       "value": "0"
     },
